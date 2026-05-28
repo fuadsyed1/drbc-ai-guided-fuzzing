@@ -1,0 +1,4 @@
+coverage
+pandas
+matplotlib
+python-dotenv
