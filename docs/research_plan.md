@@ -4,103 +4,371 @@
 
 \## Project Title
 
+
+
 AI-Guided Fuzzing: Smarter Bug Discovery Using Language Models
 
 
 
 \## Research Goal
 
-This project compares traditional random fuzzing with AI-guided fuzzing. The goal is to test whether language models can generate smarter test inputs and help discover bugs faster.
+
+
+This project investigates whether AI-generated test inputs can improve fuzz testing effectiveness compared to traditional random fuzzing. The study will compare bug discovery, code coverage, and testing efficiency between the two approaches.
 
 
 
-\## MVP Scope
-
-\- One small target program
-
-\- One random fuzzer
-
-\- One AI-guided fuzzer
-
-\- Bug logging
-
-\- Coverage measurement
-
-\- Result comparison
+\---
 
 
 
-\## Weekly Plan
+\## Week 1 – Literature Review and Project Setup
 
 
 
-\### Week 1
+\* Read papers on fuzz testing, AFL, coverage-guided fuzzing, and AI-assisted software testing.
 
-Study basic fuzz testing, random fuzzing, and AI-assisted software testing. Set up GitHub repository and project folders.
+\* Define research questions and evaluation metrics.
 
+\* Set up GitHub repository and development environment.
 
-
-\### Week 2
-
-Choose the first target program, such as a calculator or parser. Prepare it for automated testing.
+\* Begin paper sections:
 
 
 
-\### Week 3
+&#x20; \* Introduction
 
-Build the baseline random fuzzer.
-
-
-
-\### Week 4
-
-Add bug logging and coverage measurement.
+&#x20; \* Background
 
 
 
-\### Week 5
-
-Design prompts for AI-generated test inputs.
+\### Deliverables
 
 
 
-\### Week 6
+\* Repository ready
 
-Connect the AI input generator to the fuzzing workflow.
+\* Initial bibliography
 
-
-
-\### Week 7
-
-Run random fuzzing experiments.
+\* Introduction outline
 
 
 
-\### Week 8
-
-Run AI-guided fuzzing experiments.
+\---
 
 
 
-\### Week 9
-
-Compare bugs found, execution time, and code coverage.
+\## Week 2 – Target Selection and Experimental Design
 
 
 
-\### Week 10
+\* Select target program(s).
 
-Create charts and organize results.
+\* Define bug categories and evaluation criteria.
 
+\* Design experimental methodology.
 
-
-\### Week 11
-
-Draft the final research report.
+\* Continue writing:
 
 
 
-\### Week 12
+&#x20; \* Related Work
 
-Prepare presentation slides and final summary.
+&#x20; \* Methodology draft
+
+
+
+\### Deliverables
+
+
+
+\* Experimental plan
+
+\* Target program finalized
+
+\* Methodology section draft
+
+
+
+\---
+
+
+
+\## Week 3 – Baseline Random Fuzzer Development
+
+
+
+\* Implement random input generation.
+
+\* Automate test execution.
+
+\* Verify crash detection workflow.
+
+
+
+\### Deliverables
+
+
+
+\* Working random fuzzer
+
+\* Initial methodology updates
+
+
+
+\---
+
+
+
+\## Week 4 – Coverage and Logging Infrastructure
+
+
+
+\* Add coverage measurement tools.
+
+\* Add crash collection and logging.
+
+\* Validate data collection pipeline.
+
+
+
+\### Deliverables
+
+
+
+\* Coverage reporting
+
+\* Automated logging system
+
+\* Experimental setup documented
+
+
+
+\---
+
+
+
+\## Week 5 – AI Input Generation Design
+
+
+
+\* Study prompt engineering approaches.
+
+\* Design AI-guided input generation strategy.
+
+\* Select language model and prompting method.
+
+
+
+\### Deliverables
+
+
+
+\* AI generation design
+
+\* Methodology section updated
+
+
+
+\---
+
+
+
+\## Week 6 – AI-Guided Fuzzer Implementation
+
+
+
+\* Integrate language model with fuzzing pipeline.
+
+\* Automate AI-generated test case execution.
+
+\* Validate generated inputs.
+
+
+
+\### Deliverables
+
+
+
+\* Working AI-guided fuzzer
+
+\* Complete experimental framework
+
+
+
+\---
+
+
+
+\## Week 7 – Pilot Experiments and Paper Drafting
+
+
+
+\* Run small-scale experiments.
+
+\* Debug experimental workflow.
+
+\* Refine evaluation metrics.
+
+\* Write:
+
+
+
+&#x20; \* System Architecture
+
+&#x20; \* Implementation Details
+
+
+
+\### Deliverables
+
+
+
+\* Pilot results
+
+\* Architecture figures
+
+\* Implementation section draft
+
+
+
+\---
+
+
+
+\## Week 8 – Full Random Fuzzing Experiments
+
+
+
+\* Run baseline experiments.
+
+\* Collect bug, crash, and coverage data.
+
+\* Organize datasets and logs.
+
+
+
+\### Deliverables
+
+
+
+\* Complete random fuzzing results
+
+\* Data tables
+
+
+
+\---
+
+
+
+\## Week 9 – Full AI-Guided Fuzzing Experiments
+
+
+
+\* Run AI-guided experiments.
+
+\* Collect and validate results.
+
+\* Begin comparative analysis.
+
+
+
+\### Deliverables
+
+
+
+\* Complete AI-guided results
+
+\* Preliminary comparison
+
+
+
+\---
+
+
+
+\## Week 10 – Data Analysis and Results Writing
+
+
+
+\* Analyze coverage, crashes, and efficiency.
+
+\* Create charts and visualizations.
+
+\* Write:
+
+
+
+&#x20; \* Results
+
+&#x20; \* Discussion
+
+
+
+\### Deliverables
+
+
+
+\* Final graphs and tables
+
+\* Results section draft
+
+
+
+\---
+
+
+
+\## Week 11 – Complete Full Paper Draft
+
+
+
+\* Integrate all sections.
+
+\* Write conclusion and future work.
+
+\* Perform technical review and revisions.
+
+
+
+\### Deliverables
+
+
+
+\* Complete paper draft
+
+\* Internal review version
+
+
+
+\---
+
+
+
+\## Week 12 – Final Paper and Presentation
+
+
+
+\* Incorporate advisor feedback.
+
+\* Proofread and format paper.
+
+\* Finalize figures and references.
+
+\* Prepare presentation slides and project summary.
+
+
+
+\### Deliverables
+
+
+
+\* Submission-ready final paper
+
+\* Presentation slides
+
+\* Final repository release
+
+
 
