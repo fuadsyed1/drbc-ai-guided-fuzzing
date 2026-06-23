@@ -216,3 +216,12 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Generated experiment results
+results/logs/*.jsonl
+results/logs/*.json
+results/coverage/
+
+# Python coverage files
+.coverage
+htmlcov/
