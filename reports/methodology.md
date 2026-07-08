@@ -22,6 +22,14 @@ An AI-guided fuzzing component was also developed. At the current stage of the p
 
 In future stages of the research, these manually selected inputs will be replaced by inputs generated with the assistance of a Large Language Model. The goal is to determine whether AI-generated inputs can discover faults more efficiently than randomly generated inputs.
 
+## AI Input Generation Strategy
+
+The AI-guided fuzzer uses a Large Language Model to generate calculator test inputs. Unlike random fuzzing, which creates inputs through random character generation, the AI-guided approach generates expressions based on prompt instructions.
+
+The language model is prompted to produce a mixture of valid expressions, invalid expressions, division-by-zero cases, nested-parentheses expressions, and other edge cases. Generated outputs are cleaned and validated before execution.
+
+After validation, inputs are executed using the same execution, logging, coverage, and summary infrastructure used by the baseline random fuzzer. This allows direct comparison between random fuzzing and AI-guided fuzzing using identical evaluation metrics.
+
 ## Data Collection
 
 During each experiment, the following information is recorded:
