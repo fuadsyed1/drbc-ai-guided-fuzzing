@@ -1,45 +1,33 @@
-from src.targets.calculator import eval_expr
+from src.utils.ai_generator import generate_inputs
+from src.utils.ai_validator import clean_ai_output
 
-TEST_INPUTS = [
-    "1+2",
-    "(4+5)*3",
-    "10/0",
-    "999999999999999999999*999999999999999999999",
-    "1++2",
-    "abc+1",
-    "(1+2",
-    "5/0",
-    "7*(8+9)",
-]
 
-def run_ai_fuzzer():
-    ok_count = 0
-    error_count = 0
+DEFAULT_PROMPT = """
+Generate 20 calculator fuzzing inputs.
 
-    with open("results/logs/ai_fuzzer.log", "w") as log:
+Rules:
+- Use numbers, +, -, *, /, and parentheses.
+- Include valid arithmetic expressions.
+- Include invalid arithmetic expressions.
+- Include division by zero cases.
+- Include parentheses-heavy expressions.
+- Include large number expressions.
+- One input per line.
+- Do not explain.
+- Do not use markdown.
+"""
 
-        for test_input in TEST_INPUTS:
 
-            try:
-                result = eval_expr(test_input)
-                ok_count += 1
-                print(f"[OK] {test_input} => {result}")
+def generate_ai_inputs(prompt=DEFAULT_PROMPT):
+    raw_output = generate_inputs(prompt)
+    return clean_ai_output(raw_output)
 
-            except Exception as e:
-                error_count += 1
-                message = f"[ERROR] {test_input} => {e}"
-                print(message)
-                log.write(message + "\n")
-
-        summary = (
-            f"\nSummary:\n"
-            f"Total inputs: {len(TEST_INPUTS)}\n"
-            f"Successful inputs: {ok_count}\n"
-            f"Error inputs: {error_count}\n"
-        )
-
-        print(summary)
-        log.write(summary)
 
 if __name__ == "__main__":
-    run_ai_fuzzer()
+    ai_inputs = generate_ai_inputs()
+
+    print("AI Generated Inputs")
+    print("-------------------")
+
+    for item in ai_inputs:
+        print(item)
