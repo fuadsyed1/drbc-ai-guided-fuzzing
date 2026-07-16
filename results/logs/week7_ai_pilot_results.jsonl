@@ -1,0 +1,50 @@
+{"input": "5+3*2", "status": "PASS", "output": 11, "error_type": null, "error_message": null, "execution_time": 3.750000087165972e-05, "timestamp": "2026-07-16T10:56:40.180493"}
+{"input": "(5+3)*(2+1)", "status": "PASS", "output": 24, "error_type": null, "error_message": null, "execution_time": 7.040000036795391e-05, "timestamp": "2026-07-16T10:56:40.181532"}
+{"input": "5/0", "status": "CRASH", "output": null, "error_type": "ZeroDivisionError", "error_message": "division by zero", "execution_time": 3.980000019510044e-05, "timestamp": "2026-07-16T10:56:40.182379"}
+{"input": "5+3*2+4", "status": "PASS", "output": 15, "error_type": null, "error_message": null, "execution_time": 2.2399999579647556e-05, "timestamp": "2026-07-16T10:56:40.183362"}
+{"input": "(5+3)*(2+1)/(4-2)*(6-4)", "status": "PASS", "output": 24.0, "error_type": null, "error_message": null, "execution_time": 5.049999981565634e-05, "timestamp": "2026-07-16T10:56:40.183868"}
+{"input": "1234567890 + 987654321", "status": "PASS", "output": 2222222211, "error_type": null, "error_message": null, "execution_time": 1.7699999261822086e-05, "timestamp": "2026-07-16T10:56:40.184346"}
+{"input": "9876543210 - 123456789", "status": "PASS", "output": 9753086421, "error_type": null, "error_message": null, "execution_time": 1.810000048863003e-05, "timestamp": "2026-07-16T10:56:40.184853"}
+{"input": "1234567890 * 987654321", "status": "PASS", "output": 1219326311126352690, "error_type": null, "error_message": null, "execution_time": 1.7100000150094274e-05, "timestamp": "2026-07-16T10:56:40.185328"}
+{"input": "9876543210 / 123456789", "status": "PASS", "output": 80.000000729, "error_type": null, "error_message": null, "execution_time": 1.7700000171316788e-05, "timestamp": "2026-07-16T10:56:40.185898"}
+{"input": "5+3*2/0", "status": "CRASH", "output": null, "error_type": "ZeroDivisionError", "error_message": "division by zero", "execution_time": 2.89999998130952e-05, "timestamp": "2026-07-16T10:56:40.186588"}
+{"input": "5+3*2+4*6", "status": "PASS", "output": 35, "error_type": null, "error_message": null, "execution_time": 2.4899999516492244e-05, "timestamp": "2026-07-16T10:56:40.187152"}
+{"input": "((5+3)*(2+1))/( (4-2)*(6-4) ) + 7", "status": "PASS", "output": 13.0, "error_type": null, "error_message": null, "execution_time": 4.6099999963189475e-05, "timestamp": "2026-07-16T10:56:40.187694"}
+{"input": "((5+3)*(2+1))/( (4-2)*(6-4) ) * 7", "status": "PASS", "output": 42.0, "error_type": null, "error_message": null, "execution_time": 4.510000053414842e-05, "timestamp": "2026-07-16T10:56:40.188241"}
+{"input": "5+3*2+4*6*7", "status": "PASS", "output": 179, "error_type": null, "error_message": null, "execution_time": 2.789999962260481e-05, "timestamp": "2026-07-16T10:56:40.188766"}
+{"input": "5+3*2+4*6*7/0", "status": "CRASH", "output": null, "error_type": "ZeroDivisionError", "error_message": "division by zero", "execution_time": 3.290000040578889e-05, "timestamp": "2026-07-16T10:56:40.189311"}
+{"input": "1234567890+987654321", "status": "PASS", "output": 2222222211, "error_type": null, "error_message": null, "execution_time": 2.029999996011611e-05, "timestamp": "2026-07-16T10:56:40.189968"}
+{"input": "9876543210-123456789", "status": "PASS", "output": 9753086421, "error_type": null, "error_message": null, "execution_time": 2.0500000573520083e-05, "timestamp": "2026-07-16T10:56:40.190608"}
+{"input": "1234567890*987654321", "status": "PASS", "output": 1219326311126352690, "error_type": null, "error_message": null, "execution_time": 1.810000048863003e-05, "timestamp": "2026-07-16T10:56:40.191089"}
+{"input": "9876543210/123456789", "status": "PASS", "output": 80.000000729, "error_type": null, "error_message": null, "execution_time": 1.7500000467407517e-05, "timestamp": "2026-07-16T10:56:40.191598"}
+{"input": "((5+3)*(2+1))/( (4-2)*(6-4) )+7", "status": "PASS", "output": 13.0, "error_type": null, "error_message": null, "execution_time": 4.660000013245735e-05, "timestamp": "2026-07-16T10:56:40.192153"}
+{"input": "((5+3)*(2+1))/( (4-2)*(6-4) )*7", "status": "PASS", "output": 42.0, "error_type": null, "error_message": null, "execution_time": 4.310000076657161e-05, "timestamp": "2026-07-16T10:56:40.192718"}
+{"input": "123 + 456 - 789", "status": "PASS", "output": -210, "error_type": null, "error_message": null, "execution_time": 4.6299999667098746e-05, "timestamp": "2026-07-16T10:57:25.893047"}
+{"input": "123 * 456", "status": "PASS", "output": 56088, "error_type": null, "error_message": null, "execution_time": 2.0399999812070746e-05, "timestamp": "2026-07-16T10:57:25.893814"}
+{"input": "123 / 456", "status": "PASS", "output": 0.26973684210526316, "error_type": null, "error_message": null, "execution_time": 1.8400000044493936e-05, "timestamp": "2026-07-16T10:57:25.894484"}
+{"input": "(123 + 45) * (67 - 89)", "status": "PASS", "output": -3696, "error_type": null, "error_message": null, "execution_time": 3.249999917898094e-05, "timestamp": "2026-07-16T10:57:25.895132"}
+{"input": "((123 + 45) * (67 - 89)) / (12 + 34)", "status": "PASS", "output": -80.34782608695652, "error_type": null, "error_message": null, "execution_time": 3.719999949680641e-05, "timestamp": "2026-07-16T10:57:25.895732"}
+{"input": "999999999 + 123456789", "status": "PASS", "output": 1123456788, "error_type": null, "error_message": null, "execution_time": 2.5600000299164094e-05, "timestamp": "2026-07-16T10:57:25.896306"}
+{"input": "1234567890 + 123456789", "status": "PASS", "output": 1358024679, "error_type": null, "error_message": null, "execution_time": 1.8400000044493936e-05, "timestamp": "2026-07-16T10:57:25.896883"}
+{"input": "12 + 34 / 5 - 67 * 8", "status": "PASS", "output": -517.2, "error_type": null, "error_message": null, "execution_time": 2.719999974942766e-05, "timestamp": "2026-07-16T10:57:25.897391"}
+{"input": "12 + 34 / 5 - 67 * 8 / 0", "status": "CRASH", "output": null, "error_type": "ZeroDivisionError", "error_message": "division by zero", "execution_time": 3.3399999665562063e-05, "timestamp": "2026-07-16T10:57:25.897912"}
+{"input": "(12 + 34) * (56 - 78)", "status": "PASS", "output": -1012, "error_type": null, "error_message": null, "execution_time": 2.9100000574544538e-05, "timestamp": "2026-07-16T10:57:25.898484"}
+{"input": "((12 + 34) * (56 - 78)) / (90 + 12)", "status": "PASS", "output": -9.92156862745098, "error_type": null, "error_message": null, "execution_time": 3.65999994755839e-05, "timestamp": "2026-07-16T10:57:25.898986"}
+{"input": "123456789 + 123456789", "status": "PASS", "output": 246913578, "error_type": null, "error_message": null, "execution_time": 1.7700000171316788e-05, "timestamp": "2026-07-16T10:57:25.899483"}
+{"input": "123456789 * 123456789", "status": "PASS", "output": 15241578750190521, "error_type": null, "error_message": null, "execution_time": 1.83000001925393e-05, "timestamp": "2026-07-16T10:57:25.900035"}
+{"input": "123456789 / 123456789", "status": "PASS", "output": 1.0, "error_type": null, "error_message": null, "execution_time": 1.649999921937706e-05, "timestamp": "2026-07-16T10:57:25.900534"}
+{"input": "5 + 3", "status": "PASS", "output": 8, "error_type": null, "error_message": null, "execution_time": 3.4699999559961725e-05, "timestamp": "2026-07-16T10:58:27.023489"}
+{"input": "10 * 2", "status": "PASS", "output": 20, "error_type": null, "error_message": null, "execution_time": 2.6200000320386607e-05, "timestamp": "2026-07-16T10:58:27.024239"}
+{"input": "(5 + 3) * 2", "status": "PASS", "output": 16, "error_type": null, "error_message": null, "execution_time": 3.1399999897985253e-05, "timestamp": "2026-07-16T10:58:27.024915"}
+{"input": "1000000 + 2000000", "status": "PASS", "output": 3000000, "error_type": null, "error_message": null, "execution_time": 2.210000002378365e-05, "timestamp": "2026-07-16T10:58:27.025509"}
+{"input": "(5 + 3) * (2 + 1)", "status": "PASS", "output": 24, "error_type": null, "error_message": null, "execution_time": 3.0199999855540227e-05, "timestamp": "2026-07-16T10:58:27.026123"}
+{"input": "1234567890 + 9876543210", "status": "PASS", "output": 11111111100, "error_type": null, "error_message": null, "execution_time": 1.990000055229757e-05, "timestamp": "2026-07-16T10:58:27.026681"}
+{"input": "5 / 2", "status": "PASS", "output": 2.5, "error_type": null, "error_message": null, "execution_time": 1.9600000086938962e-05, "timestamp": "2026-07-16T10:58:27.027272"}
+{"input": "10 / 2", "status": "PASS", "output": 5.0, "error_type": null, "error_message": null, "execution_time": 1.809999957913533e-05, "timestamp": "2026-07-16T10:58:27.027862"}
+{"input": "(5 / 2) * 3", "status": "PASS", "output": 7.5, "error_type": null, "error_message": null, "execution_time": 2.2900000658410136e-05, "timestamp": "2026-07-16T10:58:27.028420"}
+{"input": "(5 - 3) * (2 + 1)", "status": "PASS", "output": 6, "error_type": null, "error_message": null, "execution_time": 2.7999999474559445e-05, "timestamp": "2026-07-16T10:58:27.028971"}
+{"input": "5 / 0", "status": "CRASH", "output": null, "error_type": "ZeroDivisionError", "error_message": "division by zero", "execution_time": 2.229999972769292e-05, "timestamp": "2026-07-16T10:58:27.029580"}
+{"input": "10 / 0", "status": "CRASH", "output": null, "error_type": "ZeroDivisionError", "error_message": "division by zero", "execution_time": 2.1500000002561137e-05, "timestamp": "2026-07-16T10:58:27.030212"}
+{"input": "0 / 0", "status": "CRASH", "output": null, "error_type": "ZeroDivisionError", "error_message": "division by zero", "execution_time": 2.0700000277429353e-05, "timestamp": "2026-07-16T10:58:27.030784"}
+{"input": "5 + 3 * 2 + 1", "status": "PASS", "output": 12, "error_type": null, "error_message": null, "execution_time": 2.299999960087007e-05, "timestamp": "2026-07-16T10:58:27.031337"}
+{"input": "5 + 3 * 2 + 1 / 0", "status": "CRASH", "output": null, "error_type": "ZeroDivisionError", "error_message": "division by zero", "execution_time": 2.7600000066740904e-05, "timestamp": "2026-07-16T10:58:27.031940"}

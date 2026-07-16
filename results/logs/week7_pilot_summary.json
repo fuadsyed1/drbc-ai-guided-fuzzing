@@ -1,0 +1,28 @@
+{
+  "random_pilot": {
+    "total_inputs": 50,
+    "valid_inputs": 3,
+    "crash_error_inputs": 47,
+    "unique_inputs": 47,
+    "duplicate_inputs": 3,
+    "average_execution_time": 3.11879999935627e-05,
+    "error_types": {
+      "SyntaxError": 34,
+      "ValueError": 7,
+      "ZeroDivisionError": 4,
+      "KeyError": 1,
+      "IndentationError": 1
+    }
+  },
+  "ai_pilot": {
+    "total_inputs": 50,
+    "valid_inputs": 42,
+    "crash_error_inputs": 8,
+    "unique_inputs": 50,
+    "duplicate_inputs": 0,
+    "average_execution_time": 2.8180000008433126e-05,
+    "error_types": {
+      "ZeroDivisionError": 8
+    }
+  }
+}
