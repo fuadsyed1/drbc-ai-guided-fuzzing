@@ -1,0 +1,45 @@
+{
+  "status": "completed",
+  "started_at": "2026-07-29T20:42:43.684189+00:00",
+  "finished_at": "2026-07-29T20:46:43.244223+00:00",
+  "target_name": "http_request_parser",
+  "target_difficulty": "hard",
+  "target_category": "protocol_parser",
+  "model_name": "google_gemma_4_31b",
+  "model_id": "google/gemma-4-31b",
+  "provider": "mindrouter",
+  "trial_number": 2,
+  "requested_input_count": 500,
+  "completed_input_count": 500,
+  "valid_input_count": 277,
+  "crash_error_input_count": 223,
+  "batch_size": 20,
+  "prompt_version": "week9_target_aware_v1",
+  "generation_time": 239.49357450000025,
+  "generation_rounds": 36,
+  "raw_response_count": 36,
+  "rejected_inputs": [],
+  "generation_errors": [
+    {
+      "round_number": 3,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Unterminated string starting at: line 1 column 890 (char 889)"
+    },
+    {
+      "round_number": 11,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Expecting ',' delimiter: line 3 column 23 (char 38)"
+    },
+    {
+      "round_number": 22,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Unterminated string starting at: line 18 column 5 (char 1248)"
+    },
+    {
+      "round_number": 26,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Expecting ',' delimiter: line 2 column 53 (char 65)"
+    }
+  ],
+  "result_file": "results\\week9\\ai_guided\\http_request_parser\\google_gemma_4_31b_trial2.jsonl"
+}

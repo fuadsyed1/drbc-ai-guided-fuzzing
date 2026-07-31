@@ -1,0 +1,30 @@
+{
+  "status": "completed",
+  "started_at": "2026-07-29T08:02:18.352123+00:00",
+  "finished_at": "2026-07-29T08:05:45.835528+00:00",
+  "target_name": "date_parser",
+  "target_difficulty": "easy",
+  "target_category": "format_parser",
+  "model_name": "qwen_qwen3_32b",
+  "model_id": "Qwen/Qwen3-32B",
+  "provider": "mindrouter",
+  "trial_number": 2,
+  "requested_input_count": 500,
+  "completed_input_count": 500,
+  "valid_input_count": 34,
+  "crash_error_input_count": 466,
+  "batch_size": 20,
+  "prompt_version": "week9_target_aware_v1",
+  "generation_time": 207.25124320000032,
+  "generation_rounds": 35,
+  "raw_response_count": 35,
+  "rejected_inputs": [],
+  "generation_errors": [
+    {
+      "round_number": 11,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Unterminated string starting at: line 1 column 13 (char 12)"
+    }
+  ],
+  "result_file": "results\\week9\\ai_guided\\date_parser\\qwen_qwen3_32b_trial2.jsonl"
+}

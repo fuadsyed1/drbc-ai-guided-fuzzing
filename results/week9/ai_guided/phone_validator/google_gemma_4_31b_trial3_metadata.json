@@ -1,0 +1,40 @@
+{
+  "status": "completed",
+  "started_at": "2026-07-29T18:46:44.381008+00:00",
+  "finished_at": "2026-07-29T18:48:21.955928+00:00",
+  "target_name": "phone_validator",
+  "target_difficulty": "easy",
+  "target_category": "format_validator",
+  "model_name": "google_gemma_4_31b",
+  "model_id": "google/gemma-4-31b",
+  "provider": "mindrouter",
+  "trial_number": 3,
+  "requested_input_count": 500,
+  "completed_input_count": 500,
+  "valid_input_count": 8,
+  "crash_error_input_count": 492,
+  "batch_size": 20,
+  "prompt_version": "week9_target_aware_v1",
+  "generation_time": 97.53516710000008,
+  "generation_rounds": 38,
+  "raw_response_count": 38,
+  "rejected_inputs": [],
+  "generation_errors": [
+    {
+      "round_number": 5,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Invalid \\escape: line 1 column 364 (char 363)"
+    },
+    {
+      "round_number": 27,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Invalid \\escape: line 19 column 21 (char 385)"
+    },
+    {
+      "round_number": 35,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Invalid \\escape: line 1 column 255 (char 254)"
+    }
+  ],
+  "result_file": "results\\week9\\ai_guided\\phone_validator\\google_gemma_4_31b_trial3.jsonl"
+}

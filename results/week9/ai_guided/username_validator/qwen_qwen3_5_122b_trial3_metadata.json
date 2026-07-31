@@ -1,0 +1,40 @@
+{
+  "status": "completed",
+  "started_at": "2026-07-28T20:37:24.234592+00:00",
+  "finished_at": "2026-07-28T20:38:36.495470+00:00",
+  "target_name": "username_validator",
+  "target_difficulty": "easy",
+  "target_category": "rule_validator",
+  "model_name": "qwen_qwen3_5_122b",
+  "model_id": "qwen/qwen3.5-122b",
+  "provider": "mindrouter",
+  "trial_number": 3,
+  "requested_input_count": 500,
+  "completed_input_count": 500,
+  "valid_input_count": 176,
+  "crash_error_input_count": 324,
+  "batch_size": 20,
+  "prompt_version": "week9_target_aware_v1",
+  "generation_time": 72.21604670000033,
+  "generation_rounds": 34,
+  "raw_response_count": 34,
+  "rejected_inputs": [],
+  "generation_errors": [
+    {
+      "round_number": 10,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)"
+    },
+    {
+      "round_number": 18,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Unterminated string starting at: line 1 column 156 (char 155)"
+    },
+    {
+      "round_number": 32,
+      "error_type": "NoNewUniqueInputs",
+      "error_message": "The response produced no new accepted unique inputs."
+    }
+  ],
+  "result_file": "results\\week9\\ai_guided\\username_validator\\qwen_qwen3_5_122b_trial3.jsonl"
+}

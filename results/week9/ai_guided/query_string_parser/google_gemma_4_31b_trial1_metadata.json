@@ -1,0 +1,60 @@
+{
+  "status": "completed",
+  "started_at": "2026-07-29T19:53:16.820191+00:00",
+  "finished_at": "2026-07-29T19:55:19.757474+00:00",
+  "target_name": "query_string_parser",
+  "target_difficulty": "moderate",
+  "target_category": "structured_parser",
+  "model_name": "google_gemma_4_31b",
+  "model_id": "google/gemma-4-31b",
+  "provider": "mindrouter",
+  "trial_number": 1,
+  "requested_input_count": 500,
+  "completed_input_count": 500,
+  "valid_input_count": 324,
+  "crash_error_input_count": 176,
+  "batch_size": 20,
+  "prompt_version": "week9_target_aware_v1",
+  "generation_time": 122.79013729999951,
+  "generation_rounds": 34,
+  "raw_response_count": 34,
+  "rejected_inputs": [],
+  "generation_errors": [
+    {
+      "round_number": 5,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Invalid \\escape: line 14 column 19 (char 329)"
+    },
+    {
+      "round_number": 11,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)"
+    },
+    {
+      "round_number": 12,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Expecting ',' delimiter: line 14 column 37 (char 495)"
+    },
+    {
+      "round_number": 15,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Unterminated string starting at: line 11 column 3 (char 357)"
+    },
+    {
+      "round_number": 18,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Expecting ',' delimiter: line 11 column 22 (char 301)"
+    },
+    {
+      "round_number": 26,
+      "error_type": "ValueError",
+      "error_message": "AI response must contain an \"inputs\" list."
+    },
+    {
+      "round_number": 30,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Invalid \\escape: line 1 column 669 (char 668)"
+    }
+  ],
+  "result_file": "results\\week9\\ai_guided\\query_string_parser\\google_gemma_4_31b_trial1.jsonl"
+}

@@ -1,0 +1,45 @@
+{
+  "status": "completed",
+  "started_at": "2026-07-29T17:11:29.063219+00:00",
+  "finished_at": "2026-07-29T17:12:30.495009+00:00",
+  "target_name": "markdown_link_parser",
+  "target_difficulty": "moderate",
+  "target_category": "structured_parser",
+  "model_name": "qwen_qwen3_6_35b",
+  "model_id": "qwen/qwen3.6-35b",
+  "provider": "mindrouter",
+  "trial_number": 2,
+  "requested_input_count": 500,
+  "completed_input_count": 500,
+  "valid_input_count": 242,
+  "crash_error_input_count": 258,
+  "batch_size": 20,
+  "prompt_version": "week9_target_aware_v1",
+  "generation_time": 61.37995030000002,
+  "generation_rounds": 34,
+  "raw_response_count": 34,
+  "rejected_inputs": [],
+  "generation_errors": [
+    {
+      "round_number": 7,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Unterminated string starting at: line 7 column 5 (char 172)"
+    },
+    {
+      "round_number": 24,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Unterminated string starting at: line 1 column 366 (char 365)"
+    },
+    {
+      "round_number": 32,
+      "error_type": "NoNewUniqueInputs",
+      "error_message": "The response produced no new accepted unique inputs."
+    },
+    {
+      "round_number": 33,
+      "error_type": "NoNewUniqueInputs",
+      "error_message": "The response produced no new accepted unique inputs."
+    }
+  ],
+  "result_file": "results\\week9\\ai_guided\\markdown_link_parser\\qwen_qwen3_6_35b_trial2.jsonl"
+}

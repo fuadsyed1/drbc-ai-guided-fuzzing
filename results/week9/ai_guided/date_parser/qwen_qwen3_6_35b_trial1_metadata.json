@@ -1,0 +1,60 @@
+{
+  "status": "completed",
+  "started_at": "2026-07-29T16:25:02.420312+00:00",
+  "finished_at": "2026-07-29T16:26:25.986124+00:00",
+  "target_name": "date_parser",
+  "target_difficulty": "easy",
+  "target_category": "format_parser",
+  "model_name": "qwen_qwen3_6_35b",
+  "model_id": "qwen/qwen3.6-35b",
+  "provider": "mindrouter",
+  "trial_number": 1,
+  "requested_input_count": 500,
+  "completed_input_count": 500,
+  "valid_input_count": 94,
+  "crash_error_input_count": 406,
+  "batch_size": 20,
+  "prompt_version": "week9_target_aware_v1",
+  "generation_time": 83.16665250000005,
+  "generation_rounds": 54,
+  "raw_response_count": 54,
+  "rejected_inputs": [],
+  "generation_errors": [
+    {
+      "round_number": 6,
+      "error_type": "NoNewUniqueInputs",
+      "error_message": "The response produced no new accepted unique inputs."
+    },
+    {
+      "round_number": 11,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Unterminated string starting at: line 32 column 5 (char 5976)"
+    },
+    {
+      "round_number": 19,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Invalid \\escape: line 9 column 16 (char 150)"
+    },
+    {
+      "round_number": 26,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Unterminated string starting at: line 3 column 5 (char 20)"
+    },
+    {
+      "round_number": 36,
+      "error_type": "NoNewUniqueInputs",
+      "error_message": "The response produced no new accepted unique inputs."
+    },
+    {
+      "round_number": 47,
+      "error_type": "NoNewUniqueInputs",
+      "error_message": "The response produced no new accepted unique inputs."
+    },
+    {
+      "round_number": 49,
+      "error_type": "NoNewUniqueInputs",
+      "error_message": "The response produced no new accepted unique inputs."
+    }
+  ],
+  "result_file": "results\\week9\\ai_guided\\date_parser\\qwen_qwen3_6_35b_trial1.jsonl"
+}

@@ -1,0 +1,65 @@
+{
+  "status": "completed",
+  "started_at": "2026-07-28T22:32:19.999196+00:00",
+  "finished_at": "2026-07-28T22:34:05.830720+00:00",
+  "target_name": "command_parser",
+  "target_difficulty": "hard",
+  "target_category": "command_parser",
+  "model_name": "qwen_qwen3_5_122b",
+  "model_id": "qwen/qwen3.5-122b",
+  "provider": "mindrouter",
+  "trial_number": 2,
+  "requested_input_count": 500,
+  "completed_input_count": 500,
+  "valid_input_count": 61,
+  "crash_error_input_count": 439,
+  "batch_size": 20,
+  "prompt_version": "week9_target_aware_v1",
+  "generation_time": 105.28295210000033,
+  "generation_rounds": 35,
+  "raw_response_count": 35,
+  "rejected_inputs": [],
+  "generation_errors": [
+    {
+      "round_number": 10,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Expecting property name enclosed in double quotes: line 1 column 3 (char 2)"
+    },
+    {
+      "round_number": 12,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Expecting ',' delimiter: line 1 column 1050 (char 1049)"
+    },
+    {
+      "round_number": 13,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)"
+    },
+    {
+      "round_number": 17,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Invalid \\escape: line 1 column 62 (char 61)"
+    },
+    {
+      "round_number": 20,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Unterminated string starting at: line 1 column 231 (char 230)"
+    },
+    {
+      "round_number": 23,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Expecting ',' delimiter: line 1 column 858 (char 857)"
+    },
+    {
+      "round_number": 26,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Unterminated string starting at: line 1 column 13 (char 12)"
+    },
+    {
+      "round_number": 34,
+      "error_type": "NoNewUniqueInputs",
+      "error_message": "The response produced no new accepted unique inputs."
+    }
+  ],
+  "result_file": "results\\week9\\ai_guided\\command_parser\\qwen_qwen3_5_122b_trial2.jsonl"
+}

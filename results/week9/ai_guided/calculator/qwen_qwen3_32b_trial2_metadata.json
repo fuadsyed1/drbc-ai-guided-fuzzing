@@ -1,0 +1,50 @@
+{
+  "status": "completed",
+  "started_at": "2026-07-29T07:20:49.064852+00:00",
+  "finished_at": "2026-07-29T07:28:59.353368+00:00",
+  "target_name": "calculator",
+  "target_difficulty": "easy",
+  "target_category": "arithmetic_expression",
+  "model_name": "qwen_qwen3_32b",
+  "model_id": "Qwen/Qwen3-32B",
+  "provider": "mindrouter",
+  "trial_number": 2,
+  "requested_input_count": 500,
+  "completed_input_count": 500,
+  "valid_input_count": 159,
+  "crash_error_input_count": 341,
+  "batch_size": 20,
+  "prompt_version": "week9_target_aware_v1",
+  "generation_time": 490.2042073,
+  "generation_rounds": 35,
+  "raw_response_count": 35,
+  "rejected_inputs": [],
+  "generation_errors": [
+    {
+      "round_number": 11,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Unterminated string starting at: line 1 column 590 (char 589)"
+    },
+    {
+      "round_number": 12,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Unterminated string starting at: line 1 column 6327 (char 6326)"
+    },
+    {
+      "round_number": 18,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Unterminated string starting at: line 1 column 1054 (char 1053)"
+    },
+    {
+      "round_number": 22,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Unterminated string starting at: line 1 column 1902 (char 1901)"
+    },
+    {
+      "round_number": 26,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Unterminated string starting at: line 19 column 5 (char 2264)"
+    }
+  ],
+  "result_file": "results\\week9\\ai_guided\\calculator\\qwen_qwen3_32b_trial2.jsonl"
+}

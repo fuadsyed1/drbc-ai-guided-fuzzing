@@ -1,0 +1,55 @@
+{
+  "status": "completed",
+  "started_at": "2026-07-29T13:38:28.139437+00:00",
+  "finished_at": "2026-07-29T13:43:24.032765+00:00",
+  "target_name": "arithmetic_script_parser",
+  "target_difficulty": "hard",
+  "target_category": "grammar_parser",
+  "model_name": "qwen_qwen3_32b",
+  "model_id": "Qwen/Qwen3-32B",
+  "provider": "mindrouter",
+  "trial_number": 3,
+  "requested_input_count": 500,
+  "completed_input_count": 500,
+  "valid_input_count": 106,
+  "crash_error_input_count": 394,
+  "batch_size": 20,
+  "prompt_version": "week9_target_aware_v1",
+  "generation_time": 295.7915654000026,
+  "generation_rounds": 28,
+  "raw_response_count": 28,
+  "rejected_inputs": [
+    {
+      "input": "LET x = 0.00000000000000000000000000000001; PRINT x",
+      "reason": "Input contains an excessively long numeric literal."
+    },
+    {
+      "input": "LET x = 0000000000000000000000000000000001; PRINT x",
+      "reason": "Input contains an excessively long numeric literal."
+    },
+    {
+      "input": "LET x = 1000000000000000000000000000000001; PRINT x",
+      "reason": "Input contains an excessively long numeric literal."
+    },
+    {
+      "input": "LET x = -9999999999999999999999999999999999; PRINT x",
+      "reason": "Input contains an excessively long numeric literal."
+    },
+    {
+      "input": "LET x = 1000000000000000000000000000000001.0000000001; PRINT x",
+      "reason": "Input contains an excessively long numeric literal."
+    },
+    {
+      "input": "LET x = 1 + 2 * 3 - 4 / 5 + 6 % 7 - 8 ** 9; PRINT x",
+      "reason": "Exponentiation is blocked for safety."
+    }
+  ],
+  "generation_errors": [
+    {
+      "round_number": 26,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Unterminated string starting at: line 1 column 7214 (char 7213)"
+    }
+  ],
+  "result_file": "results\\week9\\ai_guided\\arithmetic_script_parser\\qwen_qwen3_32b_trial3.jsonl"
+}

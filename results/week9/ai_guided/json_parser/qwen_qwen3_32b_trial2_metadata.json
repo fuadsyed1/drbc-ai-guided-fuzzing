@@ -1,0 +1,75 @@
+{
+  "status": "completed",
+  "started_at": "2026-07-29T10:20:13.412509+00:00",
+  "finished_at": "2026-07-29T10:35:00.381299+00:00",
+  "target_name": "json_parser",
+  "target_difficulty": "moderate",
+  "target_category": "structured_parser",
+  "model_name": "qwen_qwen3_32b",
+  "model_id": "Qwen/Qwen3-32B",
+  "provider": "mindrouter",
+  "trial_number": 2,
+  "requested_input_count": 500,
+  "completed_input_count": 500,
+  "valid_input_count": 127,
+  "crash_error_input_count": 373,
+  "batch_size": 20,
+  "prompt_version": "week9_target_aware_v1",
+  "generation_time": 886.8878805999993,
+  "generation_rounds": 40,
+  "raw_response_count": 40,
+  "rejected_inputs": [],
+  "generation_errors": [
+    {
+      "round_number": 11,
+      "error_type": "ValueError",
+      "error_message": "AI response must contain an \"inputs\" list."
+    },
+    {
+      "round_number": 16,
+      "error_type": "ValueError",
+      "error_message": "AI response must contain an \"inputs\" list."
+    },
+    {
+      "round_number": 20,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)"
+    },
+    {
+      "round_number": 24,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Expecting property name enclosed in double quotes: line 1 column 3 (char 2)"
+    },
+    {
+      "round_number": 26,
+      "error_type": "ValueError",
+      "error_message": "AI response must contain an \"inputs\" list."
+    },
+    {
+      "round_number": 28,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)"
+    },
+    {
+      "round_number": 31,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)"
+    },
+    {
+      "round_number": 32,
+      "error_type": "NoNewUniqueInputs",
+      "error_message": "The response produced no new accepted unique inputs."
+    },
+    {
+      "round_number": 34,
+      "error_type": "ValueError",
+      "error_message": "AI response must contain an \"inputs\" list."
+    },
+    {
+      "round_number": 35,
+      "error_type": "ValueError",
+      "error_message": "AI response must contain an \"inputs\" list."
+    }
+  ],
+  "result_file": "results\\week9\\ai_guided\\json_parser\\qwen_qwen3_32b_trial2.jsonl"
+}

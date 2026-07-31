@@ -1,0 +1,35 @@
+{
+  "status": "completed",
+  "started_at": "2026-07-29T16:55:25.277764+00:00",
+  "finished_at": "2026-07-29T16:56:30.467818+00:00",
+  "target_name": "json_parser",
+  "target_difficulty": "moderate",
+  "target_category": "structured_parser",
+  "model_name": "qwen_qwen3_6_35b",
+  "model_id": "qwen/qwen3.6-35b",
+  "provider": "mindrouter",
+  "trial_number": 3,
+  "requested_input_count": 500,
+  "completed_input_count": 500,
+  "valid_input_count": 246,
+  "crash_error_input_count": 254,
+  "batch_size": 20,
+  "prompt_version": "week9_target_aware_v1",
+  "generation_time": 65.11529109999992,
+  "generation_rounds": 31,
+  "raw_response_count": 31,
+  "rejected_inputs": [],
+  "generation_errors": [
+    {
+      "round_number": 7,
+      "error_type": "ValueError",
+      "error_message": "AI response must contain an \"inputs\" list."
+    },
+    {
+      "round_number": 22,
+      "error_type": "ValueError",
+      "error_message": "AI response must contain an \"inputs\" list."
+    }
+  ],
+  "result_file": "results\\week9\\ai_guided\\json_parser\\qwen_qwen3_6_35b_trial3.jsonl"
+}

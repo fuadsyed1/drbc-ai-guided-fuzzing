@@ -1,0 +1,30 @@
+{
+  "status": "completed",
+  "started_at": "2026-07-29T19:12:07.878705+00:00",
+  "finished_at": "2026-07-29T19:16:44.418436+00:00",
+  "target_name": "csv_parser",
+  "target_difficulty": "moderate",
+  "target_category": "structured_parser",
+  "model_name": "google_gemma_4_31b",
+  "model_id": "google/gemma-4-31b",
+  "provider": "mindrouter",
+  "trial_number": 3,
+  "requested_input_count": 500,
+  "completed_input_count": 500,
+  "valid_input_count": 338,
+  "crash_error_input_count": 162,
+  "batch_size": 20,
+  "prompt_version": "week9_target_aware_v1",
+  "generation_time": 276.46866320000026,
+  "generation_rounds": 35,
+  "raw_response_count": 35,
+  "rejected_inputs": [],
+  "generation_errors": [
+    {
+      "round_number": 12,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Unterminated string starting at: line 22 column 3 (char 13454)"
+    }
+  ],
+  "result_file": "results\\week9\\ai_guided\\csv_parser\\google_gemma_4_31b_trial3.jsonl"
+}

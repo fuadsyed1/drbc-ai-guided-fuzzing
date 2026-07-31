@@ -1,0 +1,30 @@
+{
+  "status": "completed",
+  "started_at": "2026-07-29T17:09:55.349117+00:00",
+  "finished_at": "2026-07-29T17:10:38.584307+00:00",
+  "target_name": "log_line_parser",
+  "target_difficulty": "moderate",
+  "target_category": "structured_parser",
+  "model_name": "qwen_qwen3_6_35b",
+  "model_id": "qwen/qwen3.6-35b",
+  "provider": "mindrouter",
+  "trial_number": 3,
+  "requested_input_count": 500,
+  "completed_input_count": 500,
+  "valid_input_count": 281,
+  "crash_error_input_count": 219,
+  "batch_size": 20,
+  "prompt_version": "week9_target_aware_v1",
+  "generation_time": 43.176680399999896,
+  "generation_rounds": 28,
+  "raw_response_count": 28,
+  "rejected_inputs": [],
+  "generation_errors": [
+    {
+      "round_number": 13,
+      "error_type": "ValueError",
+      "error_message": "AI response must contain an \"inputs\" list."
+    }
+  ],
+  "result_file": "results\\week9\\ai_guided\\log_line_parser\\qwen_qwen3_6_35b_trial3.jsonl"
+}

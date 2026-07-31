@@ -1,0 +1,40 @@
+{
+  "status": "completed",
+  "started_at": "2026-07-29T03:28:39.400662+00:00",
+  "finished_at": "2026-07-29T03:33:01.337558+00:00",
+  "target_name": "url_parser",
+  "target_difficulty": "moderate",
+  "target_category": "structured_parser",
+  "model_name": "openai_gpt_oss_120b",
+  "model_id": "openai/gpt-oss-120b",
+  "provider": "mindrouter",
+  "trial_number": 3,
+  "requested_input_count": 500,
+  "completed_input_count": 500,
+  "valid_input_count": 434,
+  "crash_error_input_count": 66,
+  "batch_size": 20,
+  "prompt_version": "week9_target_aware_v1",
+  "generation_time": 261.84673920000023,
+  "generation_rounds": 30,
+  "raw_response_count": 30,
+  "rejected_inputs": [],
+  "generation_errors": [
+    {
+      "round_number": 3,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Expecting ',' delimiter: line 1 column 113 (char 112)"
+    },
+    {
+      "round_number": 12,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Expecting ',' delimiter: line 1 column 23374 (char 23373)"
+    },
+    {
+      "round_number": 18,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Expecting ',' delimiter: line 1 column 2144 (char 2143)"
+    }
+  ],
+  "result_file": "results\\week9\\ai_guided\\url_parser\\openai_gpt_oss_120b_trial3.jsonl"
+}

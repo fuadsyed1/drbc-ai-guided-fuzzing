@@ -1,0 +1,1164 @@
+﻿{
+    "Model":  "google_gemma_4_31b",
+    "VerifiedAt":  "2026-07-29T16:33:27.4010423-07:00",
+    "TargetCount":  24,
+    "TrialsPerTarget":  3,
+    "InputsPerTrial":  500,
+    "ResultFileCount":  72,
+    "MetadataFileCount":  72,
+    "TotalRecords":  36000,
+    "Files":  [
+                  {
+                      "Type":  "result",
+                      "Target":  "arithmetic_script_parser",
+                      "FileName":  "google_gemma_4_31b_trial1.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  465444,
+                      "SHA256":  "76637F7BA5D0843CED2255E6159FC142B8D2A3CB3173B29ED9EC61B490994E3A"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "arithmetic_script_parser",
+                      "FileName":  "google_gemma_4_31b_trial2.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  469184,
+                      "SHA256":  "4070CE82E1FF3E07FECE1FFB6EFD7ECDD095065F40E4918C437A144D4056C513"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "arithmetic_script_parser",
+                      "FileName":  "google_gemma_4_31b_trial3.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  476689,
+                      "SHA256":  "5F3053AFCCC1D54004FE9ABBF87D69C8FFB5D2048D2214EA3C783EF2EE4E5134"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "boolean_expression_parser",
+                      "FileName":  "google_gemma_4_31b_trial1.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  450495,
+                      "SHA256":  "FBC31A2A8B63297D572848131B5A734FC648E82F2F43B5C4D1111D38B215D812"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "boolean_expression_parser",
+                      "FileName":  "google_gemma_4_31b_trial2.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  450862,
+                      "SHA256":  "5688E7A4DE9E0DC468132EF30222F861F703F1EAA9137CE249A4B11695E9B5A2"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "boolean_expression_parser",
+                      "FileName":  "google_gemma_4_31b_trial3.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  451893,
+                      "SHA256":  "BB5F9D952514DD7ACEFC3C54769F903853CA09315CA715CED1341187E5E6372E"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "calculator",
+                      "FileName":  "google_gemma_4_31b_trial1.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  378801,
+                      "SHA256":  "017E02E16235A3D86DD46D7BEF683EFE675C10C2E2B875B6E34BCA8ED644EC18"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "calculator",
+                      "FileName":  "google_gemma_4_31b_trial2.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  383505,
+                      "SHA256":  "4ADBEDEC0D77606715591C58386726D5DCBDF86F1BCC396AE6E18AA135BB72AA"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "calculator",
+                      "FileName":  "google_gemma_4_31b_trial3.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  381332,
+                      "SHA256":  "6256664AE342F21351229F746C937563E60D83CFF9A8ABA81528D87DA2103ED2"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "color_code_validator",
+                      "FileName":  "google_gemma_4_31b_trial1.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  392621,
+                      "SHA256":  "69B00FD16C37C7E302723406D557876574F1063263477E1016E519AD81F5BE60"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "color_code_validator",
+                      "FileName":  "google_gemma_4_31b_trial2.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  398138,
+                      "SHA256":  "5845FA63A1FA7EA5E4CBCBE3FB7DD36CB140C54BEABCD3E10E5C04745CB1FAC9"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "color_code_validator",
+                      "FileName":  "google_gemma_4_31b_trial3.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  399114,
+                      "SHA256":  "EC4A0DE98FDD87255CCC7D0DBFA3C47C00092AA0EF5D98F384A54A8FC974E706"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "command_parser",
+                      "FileName":  "google_gemma_4_31b_trial1.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  420896,
+                      "SHA256":  "30C082692B574DF9A36C4E6C06D707E0AC0BA4647507B38AF059C71AFF2C0B9F"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "command_parser",
+                      "FileName":  "google_gemma_4_31b_trial2.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  419972,
+                      "SHA256":  "048A7A8DA9A758F989364CB156E78BD0276390978649EB6B47E174886145A01F"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "command_parser",
+                      "FileName":  "google_gemma_4_31b_trial3.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  421415,
+                      "SHA256":  "713B82F89005F2382E7474CF9572FFDA9AA3EC4E34027EC081027A3172418273"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "config_parser",
+                      "FileName":  "google_gemma_4_31b_trial1.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  438828,
+                      "SHA256":  "FB33A24680217008B8C5B3D908CCF712D04229581F33310339E08C33A5C92AA5"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "config_parser",
+                      "FileName":  "google_gemma_4_31b_trial2.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  448041,
+                      "SHA256":  "95FF0A39E33534DBB0FB98E7D6854E93798DF3E58C4D5882CC1B82BAFA9663EC"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "config_parser",
+                      "FileName":  "google_gemma_4_31b_trial3.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  433645,
+                      "SHA256":  "C117DE00BBA3D3669AF18804B7DEDB74414862460AEC097BDFA019F3BEE59FE1"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "csv_parser",
+                      "FileName":  "google_gemma_4_31b_trial1.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  458636,
+                      "SHA256":  "4A9D4A51D2A6D8DDF4EBA78D8C057EDF664EC8A93DCA5E46CF5362A9CEC09060"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "csv_parser",
+                      "FileName":  "google_gemma_4_31b_trial2.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  456942,
+                      "SHA256":  "D25D8197A564F83B7BA51EE31F59E69640F9496EED8BDC7E9CF6C9BE4AA53AF7"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "csv_parser",
+                      "FileName":  "google_gemma_4_31b_trial3.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  456095,
+                      "SHA256":  "F91C60394D4F905211027006BA9315982DA09DC5AE73140EE12ED271A6C95B35"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "date_parser",
+                      "FileName":  "google_gemma_4_31b_trial1.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  401656,
+                      "SHA256":  "E63EAC7360DF3001BDB8DB1EC4431E1F809057C6FC387B215878191104AE054C"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "date_parser",
+                      "FileName":  "google_gemma_4_31b_trial2.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  409025,
+                      "SHA256":  "787D548CBED6C6162FB09AA0E7CAF9CF5C421D9CA681640755BB96E9B3D26DE8"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "date_parser",
+                      "FileName":  "google_gemma_4_31b_trial3.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  409008,
+                      "SHA256":  "D5E966586030C4A73993A7F69C04740C38F4CD934A8E7AE698A413965EE36DEB"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "email_validator",
+                      "FileName":  "google_gemma_4_31b_trial1.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  413685,
+                      "SHA256":  "E748B9F256C09BDF7A578E780A399DC5D1EC075AC9318DD5DA855E15C7FFAF55"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "email_validator",
+                      "FileName":  "google_gemma_4_31b_trial2.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  413664,
+                      "SHA256":  "81D4A6EC30098A22B899D66E9B1E6AE34987DA28006551D6717446D6D027E43C"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "email_validator",
+                      "FileName":  "google_gemma_4_31b_trial3.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  413437,
+                      "SHA256":  "067104D81ECC286F3218F4B13C26779338ACDBB8EC3F6615823AFFAB6C68A0F8"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "file_path_parser",
+                      "FileName":  "google_gemma_4_31b_trial1.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  476319,
+                      "SHA256":  "20734271FF32952D94903A33ACD1C52AB2384155559C51EF4F1CC16FEAE14754"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "file_path_parser",
+                      "FileName":  "google_gemma_4_31b_trial2.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  465755,
+                      "SHA256":  "394AC015FD08505BBD1849EE14E651DEECB29CBC0322A508F95D748FFF185C42"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "file_path_parser",
+                      "FileName":  "google_gemma_4_31b_trial3.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  465316,
+                      "SHA256":  "31906C66014A1FAABCED8E8BA219398AA55F23485FACC0D61B472CC92E9F7D36"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "http_request_parser",
+                      "FileName":  "google_gemma_4_31b_trial1.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  479349,
+                      "SHA256":  "4C6E182B9305AFDECDF691573AFF497BABE5B385400D43AEA20449BDB22B2F78"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "http_request_parser",
+                      "FileName":  "google_gemma_4_31b_trial2.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  479919,
+                      "SHA256":  "018E324EA2A491A71F77E231F3E3CC04DFAB15507EDD5DF75336D82820C19929"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "http_request_parser",
+                      "FileName":  "google_gemma_4_31b_trial3.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  479526,
+                      "SHA256":  "C7E9441C5EA74181BE161F93BD125E0F44C7674BF034CE64DB7B8DE46AB24F0F"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "json_parser",
+                      "FileName":  "google_gemma_4_31b_trial1.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  426375,
+                      "SHA256":  "7C03479B2413D1DD69FF772740F0F5875994E984B8EC614F7267550930A345B6"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "json_parser",
+                      "FileName":  "google_gemma_4_31b_trial2.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  424391,
+                      "SHA256":  "B9A6A2C483FBB631CD968BF59E6283374C3AE969295EBD0C70573D7018C7E34C"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "json_parser",
+                      "FileName":  "google_gemma_4_31b_trial3.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  428796,
+                      "SHA256":  "8481FC5B3E0076D70BD94195DA59F86878EC132BB03B4D4A9FA647A1C53B5F80"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "log_line_parser",
+                      "FileName":  "google_gemma_4_31b_trial1.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  419740,
+                      "SHA256":  "C59AE44D1A1D5C2BD833C353227387780A78288F07254F016E5010492175556C"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "log_line_parser",
+                      "FileName":  "google_gemma_4_31b_trial2.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  421623,
+                      "SHA256":  "E4BD46F68CF6AD5734AD3F89DD3DE0BBED66FD460CBF0CBB7DA4EA6F2E93BBC6"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "log_line_parser",
+                      "FileName":  "google_gemma_4_31b_trial3.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  421958,
+                      "SHA256":  "FFD5723513DA5A9810D7BFAE866AA36B3F122D731A75FBDA1FDCF90DE4D748E8"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "markdown_link_parser",
+                      "FileName":  "google_gemma_4_31b_trial1.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  425048,
+                      "SHA256":  "79905B2FBCAB702E17BF4A046B60414BA7923B1F8D94B3B41BBB0C754F99AEF7"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "markdown_link_parser",
+                      "FileName":  "google_gemma_4_31b_trial2.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  424602,
+                      "SHA256":  "14BEA8BD7761AE720EA02873EB98AB47B2C08E1E9175B6E21AEB81C1D99E4923"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "markdown_link_parser",
+                      "FileName":  "google_gemma_4_31b_trial3.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  428010,
+                      "SHA256":  "AC8B9C6EF1BBD4C822E5AEC9D0B1F319C62D1CBFBF8EAAE3EDC9019DD4FBB2A2"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "mini_protocol_parser",
+                      "FileName":  "google_gemma_4_31b_trial1.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  414720,
+                      "SHA256":  "39E0103C5E34A49A890EAA050153FB9143E86427249EB52DCD03690A0F313E85"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "mini_protocol_parser",
+                      "FileName":  "google_gemma_4_31b_trial2.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  413596,
+                      "SHA256":  "3E5E169072AD3E0B9242C32DFBC69F6387DDD4BE019367DB62F93D8BFD361AF9"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "mini_protocol_parser",
+                      "FileName":  "google_gemma_4_31b_trial3.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  415274,
+                      "SHA256":  "849BB389BD3C15B50F21EF80DEE7A3AEF0B0880F7DC85E3F10648FD0C825502A"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "password_checker",
+                      "FileName":  "google_gemma_4_31b_trial1.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  407583,
+                      "SHA256":  "1B09A6D80D01FE9900EEA52B9BAE675F4C1E82E5E03F890E4E793C54B190FC50"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "password_checker",
+                      "FileName":  "google_gemma_4_31b_trial2.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  407906,
+                      "SHA256":  "DEA7DB6D4E9365701B5D5E33D42B059A384108EA33552B65CFC03970B45806EC"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "password_checker",
+                      "FileName":  "google_gemma_4_31b_trial3.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  406953,
+                      "SHA256":  "EA61B7B443C631F9F4286A661E1BAA7E6EB216A5A6954AA5718EC4DC01AF1219"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "phone_validator",
+                      "FileName":  "google_gemma_4_31b_trial1.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  400973,
+                      "SHA256":  "C0E8F9A31A8D94FC029E61109AB58266EFE8D604444F67482CED9C64ED7E1015"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "phone_validator",
+                      "FileName":  "google_gemma_4_31b_trial2.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  401641,
+                      "SHA256":  "F38232ABC19E1B7109A399B496EC6D89512297BC7B770491BD8D255DC8071B39"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "phone_validator",
+                      "FileName":  "google_gemma_4_31b_trial3.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  402790,
+                      "SHA256":  "21805DEBC994CEE4ADAB527EFDB49A8C602768B57E242DF040E49E18D88E2C76"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "query_string_parser",
+                      "FileName":  "google_gemma_4_31b_trial1.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  448836,
+                      "SHA256":  "93707710894C8715F945FFDC120C1E52079DECFA492C8B2990A82428250314A4"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "query_string_parser",
+                      "FileName":  "google_gemma_4_31b_trial2.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  449741,
+                      "SHA256":  "76A21E2E77D8F78071D7E0725ECD5972594C35139DEA7587ED08B68B6D1BE10E"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "query_string_parser",
+                      "FileName":  "google_gemma_4_31b_trial3.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  449990,
+                      "SHA256":  "759C0B4D94AF39F568CE91107D16F6F8953595D003DE89EEACDADB87ECD3635A"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "sql_where_parser",
+                      "FileName":  "google_gemma_4_31b_trial1.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  442368,
+                      "SHA256":  "BACD439B0FC4A5C431FEC5D687AC865BCEDAA9ECFD3DF9C0995E00616791D8CE"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "sql_where_parser",
+                      "FileName":  "google_gemma_4_31b_trial2.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  439351,
+                      "SHA256":  "1623FA6DE08E002D5E4BEC8A3101FE07793B4A2259BE24189D22D378BA3E0865"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "sql_where_parser",
+                      "FileName":  "google_gemma_4_31b_trial3.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  447755,
+                      "SHA256":  "8439461FAB5FB59148D0E1FEE1C7DC0A58B6F028336B7783910191DFBADCBA02"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "template_renderer",
+                      "FileName":  "google_gemma_4_31b_trial1.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  416803,
+                      "SHA256":  "80E1013911A4C1A0107B286A4E5D82589401366E65D02A1F2357C9CDCB260B0C"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "template_renderer",
+                      "FileName":  "google_gemma_4_31b_trial2.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  413900,
+                      "SHA256":  "1E52088D1BF50A43393A85658D8A9F741F29DE4B66632CE1B5BC271CF0766B5B"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "template_renderer",
+                      "FileName":  "google_gemma_4_31b_trial3.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  411778,
+                      "SHA256":  "C303A1C3EA490B8AB23D0D3D65919DDF898DBBB1B82D4251F050FFAB8608D0A4"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "url_parser",
+                      "FileName":  "google_gemma_4_31b_trial1.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  444380,
+                      "SHA256":  "420D0A51C6ECBEB07991EA5AB58D5133DB9DED510A13F80FDC7BE2A734236AC7"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "url_parser",
+                      "FileName":  "google_gemma_4_31b_trial2.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  443434,
+                      "SHA256":  "84D8447B916A126C9BB128D63F66E2729A1F5DE3EDCDC6CB3760E2CDA03F7257"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "url_parser",
+                      "FileName":  "google_gemma_4_31b_trial3.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  445093,
+                      "SHA256":  "1EAD29288C424D7DDDCF2901DAFCCF275B06C2F55EA42738D0EB0C78D20E0F4B"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "username_validator",
+                      "FileName":  "google_gemma_4_31b_trial1.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  407417,
+                      "SHA256":  "6FB72DF3F4B42CD889A7D3DE5AC491AB2CC60AABF22F535E84B1646C4ED3C2FF"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "username_validator",
+                      "FileName":  "google_gemma_4_31b_trial2.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  408157,
+                      "SHA256":  "0B40FB7F72D6700A8F992811B4120DA9987FF18B4FC9B9A1F9FD216BD7936636"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "username_validator",
+                      "FileName":  "google_gemma_4_31b_trial3.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  399163,
+                      "SHA256":  "D9CDAA768749F2A6ED23DEF624F1AC668714C486087796BCAA16F060A4211C60"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "xml_like_parser",
+                      "FileName":  "google_gemma_4_31b_trial1.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  427565,
+                      "SHA256":  "2A5EFC4F66CDD6C8433B2B01DD850EA656C04A0BE3DF7109CE63F41518985774"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "xml_like_parser",
+                      "FileName":  "google_gemma_4_31b_trial2.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  434784,
+                      "SHA256":  "8DF9E9034B8D8411F57896813F83606423F9A16758519E25FA21DF9745D1BB4B"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "xml_like_parser",
+                      "FileName":  "google_gemma_4_31b_trial3.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  425099,
+                      "SHA256":  "CCC18F221E926739CCE62A6CF3B36A1E7C304AD81CF86DD0D3BE633FE70D5C89"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "zip_code_validator",
+                      "FileName":  "google_gemma_4_31b_trial1.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  395392,
+                      "SHA256":  "354675E92AAC494EFD2FFA8B47949C64867DC9676F4B30090C377A86784AAF71"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "zip_code_validator",
+                      "FileName":  "google_gemma_4_31b_trial2.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  395077,
+                      "SHA256":  "63BF3B2C8515347142B32FD60728512370A109FD9600AEAF86284612B564B5DD"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "zip_code_validator",
+                      "FileName":  "google_gemma_4_31b_trial3.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  395419,
+                      "SHA256":  "A0ADEFBE148C495DB6ED7EAFB1BFB13B73619F61CF66506EC3BB3D3343658CA5"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "arithmetic_script_parser",
+                      "FileName":  "google_gemma_4_31b_trial1_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  1073,
+                      "SHA256":  "E80F9A88AC008E78535E302A48A5B4FD2963B79E1C920D376FA81EDED997D9A1"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "arithmetic_script_parser",
+                      "FileName":  "google_gemma_4_31b_trial2_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  1969,
+                      "SHA256":  "A1D75CC8B82F7FED8A66BD2377F39DE503C73C20CA589FE527B0B68EBA3278CA"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "arithmetic_script_parser",
+                      "FileName":  "google_gemma_4_31b_trial3_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  1309,
+                      "SHA256":  "0EA951B037328A742EF0EF918391FFCF306497D35045F9D9E9024170F6A3DCE2"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "boolean_expression_parser",
+                      "FileName":  "google_gemma_4_31b_trial1_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  838,
+                      "SHA256":  "3CE630A9B1B25F5DC2CE460211357080CD6A660FA704DE6552EAC8F7EA1FB95A"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "boolean_expression_parser",
+                      "FileName":  "google_gemma_4_31b_trial2_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  838,
+                      "SHA256":  "AC74F040454A673978EDC34F4D6256915DBA867E8056756B620C580B0407D39E"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "boolean_expression_parser",
+                      "FileName":  "google_gemma_4_31b_trial3_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  838,
+                      "SHA256":  "EC42A60577C2C6E2BF76E535112D33025AD6772A94DBC4AD731622801E57550E"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "calculator",
+                      "FileName":  "google_gemma_4_31b_trial1_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  2665,
+                      "SHA256":  "E58686BE4289F4712F648D84DE09E6E373027F7583DF6B55DB809075F99BEBFE"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "calculator",
+                      "FileName":  "google_gemma_4_31b_trial2_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  2167,
+                      "SHA256":  "6797393CAB0402DE77376F47DADA8147F8FA460C7272545885C7FCA68DA677E3"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "calculator",
+                      "FileName":  "google_gemma_4_31b_trial3_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  2516,
+                      "SHA256":  "4853900E9C688D19A92495057D0B41109D3F3B4FBBCAF38E6BA6882B351CB2EF"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "color_code_validator",
+                      "FileName":  "google_gemma_4_31b_trial1_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  3159,
+                      "SHA256":  "42DCA67F04CED6CDE9DF2CCC6DE870FA48479F99FDB930F84A26745BB18FF37F"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "color_code_validator",
+                      "FileName":  "google_gemma_4_31b_trial2_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  2632,
+                      "SHA256":  "B2AD3A512DB19D4E77689ACBEF6201A86D4609248D33510C40E9E1BAAECACB99"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "color_code_validator",
+                      "FileName":  "google_gemma_4_31b_trial3_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  2410,
+                      "SHA256":  "6F668477EC041FCC9D7A9949DD9C866E449430FBB6EB88B5F4D492DA799ED6A3"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "command_parser",
+                      "FileName":  "google_gemma_4_31b_trial1_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  1772,
+                      "SHA256":  "D32DB90C3C79A2F255696B3F7395AAB58DC94A64EF33700AF3BB92F053513DAE"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "command_parser",
+                      "FileName":  "google_gemma_4_31b_trial2_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  1226,
+                      "SHA256":  "45409B120FEA2674C99B0F255A4320D0C0BFE59BA03C98B242163E73019F412E"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "command_parser",
+                      "FileName":  "google_gemma_4_31b_trial3_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  1654,
+                      "SHA256":  "521BDEC242462FD352D55B9F0969481E13B26799BEC579DCC5FAE561B84047DE"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "config_parser",
+                      "FileName":  "google_gemma_4_31b_trial1_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  3748,
+                      "SHA256":  "DC8146F6D164143EF469BE28E359E53387A07F658E8829BF0163B333DFBE594E"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "config_parser",
+                      "FileName":  "google_gemma_4_31b_trial2_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  3964,
+                      "SHA256":  "0FA79F1A10E871542A2E35BCC2E2DC161CB98A294FB3B5BA3721D41085EB09DA"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "config_parser",
+                      "FileName":  "google_gemma_4_31b_trial3_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  4510,
+                      "SHA256":  "E72131D418DC3BF8AC4D4DF5E95AB2D38D8A74F8C86B9C202A122432543A8D24"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "csv_parser",
+                      "FileName":  "google_gemma_4_31b_trial1_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  1217,
+                      "SHA256":  "58C6A91A37FA599D0910F61BD554FD99C7BC35BEBF617C3D1317FEBA9AC9B40C"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "csv_parser",
+                      "FileName":  "google_gemma_4_31b_trial2_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  1856,
+                      "SHA256":  "D55687478DC007424F02D3126B1642900589B2BF737886BA92D364DD6AB245BF"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "csv_parser",
+                      "FileName":  "google_gemma_4_31b_trial3_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  1034,
+                      "SHA256":  "C9059D7BFBBEA0BE17920EF6E83F4D30FE99B3A6A5A87BEA9881416AA42080FE"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "date_parser",
+                      "FileName":  "google_gemma_4_31b_trial1_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  3428,
+                      "SHA256":  "F080BA279472D9F70B5BB58FE025A1FD615C9B097F3C139176AABA3F10B1A32B"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "date_parser",
+                      "FileName":  "google_gemma_4_31b_trial2_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  3177,
+                      "SHA256":  "28162B9D1607B076058A5D45603DD5C9B108D3913B47FE67B04C815D50BFFBD6"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "date_parser",
+                      "FileName":  "google_gemma_4_31b_trial3_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  3039,
+                      "SHA256":  "249673A06621A600D86FFB32B0EF54A564B760BBE36165EB54B2E1020DEC4B5C"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "email_validator",
+                      "FileName":  "google_gemma_4_31b_trial1_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  2469,
+                      "SHA256":  "0260ECB971E74290BC5D6D40D2B9E824D1FA7FF5DE1641F2B757E8A162739906"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "email_validator",
+                      "FileName":  "google_gemma_4_31b_trial2_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  2039,
+                      "SHA256":  "83541F4FD2AB4B629B7A0E9957447B2F0235D1B0C4EBAEE6E3CA1E4395095D93"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "email_validator",
+                      "FileName":  "google_gemma_4_31b_trial3_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  2262,
+                      "SHA256":  "A63BB761518514A8C4F6EF3346350F2A9427D580272A343649F02042CA1AE72C"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "file_path_parser",
+                      "FileName":  "google_gemma_4_31b_trial1_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  1800,
+                      "SHA256":  "5AB6A6E7A11826D5E925EF6DFDF2B1FC2F0AC03F7C98D0CDFF1C997DE22F9CCB"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "file_path_parser",
+                      "FileName":  "google_gemma_4_31b_trial2_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  1478,
+                      "SHA256":  "056009322FE9A1A9A632002DB22FEB52725E0184B11E08418A76814DBFA5EF09"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "file_path_parser",
+                      "FileName":  "google_gemma_4_31b_trial3_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  2441,
+                      "SHA256":  "2A6037E7EE9F3274A00EBDD39715ED368614EF7A9E5C2C69537490F490D41C23"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "http_request_parser",
+                      "FileName":  "google_gemma_4_31b_trial1_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  1411,
+                      "SHA256":  "DD07DFF4EFF00691ADABE76597F62BA49CF69D16962797ABB9D492AF990141F1"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "http_request_parser",
+                      "FileName":  "google_gemma_4_31b_trial2_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  1666,
+                      "SHA256":  "5AFCC2CEBD208B59DAD1B3F63F3F75C135B2D237D093D57D287D611F53C01254"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "http_request_parser",
+                      "FileName":  "google_gemma_4_31b_trial3_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  1436,
+                      "SHA256":  "BB2B6A4FCB20C1BE88F1F24F58F34D66948E988EBBF01F46B7CDA026445D7EF1"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "json_parser",
+                      "FileName":  "google_gemma_4_31b_trial1_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  1047,
+                      "SHA256":  "E61D3D005D3B108E36D2678AD6985E9239655CD13CB87D56DE7E1CE3D20C937C"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "json_parser",
+                      "FileName":  "google_gemma_4_31b_trial2_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  817,
+                      "SHA256":  "DA18186B9F4E37C7AF6E0E496B4ED7C1925106B2115B137307189DBEA8B259CF"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "json_parser",
+                      "FileName":  "google_gemma_4_31b_trial3_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  1275,
+                      "SHA256":  "8B62B3E8398636B4FE8043CCD78808945FDE4867DBF1B75BFC312A8FF85309B7"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "log_line_parser",
+                      "FileName":  "google_gemma_4_31b_trial1_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  1607,
+                      "SHA256":  "F8EFE7AC005D1162B42AF668E7D60B4C854507983D20663110808F73A2E22950"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "log_line_parser",
+                      "FileName":  "google_gemma_4_31b_trial2_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  2210,
+                      "SHA256":  "EEB7A0D8C8378E032E2CE083AE8770CB589E47DA3541B59747A95B4C8B7C3EA3"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "log_line_parser",
+                      "FileName":  "google_gemma_4_31b_trial3_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  2031,
+                      "SHA256":  "7C3D4AAC5B1F315D329B6B5A63018BA980F5D4676986429C33FEF59753E1817C"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "markdown_link_parser",
+                      "FileName":  "google_gemma_4_31b_trial1_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  1850,
+                      "SHA256":  "FADD120F17A969CDCD55F828C26CE1DEF24DF101B60FD05885C3A6DFF0A362A9"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "markdown_link_parser",
+                      "FileName":  "google_gemma_4_31b_trial2_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  1723,
+                      "SHA256":  "16832A8489955E2B2E20351E6E73D6467DAC2977BB83F2E44823E97713210542"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "markdown_link_parser",
+                      "FileName":  "google_gemma_4_31b_trial3_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  2194,
+                      "SHA256":  "22973A5CFC484E5E88E15967A06D4911A5F39CEE22371733C1DE6138F0A20228"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "mini_protocol_parser",
+                      "FileName":  "google_gemma_4_31b_trial1_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  3172,
+                      "SHA256":  "211C0A451C9A267B8DDEF4848DAE9261865EFAB4AE25A83779C735F5AACCD893"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "mini_protocol_parser",
+                      "FileName":  "google_gemma_4_31b_trial2_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  2451,
+                      "SHA256":  "32CA132DD01CE22756F54EA0E86E616D3AA248CF574CB5031C1C628CFE6FA2EF"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "mini_protocol_parser",
+                      "FileName":  "google_gemma_4_31b_trial3_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  3616,
+                      "SHA256":  "D51ED2EC8F58F5A2238527A5E35C76FD57D3A40B62FB5A968A6894FEBEE00610"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "password_checker",
+                      "FileName":  "google_gemma_4_31b_trial1_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  1621,
+                      "SHA256":  "BB0BD0A615F66F05A2E7DE3E008E25EC0E2E4D0ABFB590A84E988EFD28B0DB2C"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "password_checker",
+                      "FileName":  "google_gemma_4_31b_trial2_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  1823,
+                      "SHA256":  "E88B903BB89F8D001C96B0AB569D355A411A37C0559A59B83EDE32F774D0BC12"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "password_checker",
+                      "FileName":  "google_gemma_4_31b_trial3_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  2643,
+                      "SHA256":  "14976581019A81388BA4D8A2D074B78FE0EBE7AFD962F438CDA3157C659D939E"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "phone_validator",
+                      "FileName":  "google_gemma_4_31b_trial1_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  2051,
+                      "SHA256":  "626823532F821D03A3D9FA21B0E79F9EB65133BBA7BEAE510568DEE300A68959"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "phone_validator",
+                      "FileName":  "google_gemma_4_31b_trial2_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  1437,
+                      "SHA256":  "0DE01DF1644105728CC5511ECECB88C499474C0E26B62410A52586090668E69F"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "phone_validator",
+                      "FileName":  "google_gemma_4_31b_trial3_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  1417,
+                      "SHA256":  "114EE4970A09EDC36261E37689E30E93F43856B2B94C12AEBD7B4435FBC33F00"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "query_string_parser",
+                      "FileName":  "google_gemma_4_31b_trial1_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  2235,
+                      "SHA256":  "5B1576C8222C6193AB22615B3D78AAC06AC5F751172CF28C61205477BF57B6CE"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "query_string_parser",
+                      "FileName":  "google_gemma_4_31b_trial2_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  1900,
+                      "SHA256":  "F02ABC712BBB638539467C81C69B5E3C9F68416A2CED94CCFB83649692AB3CB3"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "query_string_parser",
+                      "FileName":  "google_gemma_4_31b_trial3_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  1849,
+                      "SHA256":  "5204C4A2C7A783BC9E190ADFD7196A0244DC8DF0316BA4D93C6D18BD3F6123BE"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "sql_where_parser",
+                      "FileName":  "google_gemma_4_31b_trial1_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  986,
+                      "SHA256":  "87339C14179B0F18F25E5087B98DCD4439AD837B5EBA6C3222C216A6B984B556"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "sql_where_parser",
+                      "FileName":  "google_gemma_4_31b_trial2_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  21910,
+                      "SHA256":  "7BFC6B0AAF2DAE2C9071180794255F61CE98913A1DB12852FBDE227358E2C258"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "sql_where_parser",
+                      "FileName":  "google_gemma_4_31b_trial3_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  1022,
+                      "SHA256":  "37C182BB5FE2D65323E922ADA71B3FACFB292423FDD55E743691A4C91ABF94F5"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "template_renderer",
+                      "FileName":  "google_gemma_4_31b_trial1_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  2945,
+                      "SHA256":  "5B8B1A7B969A761CADCF035F5711BAC0041D7F8FE34AB3BA4A6CF869056F4BD1"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "template_renderer",
+                      "FileName":  "google_gemma_4_31b_trial2_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  1941,
+                      "SHA256":  "58D073967E10D18A4D65FB47C2A1E9208F6C40C46EF58098712B8B13ECA4A395"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "template_renderer",
+                      "FileName":  "google_gemma_4_31b_trial3_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  2411,
+                      "SHA256":  "5FB797EA0D99AE5E6E7DD93399D513CFA497DFFAD492DEAE45D886F70E43AA64"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "url_parser",
+                      "FileName":  "google_gemma_4_31b_trial1_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  1228,
+                      "SHA256":  "CA648253307F52627F38D08561762F013B83DBA43E47FE13C524EAD099C0E8DB"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "url_parser",
+                      "FileName":  "google_gemma_4_31b_trial2_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  1883,
+                      "SHA256":  "04D783CF2FD9B86E11501A6BB58321A6EFA0BF1423A0333651E7C54158BD3B2A"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "url_parser",
+                      "FileName":  "google_gemma_4_31b_trial3_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  1423,
+                      "SHA256":  "AB1E05C14F293276BB8480A7A4AD8675D43D6C2F079D8C3DC35604124340DE92"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "username_validator",
+                      "FileName":  "google_gemma_4_31b_trial1_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  2458,
+                      "SHA256":  "685E38E5DA17354EC1A0E375C7974F85972F9A6EA7046C7F23B6AFD1F376AFAE"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "username_validator",
+                      "FileName":  "google_gemma_4_31b_trial2_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  2036,
+                      "SHA256":  "388EAA0C1F3322D8E95241795644194840CA32BDE47427685AFF6FD2F36686C3"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "username_validator",
+                      "FileName":  "google_gemma_4_31b_trial3_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  2242,
+                      "SHA256":  "47A9CB86130E98614928A710CFE5E8372041CF514332B89B8C6CEC984128E2F7"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "xml_like_parser",
+                      "FileName":  "google_gemma_4_31b_trial1_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  1859,
+                      "SHA256":  "94E8F7EBFEE59ECCD30308176C26624819AB1893B03B782862BF5EC1E79E1175"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "xml_like_parser",
+                      "FileName":  "google_gemma_4_31b_trial2_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  1442,
+                      "SHA256":  "907061B63C1FF3AD4AFE42961EBC3E08827216CE9C7875813F49760870EAA512"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "xml_like_parser",
+                      "FileName":  "google_gemma_4_31b_trial3_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  2238,
+                      "SHA256":  "B171A8E256359EA4F81E2AA25E3413E0CAFD678280DD0D9FB79C0A7D5ED0D137"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "zip_code_validator",
+                      "FileName":  "google_gemma_4_31b_trial1_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  3533,
+                      "SHA256":  "47ED75B760CAEA1014DE321022F3BD3702E02CEFE18873B4433B9B75D7A75072"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "zip_code_validator",
+                      "FileName":  "google_gemma_4_31b_trial2_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  3415,
+                      "SHA256":  "B5E2ABE210482E38008493DCA87DA39FBBCCC323E308F2D53971DEEA66D27705"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "zip_code_validator",
+                      "FileName":  "google_gemma_4_31b_trial3_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  2614,
+                      "SHA256":  "E841C34912EA2FC212ADBAC52823FEE7235EBCAD0878D84D228AB3C3238BD84F"
+                  }
+              ]
+}

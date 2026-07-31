@@ -1,0 +1,40 @@
+{
+  "status": "completed",
+  "started_at": "2026-07-29T18:44:06.091753+00:00",
+  "finished_at": "2026-07-29T18:46:44.378481+00:00",
+  "target_name": "phone_validator",
+  "target_difficulty": "easy",
+  "target_category": "format_validator",
+  "model_name": "google_gemma_4_31b",
+  "model_id": "google/gemma-4-31b",
+  "provider": "mindrouter",
+  "trial_number": 2,
+  "requested_input_count": 500,
+  "completed_input_count": 500,
+  "valid_input_count": 9,
+  "crash_error_input_count": 491,
+  "batch_size": 20,
+  "prompt_version": "week9_target_aware_v1",
+  "generation_time": 158.24674359999995,
+  "generation_rounds": 38,
+  "raw_response_count": 38,
+  "rejected_inputs": [],
+  "generation_errors": [
+    {
+      "round_number": 11,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Expecting ',' delimiter: line 7 column 18 (char 348)"
+    },
+    {
+      "round_number": 15,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Unterminated string starting at: line 3 column 5 (char 20)"
+    },
+    {
+      "round_number": 20,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Invalid \\escape: line 1 column 219 (char 218)"
+    }
+  ],
+  "result_file": "results\\week9\\ai_guided\\phone_validator\\google_gemma_4_31b_trial2.jsonl"
+}

@@ -1,0 +1,60 @@
+{
+  "status": "completed",
+  "started_at": "2026-07-29T17:24:07.365153+00:00",
+  "finished_at": "2026-07-29T17:25:46.368829+00:00",
+  "target_name": "http_request_parser",
+  "target_difficulty": "hard",
+  "target_category": "protocol_parser",
+  "model_name": "qwen_qwen3_6_35b",
+  "model_id": "qwen/qwen3.6-35b",
+  "provider": "mindrouter",
+  "trial_number": 2,
+  "requested_input_count": 500,
+  "completed_input_count": 500,
+  "valid_input_count": 329,
+  "crash_error_input_count": 171,
+  "batch_size": 20,
+  "prompt_version": "week9_target_aware_v1",
+  "generation_time": 98.91035720000036,
+  "generation_rounds": 39,
+  "raw_response_count": 39,
+  "rejected_inputs": [],
+  "generation_errors": [
+    {
+      "round_number": 8,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Unterminated string starting at: line 19 column 5 (char 988)"
+    },
+    {
+      "round_number": 10,
+      "error_type": "ValueError",
+      "error_message": "AI response must contain an \"inputs\" list."
+    },
+    {
+      "round_number": 13,
+      "error_type": "ValueError",
+      "error_message": "AI response must contain an \"inputs\" list."
+    },
+    {
+      "round_number": 15,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Invalid \\escape: line 14 column 52 (char 839)"
+    },
+    {
+      "round_number": 16,
+      "error_type": "NoNewUniqueInputs",
+      "error_message": "The response produced no new accepted unique inputs."
+    },
+    {
+      "round_number": 27,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Expecting ',' delimiter: line 22 column 55 (char 1346)"
+    },
+    {
+      "round_number": 37,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Unterminated string starting at: line 4 column 5 (char 592)"
+    }
+  ],
+  "result_file": "results\\week9\\ai_guided\\http_request_parser\\qwen_qwen3_6_35b_trial2.jsonl"
+}

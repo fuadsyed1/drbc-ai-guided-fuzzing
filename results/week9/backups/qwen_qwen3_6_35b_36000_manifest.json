@@ -1,0 +1,1164 @@
+﻿{
+    "Model":  "qwen_qwen3_6_35b",
+    "VerifiedAt":  "2026-07-29T11:11:04.3392966-07:00",
+    "TargetCount":  24,
+    "TrialsPerTarget":  3,
+    "InputsPerTrial":  500,
+    "ResultFileCount":  72,
+    "MetadataFileCount":  72,
+    "TotalRecords":  36000,
+    "Files":  [
+                  {
+                      "Type":  "result",
+                      "Target":  "arithmetic_script_parser",
+                      "FileName":  "qwen_qwen3_6_35b_trial1.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  473101,
+                      "SHA256":  "7E45E8CEF3CE1C85F48C1C203F1975C76A623AB0BA785A269932723366BA64AC"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "arithmetic_script_parser",
+                      "FileName":  "qwen_qwen3_6_35b_trial2.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  485730,
+                      "SHA256":  "2D0851B134776D3889B196FCC5C8DF1EE3AD83547C875DE98BB855A5A2D20F72"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "arithmetic_script_parser",
+                      "FileName":  "qwen_qwen3_6_35b_trial3.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  474188,
+                      "SHA256":  "A8C40AD1A9455976DC8E1750933ACD10E17C0CB1EBE8C437BD612E24F77FCE58"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "boolean_expression_parser",
+                      "FileName":  "qwen_qwen3_6_35b_trial1.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  448824,
+                      "SHA256":  "B87844938209606436353439751D1E48856F5AB3E6B77E4D4FCB588FE8B2B524"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "boolean_expression_parser",
+                      "FileName":  "qwen_qwen3_6_35b_trial2.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  449579,
+                      "SHA256":  "D8270F14840A951FDB42A99012285CD44A499893DCEA6616544EFBF1F8FFC074"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "boolean_expression_parser",
+                      "FileName":  "qwen_qwen3_6_35b_trial3.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  456076,
+                      "SHA256":  "09748A61552D6D446D4BD89BB82183FE50AD037862199BD80160345D8FA75574"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "calculator",
+                      "FileName":  "qwen_qwen3_6_35b_trial1.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  377229,
+                      "SHA256":  "67845A3E28CB7C7F6E867942027300F5DE3C40B6D67A017A3C55CB7BBF9BDD81"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "calculator",
+                      "FileName":  "qwen_qwen3_6_35b_trial2.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  379149,
+                      "SHA256":  "A7544EE5CD003471FC3B2AB2DCF83DA41D01303801F00BB868EB2FC11C764C80"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "calculator",
+                      "FileName":  "qwen_qwen3_6_35b_trial3.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  375166,
+                      "SHA256":  "705C41E18D2F77A4AB476D655C958F23751C78A59CF4A3374AA261CEBDC2A465"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "color_code_validator",
+                      "FileName":  "qwen_qwen3_6_35b_trial1.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  397871,
+                      "SHA256":  "8C027E97E70F08B3521239527E8541F7D8FD07A91AEA7F35F0295999AE98EDEC"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "color_code_validator",
+                      "FileName":  "qwen_qwen3_6_35b_trial2.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  398507,
+                      "SHA256":  "DB8CBB69019C6152F8C17DC2EF068AD9209D7E05270DF7453DBAB051FF864D05"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "color_code_validator",
+                      "FileName":  "qwen_qwen3_6_35b_trial3.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  398802,
+                      "SHA256":  "F0D7FA5501BFC643BB62558C4FF5F7250C71CB4BFA20F214E2C94433DCE7A4D4"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "command_parser",
+                      "FileName":  "qwen_qwen3_6_35b_trial1.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  426379,
+                      "SHA256":  "F2495687ACAFFAAAEC7EBBEF110CFC33F7E6880AF001340D8E87FD53CD8D611C"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "command_parser",
+                      "FileName":  "qwen_qwen3_6_35b_trial2.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  424932,
+                      "SHA256":  "ABE76731860F6FB15BBABB1CBD55394B8B65301DC95ED326DCA52BE0423B3B46"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "command_parser",
+                      "FileName":  "qwen_qwen3_6_35b_trial3.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  434849,
+                      "SHA256":  "0C31572C2F4A4C1F92E929AA424D4846E4858FAA3D911100A8AEEAEAB574DA74"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "config_parser",
+                      "FileName":  "qwen_qwen3_6_35b_trial1.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  447296,
+                      "SHA256":  "691008ACAF3C1EBFC2F929E41295967B4ECF5567F7468675A53C6E2391B75550"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "config_parser",
+                      "FileName":  "qwen_qwen3_6_35b_trial2.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  463786,
+                      "SHA256":  "499E1E2B55CE895B9E0FF972F69D9DD2F89952D7A2D10ACE576A1C233926E72B"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "config_parser",
+                      "FileName":  "qwen_qwen3_6_35b_trial3.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  454953,
+                      "SHA256":  "672942CE6A1874EA84066DE6436CE23B47149654BE62BA22923E6C09C853086E"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "csv_parser",
+                      "FileName":  "qwen_qwen3_6_35b_trial1.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  433177,
+                      "SHA256":  "1373C2847AF6E330C5903F00B311DC79DB37282B88415E6AE0B8A2D8D93D96A6"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "csv_parser",
+                      "FileName":  "qwen_qwen3_6_35b_trial2.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  420105,
+                      "SHA256":  "678E059D3BD5FCB1BD6CAADCD3784B710BB4491F91E87EA534CAED497AA7FE69"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "csv_parser",
+                      "FileName":  "qwen_qwen3_6_35b_trial3.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  426518,
+                      "SHA256":  "7AF425802CF2E2C320C146F3D70DDBF44F27092659407DEAEA6C1234E292BBEC"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "date_parser",
+                      "FileName":  "qwen_qwen3_6_35b_trial1.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  406853,
+                      "SHA256":  "65105B7B75F0603E7EBBEF8C5C4B67DDAB85EFA2EA0E676418C65BCA6D571701"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "date_parser",
+                      "FileName":  "qwen_qwen3_6_35b_trial2.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  408829,
+                      "SHA256":  "16A4392C25109381BB0E71340AE8CF081B3C285733C85D35EE87175B532B52BD"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "date_parser",
+                      "FileName":  "qwen_qwen3_6_35b_trial3.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  409342,
+                      "SHA256":  "2149658FA95B3E8483B66FAD54A47F55B22611D7EE9B31F0ABD3733EEBC8DCDF"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "email_validator",
+                      "FileName":  "qwen_qwen3_6_35b_trial1.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  407236,
+                      "SHA256":  "4A45C2CAF74C745715E89A1536E151FCD19030B0E8FF31A9769353224D0B1976"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "email_validator",
+                      "FileName":  "qwen_qwen3_6_35b_trial2.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  409775,
+                      "SHA256":  "D1EEA5A51BF6A164539EA5ED555161C8143D6B4F1A550C49859BF73A6264BBA4"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "email_validator",
+                      "FileName":  "qwen_qwen3_6_35b_trial3.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  410542,
+                      "SHA256":  "708DDE41E85F77591829FCE45594691D1E8CA870985CA0158A0BD43CFB3BDCA5"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "file_path_parser",
+                      "FileName":  "qwen_qwen3_6_35b_trial1.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  459269,
+                      "SHA256":  "CD7467ACDFE4A3673B86301C2703230910AE0AD8565689436315BFF043C517C3"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "file_path_parser",
+                      "FileName":  "qwen_qwen3_6_35b_trial2.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  459171,
+                      "SHA256":  "508E518EF342F3AA09EAD547C8C2903374A39BA5832318939650577C8B26B928"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "file_path_parser",
+                      "FileName":  "qwen_qwen3_6_35b_trial3.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  456573,
+                      "SHA256":  "E1D606371DF47B6D1431FF261340292CEB1CE69BDED1A248FCBBE103FEF5DE48"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "http_request_parser",
+                      "FileName":  "qwen_qwen3_6_35b_trial1.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  488459,
+                      "SHA256":  "ED22496987A90CA5D30E3D02A87F93F0A2BF7B11EADB751DAD29EC79605BC651"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "http_request_parser",
+                      "FileName":  "qwen_qwen3_6_35b_trial2.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  484562,
+                      "SHA256":  "DC04BBEAEDA7325303FF6008326CF9A392621D1DFB26501BEEB2AD6D1FB0A7BA"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "http_request_parser",
+                      "FileName":  "qwen_qwen3_6_35b_trial3.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  486698,
+                      "SHA256":  "FBE8B57667AAD168C0CD39FBA644C7043E2311E79B3D7A445C1ABA24679FE0A0"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "json_parser",
+                      "FileName":  "qwen_qwen3_6_35b_trial1.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  421604,
+                      "SHA256":  "C3A47BB8E6320D405AB210B272581809FB5453A9E6BA48897BBB159CB8FEA15A"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "json_parser",
+                      "FileName":  "qwen_qwen3_6_35b_trial2.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  417823,
+                      "SHA256":  "0B4079803FF84ACC14D53B332D33BAF9619E59DD71B72EF2F2EB46BB828183F6"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "json_parser",
+                      "FileName":  "qwen_qwen3_6_35b_trial3.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  420173,
+                      "SHA256":  "38055BDA60EFEE3ACC80B67C0CA4979FE6CB867A37BD6263C61FDB1B72690E32"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "log_line_parser",
+                      "FileName":  "qwen_qwen3_6_35b_trial1.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  439962,
+                      "SHA256":  "468920BCDC942B675B87F169F2DDB8A5956A9C3D9D29EE343562625CCDAB0BDA"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "log_line_parser",
+                      "FileName":  "qwen_qwen3_6_35b_trial2.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  436243,
+                      "SHA256":  "C3375A6E59FF93D94744047FB372DFA7D2A9FA0B1FD9C55BD88AAF4CF0C8698B"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "log_line_parser",
+                      "FileName":  "qwen_qwen3_6_35b_trial3.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  431832,
+                      "SHA256":  "463B998BB4CD582142F197F1F7B90CCD5E673CCD1F605918CB87A02E30C7C65E"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "markdown_link_parser",
+                      "FileName":  "qwen_qwen3_6_35b_trial1.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  428142,
+                      "SHA256":  "188DAC2B14273CF434FD92C4497F852B0431F98161CAFAA8C11AD19582FFE816"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "markdown_link_parser",
+                      "FileName":  "qwen_qwen3_6_35b_trial2.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  425617,
+                      "SHA256":  "EA403B74E3CB8D438FDCB4338C7E1F77B8173EC906AEDAB41710BA37D3A01DCC"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "markdown_link_parser",
+                      "FileName":  "qwen_qwen3_6_35b_trial3.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  422052,
+                      "SHA256":  "4FB621BF4E086D83AD235779BA41DDF3316973F72C511D90F626D896F28425CF"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "mini_protocol_parser",
+                      "FileName":  "qwen_qwen3_6_35b_trial1.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  414954,
+                      "SHA256":  "EB49BA0ECE4F554D11F7C0757B67DA754F32804132FAB89F2BFE3E861F6812A8"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "mini_protocol_parser",
+                      "FileName":  "qwen_qwen3_6_35b_trial2.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  412645,
+                      "SHA256":  "A4F9EEDE23CA0A0679A6D5F3DB55F920ED8FB65CBAA2F0AA8C805AB3C75C467B"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "mini_protocol_parser",
+                      "FileName":  "qwen_qwen3_6_35b_trial3.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  414540,
+                      "SHA256":  "D86FB9F8E32078C02732F4DF85E6AAE01475D0E4849044DE4439F492BEA50F63"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "password_checker",
+                      "FileName":  "qwen_qwen3_6_35b_trial1.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  403477,
+                      "SHA256":  "D922767BC8AD5589FD59D8FDFCC3CE4501E650AF7ACC5A62897E80DD7513C4F0"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "password_checker",
+                      "FileName":  "qwen_qwen3_6_35b_trial2.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  403151,
+                      "SHA256":  "D9D8FBC76D9202FFA4D964421149230590199F81FEC8B104B597A9413A55CB9B"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "password_checker",
+                      "FileName":  "qwen_qwen3_6_35b_trial3.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  407851,
+                      "SHA256":  "E989F6E7AA37080236C6A108A264537960B2A720114B5F478E94BACA2CC66672"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "phone_validator",
+                      "FileName":  "qwen_qwen3_6_35b_trial1.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  402196,
+                      "SHA256":  "42AD57EA0FD81B445EDE253BE9D1987FB118354DE4575556D5B6CA46C5A7ABF4"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "phone_validator",
+                      "FileName":  "qwen_qwen3_6_35b_trial2.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  401048,
+                      "SHA256":  "73FA78E5D78BD7B9BE7E7EBF0417A7F6B87FAD682281B1E47518032B8CBDAC5F"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "phone_validator",
+                      "FileName":  "qwen_qwen3_6_35b_trial3.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  401268,
+                      "SHA256":  "13E98BB959DBA0F84D77986ECF4A61166BC5098D8144A0A2204B0F922C59A59C"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "query_string_parser",
+                      "FileName":  "qwen_qwen3_6_35b_trial1.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  448930,
+                      "SHA256":  "8DAFDCEFADC6E7C7826AB0D40D6E06266C5107E841A2A5CF9E09A3678402769C"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "query_string_parser",
+                      "FileName":  "qwen_qwen3_6_35b_trial2.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  470935,
+                      "SHA256":  "AD1E209B485480A23D0ACC534F356235669AD7E9E6B20ACFECE9363155E9818D"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "query_string_parser",
+                      "FileName":  "qwen_qwen3_6_35b_trial3.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  451403,
+                      "SHA256":  "962F06824A3CE0FFDE7EE606C7DA7594C12A8DC1F765D8BAC299F297465AF48F"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "sql_where_parser",
+                      "FileName":  "qwen_qwen3_6_35b_trial1.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  450869,
+                      "SHA256":  "81AFCA7B9380B5A267A35244A6A5FA096BA42B24C2F7B080EF7ECEA10FB11BCA"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "sql_where_parser",
+                      "FileName":  "qwen_qwen3_6_35b_trial2.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  459123,
+                      "SHA256":  "1B619B1741E0256DAEC08FFA79CFB7F077F842F816269711B2D54E2222F36B12"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "sql_where_parser",
+                      "FileName":  "qwen_qwen3_6_35b_trial3.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  449970,
+                      "SHA256":  "6808FA88AC748450805313D5D11ED5F1D32BA62FF0BDF45920BD9D4438CCB6D9"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "template_renderer",
+                      "FileName":  "qwen_qwen3_6_35b_trial1.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  408286,
+                      "SHA256":  "298C40D0322F52BAEE6FACD310C5D2A03BB098A6D3DF7DBFDCEF09974328EF22"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "template_renderer",
+                      "FileName":  "qwen_qwen3_6_35b_trial2.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  409503,
+                      "SHA256":  "AF81D7674842BA8C49A1C370944B6FDE2F9AFCBE62A1743043BCC5454B9A4A0B"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "template_renderer",
+                      "FileName":  "qwen_qwen3_6_35b_trial3.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  416958,
+                      "SHA256":  "36953C52CAB641A8E6DF57A69D2AFBE3824AE8FEA45DD7320CCE83C56DBB37F2"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "url_parser",
+                      "FileName":  "qwen_qwen3_6_35b_trial1.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  451381,
+                      "SHA256":  "D9CC5FD1992F1D0DE0078F7B207F89EC7B21CE73B5EC9803A357F719C727FF8F"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "url_parser",
+                      "FileName":  "qwen_qwen3_6_35b_trial2.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  446998,
+                      "SHA256":  "DBCB3DEAD2620D25FF4A947A164A572D4D7AA1C2B5735ACCE65BC272D8F99153"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "url_parser",
+                      "FileName":  "qwen_qwen3_6_35b_trial3.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  440486,
+                      "SHA256":  "D8DB86FB8867D9CCC5155E629BDCEAAC6B56B79CB2FF375F276712D6982BCBD8"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "username_validator",
+                      "FileName":  "qwen_qwen3_6_35b_trial1.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  402347,
+                      "SHA256":  "DC878A60539CD3348B29D3F1B6D5063558F0C53AE8EF00BA48F950F05D32BFE4"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "username_validator",
+                      "FileName":  "qwen_qwen3_6_35b_trial2.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  404194,
+                      "SHA256":  "4B948AAF78FAD7A25A8554BAD98AF2D924BD6AD8747C4BA6201D6149468C850D"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "username_validator",
+                      "FileName":  "qwen_qwen3_6_35b_trial3.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  404470,
+                      "SHA256":  "D5C5C774844A5100D13B1F7CBF36A2BC2968EBC41CFEB2DA9D293492C36E1C34"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "xml_like_parser",
+                      "FileName":  "qwen_qwen3_6_35b_trial1.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  441873,
+                      "SHA256":  "8C83FE90465614966ADA8C7502B058718FF2F51B7F93440CAC7A05438BF07E71"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "xml_like_parser",
+                      "FileName":  "qwen_qwen3_6_35b_trial2.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  433326,
+                      "SHA256":  "A4423DCD6EF564F05C852A5C8E1379480EBFFA77406C0E0598599467DB7D1C76"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "xml_like_parser",
+                      "FileName":  "qwen_qwen3_6_35b_trial3.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  434208,
+                      "SHA256":  "39EB11D1F1CD06CDB36B17818FD767DE8539CF66AF0A465F569AD900DD1C1B4B"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "zip_code_validator",
+                      "FileName":  "qwen_qwen3_6_35b_trial1.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  397528,
+                      "SHA256":  "529EE46AFD85812A11F5A6316D4430FE32DB406064954A0919CDAFE35943BA5A"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "zip_code_validator",
+                      "FileName":  "qwen_qwen3_6_35b_trial2.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  396332,
+                      "SHA256":  "D3DB58A535BF432868203FF9389D8FFFD770646A646AF553A88420B17CB15FDF"
+                  },
+                  {
+                      "Type":  "result",
+                      "Target":  "zip_code_validator",
+                      "FileName":  "qwen_qwen3_6_35b_trial3.jsonl",
+                      "Records":  500,
+                      "SizeBytes":  397277,
+                      "SHA256":  "8B8953ECB290A346A54E812361E402723B52D975FF26AB6CEF4E66BBD8BD8B5B"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "arithmetic_script_parser",
+                      "FileName":  "qwen_qwen3_6_35b_trial1_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  1557,
+                      "SHA256":  "80DA8CAD11BF891A5F40B33BC36E26BB1082B5F1B0652ED1EA42458A00AF8114"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "arithmetic_script_parser",
+                      "FileName":  "qwen_qwen3_6_35b_trial2_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  1488,
+                      "SHA256":  "07EF70661E399ACD758C00CEEE8F34B858E94DF0D939A416A068F6DAFFC4E3F5"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "arithmetic_script_parser",
+                      "FileName":  "qwen_qwen3_6_35b_trial3_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  2329,
+                      "SHA256":  "EBAF1A319E29D0544BCB3E426DB0785B236C8C4D375DA5030F7822691BDCC27A"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "boolean_expression_parser",
+                      "FileName":  "qwen_qwen3_6_35b_trial1_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  1472,
+                      "SHA256":  "58F2A44F6A11B64BA11D2A769FB4A01AD2A79EBC247346F7F3E3215931779C77"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "boolean_expression_parser",
+                      "FileName":  "qwen_qwen3_6_35b_trial2_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  2105,
+                      "SHA256":  "7DA366C74AB428826F4CB1D6F1EA0CA209151AABCE49522ACF515A3A41EF2084"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "boolean_expression_parser",
+                      "FileName":  "qwen_qwen3_6_35b_trial3_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  1886,
+                      "SHA256":  "353189F912DB97D47BB32C1FB18540413C5B66DF378C7B89EF7C0BC2246EEC49"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "calculator",
+                      "FileName":  "qwen_qwen3_6_35b_trial1_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  1586,
+                      "SHA256":  "39D95D549DBA6E8CC2726F2667936B3CC34D1FA7234194397D673D313C265FAD"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "calculator",
+                      "FileName":  "qwen_qwen3_6_35b_trial2_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  1720,
+                      "SHA256":  "28ACEE99CC11C6D9D129A5A292F428B388D0FAD6D37FFCAED9E210B4EC463A5D"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "calculator",
+                      "FileName":  "qwen_qwen3_6_35b_trial3_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  2604,
+                      "SHA256":  "7CDB995F17D2349A5FA3BDAFDB46C3351EDC75C5921655E6C755CB855E8C3732"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "color_code_validator",
+                      "FileName":  "qwen_qwen3_6_35b_trial1_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  1201,
+                      "SHA256":  "B4B3FE9B8DE5ED424B6122B4DE7DC792F6D325BFD4B44EA9C389BB7771B629A1"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "color_code_validator",
+                      "FileName":  "qwen_qwen3_6_35b_trial2_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  1501,
+                      "SHA256":  "D0452EF1B8E3F7C08224BF8AFC2377410408CB5C22E2C05FCE763AF3A51A2D18"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "color_code_validator",
+                      "FileName":  "qwen_qwen3_6_35b_trial3_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  1527,
+                      "SHA256":  "3F04981272CE8F7EC65FE2C09E091C2BF054406312E4E59DBD6E5DBECDCA24C8"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "command_parser",
+                      "FileName":  "qwen_qwen3_6_35b_trial1_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  32466,
+                      "SHA256":  "6C2E0CBBB2B34C932ECD9585D7439A2EFB3900BDDD7A9612DCD6984CFB55A2F8"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "command_parser",
+                      "FileName":  "qwen_qwen3_6_35b_trial2_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  810,
+                      "SHA256":  "9D9EDE0324F7BEEDD380FBA27977846E48A32C3455FF80B9AD17E00FD36E4B9F"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "command_parser",
+                      "FileName":  "qwen_qwen3_6_35b_trial3_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  810,
+                      "SHA256":  "59D55BA9D22D30517E1D2E013F916B7883E2A6AC7EACE149C143F376E398C0CA"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "config_parser",
+                      "FileName":  "qwen_qwen3_6_35b_trial1_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  1391,
+                      "SHA256":  "FAC4C922EDA259D22EF23B63C59A7F411BECF8AB3B2E6C2BBDF7CA7598518C76"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "config_parser",
+                      "FileName":  "qwen_qwen3_6_35b_trial2_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  1614,
+                      "SHA256":  "7C91133FEBB75B46F1A20C33AD0B12BDD0FB60E773ADD3FC889E865A083B273E"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "config_parser",
+                      "FileName":  "qwen_qwen3_6_35b_trial3_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  1238,
+                      "SHA256":  "9728D92646385FAD301DECE278FF714E56A57E86CF547728B60CBBEE81B157DC"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "csv_parser",
+                      "FileName":  "qwen_qwen3_6_35b_trial1_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  4453,
+                      "SHA256":  "41AF652A8583C5DBDFE71D2797F8192B75A9BF052C1DBF553F6CE43019EA42DC"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "csv_parser",
+                      "FileName":  "qwen_qwen3_6_35b_trial2_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  1437,
+                      "SHA256":  "81348357AFBA275D022DDEEDB81104346D7EEC1128CE849226276DF52B68FFAE"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "csv_parser",
+                      "FileName":  "qwen_qwen3_6_35b_trial3_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  1865,
+                      "SHA256":  "451FF85283846C981D56436FF86CA0C3776502113FC028F2D56E3E4454366524"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "date_parser",
+                      "FileName":  "qwen_qwen3_6_35b_trial1_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  2079,
+                      "SHA256":  "F5EBC0233844A86E7003AB6D2C1996851C8C900F592AB2A259273C9CF13AC0E0"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "date_parser",
+                      "FileName":  "qwen_qwen3_6_35b_trial2_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  1295,
+                      "SHA256":  "A831F25469EA6BB8C8DE3C3EB684069E330270FCEA72C54777A689287EAFDB0B"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "date_parser",
+                      "FileName":  "qwen_qwen3_6_35b_trial3_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  2392,
+                      "SHA256":  "1E61DFB5C0E7A208AA9559606D49AC9ACF0C6C56E4A18D929D0097D002213DBC"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "email_validator",
+                      "FileName":  "qwen_qwen3_6_35b_trial1_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  1136,
+                      "SHA256":  "376032117AFB594FCC131E556662D4F3C822FFE1D90CD77B430A072590F69B77"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "email_validator",
+                      "FileName":  "qwen_qwen3_6_35b_trial2_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  981,
+                      "SHA256":  "3F06514AC3A48B21F88EE63DE0EAD89C08B8879C21904B692D6616C45015D2A4"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "email_validator",
+                      "FileName":  "qwen_qwen3_6_35b_trial3_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  1213,
+                      "SHA256":  "603C9C180E16237D4D476650EF074E31FD4146095F445FDDCAF713CBCA9FE306"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "file_path_parser",
+                      "FileName":  "qwen_qwen3_6_35b_trial1_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  980,
+                      "SHA256":  "FF4B647271149A9BFEC143BA4E5AC39BC932FCDCA94A99988DBE7D2EA9292BEE"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "file_path_parser",
+                      "FileName":  "qwen_qwen3_6_35b_trial2_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  1358,
+                      "SHA256":  "DAAEA88FCF08A632844318E4845D1F08BBD34754D339CA69EA3FAA74ED41F8D3"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "file_path_parser",
+                      "FileName":  "qwen_qwen3_6_35b_trial3_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  1617,
+                      "SHA256":  "54D06E772C133E8EC17C7C0F01157B5D9E647838F5B27C5B919195E02EBAE01F"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "http_request_parser",
+                      "FileName":  "qwen_qwen3_6_35b_trial1_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  1263,
+                      "SHA256":  "06F5B62B71EBF3F39E530CB17592CC735368ED537A73AC465ED9A91331E4F408"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "http_request_parser",
+                      "FileName":  "qwen_qwen3_6_35b_trial2_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  2113,
+                      "SHA256":  "2D7899AE3FA5B2CCA8382512A89AF29C05533F80B9B77164BAD061C8842EE0F0"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "http_request_parser",
+                      "FileName":  "qwen_qwen3_6_35b_trial3_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  1685,
+                      "SHA256":  "60E6D68E7BE1E74A32249897EC1EECD1B9EC86B32E83F976738396757EF31EA5"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "json_parser",
+                      "FileName":  "qwen_qwen3_6_35b_trial1_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  1579,
+                      "SHA256":  "CEC245643CF6A08CAF0C13D879B4739D93BE36E9B342F8FEB81B365BEBF8CF1A"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "json_parser",
+                      "FileName":  "qwen_qwen3_6_35b_trial2_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  2153,
+                      "SHA256":  "FD35417CD2868214E4F5E7A1F79B11F0DA8243552B6CCBF7B58CDEF77B8C16FB"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "json_parser",
+                      "FileName":  "qwen_qwen3_6_35b_trial3_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  1109,
+                      "SHA256":  "B554B25FD897B688A04D45670BCD8FBB4D2289AED3BE5A0784B3342B0A5566E3"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "log_line_parser",
+                      "FileName":  "qwen_qwen3_6_35b_trial1_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  1020,
+                      "SHA256":  "00821C47B443C20521C58E826C52E637A0CB82AB72E507B888043AE46B961A04"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "log_line_parser",
+                      "FileName":  "qwen_qwen3_6_35b_trial2_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  1233,
+                      "SHA256":  "55C2182468B1BADF0E2521E987DC3358B7D3E850B2E679174F2DCFC755F68F4D"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "log_line_parser",
+                      "FileName":  "qwen_qwen3_6_35b_trial3_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  971,
+                      "SHA256":  "72E567FE6B65ED35104A7EB9D693EEEDF5D3EDCCD54DDC8E0D02475A553E8B08"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "markdown_link_parser",
+                      "FileName":  "qwen_qwen3_6_35b_trial1_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  1045,
+                      "SHA256":  "DDE7CECE21D392D15FA68EDEF2FB34D8FC33B4DA7437153FA077E9DDD3D3A681"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "markdown_link_parser",
+                      "FileName":  "qwen_qwen3_6_35b_trial2_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  1583,
+                      "SHA256":  "6C0A4E859942C71FB5AD9BF7916DE760C0168B616B864F42F7221D7B74258ADD"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "markdown_link_parser",
+                      "FileName":  "qwen_qwen3_6_35b_trial3_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  1808,
+                      "SHA256":  "9A735B9C882E6C4C62F0D13945AF023B86F531CB34B02F782959302360671A6D"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "mini_protocol_parser",
+                      "FileName":  "qwen_qwen3_6_35b_trial1_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  1463,
+                      "SHA256":  "0BD80B65422076EA17783405A0E8E449FBD0C91393714DBBC5462918C7AFEF3F"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "mini_protocol_parser",
+                      "FileName":  "qwen_qwen3_6_35b_trial2_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  1789,
+                      "SHA256":  "F38B8F18D0770322BA669E226B08C4E987301CDCDA071D99C69E30332409FF1E"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "mini_protocol_parser",
+                      "FileName":  "qwen_qwen3_6_35b_trial3_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  1413,
+                      "SHA256":  "A8E9EA0A0389AB917E403D6F214682582B0551B3C78F21734CEF6F0E6E80FF87"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "password_checker",
+                      "FileName":  "qwen_qwen3_6_35b_trial1_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  1241,
+                      "SHA256":  "CFB5C1D7BEA0F80B6B35C7E19DF52D202DDF86C805BE38DF621749DBF4877953"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "password_checker",
+                      "FileName":  "qwen_qwen3_6_35b_trial2_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  2030,
+                      "SHA256":  "A09A8A8EFAC928D24042C059134CFBDF1575835A393F36DAEA0657745E117CB0"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "password_checker",
+                      "FileName":  "qwen_qwen3_6_35b_trial3_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  1467,
+                      "SHA256":  "E932FB09ADC1BBB9A4CE8B65850AD6631658DB154DAD874BF4A5CEA1D2A0A913"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "phone_validator",
+                      "FileName":  "qwen_qwen3_6_35b_trial1_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  2781,
+                      "SHA256":  "78082764AA402768ACB911FB8835A2AFBCB3E38CC957CB5B53E12FEE12B40C07"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "phone_validator",
+                      "FileName":  "qwen_qwen3_6_35b_trial2_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  2897,
+                      "SHA256":  "5A8CB4C3B57239A237B8B1A6763FCE6EB2328A378DC50E0C95BE29F4078806B8"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "phone_validator",
+                      "FileName":  "qwen_qwen3_6_35b_trial3_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  1601,
+                      "SHA256":  "163C1E9ABE52FF80BC617C3E4EEE7062BD2FFFA69A61FEBC004E33B97B790000"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "query_string_parser",
+                      "FileName":  "qwen_qwen3_6_35b_trial1_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  1480,
+                      "SHA256":  "1B4CA78DE240A9FEE853C9A592B366D89579005F7ACDB5F1EBBBC207E73C9B7B"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "query_string_parser",
+                      "FileName":  "qwen_qwen3_6_35b_trial2_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  1058,
+                      "SHA256":  "9895676C4CD569F06F663E2E90B052F00DD557D0516A712318DB4DA3771C9C78"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "query_string_parser",
+                      "FileName":  "qwen_qwen3_6_35b_trial3_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  2121,
+                      "SHA256":  "1FCF69C5EBBA4BC1BF3A7D0EBFA9742743DD98954356CBFE203825613760C2DA"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "sql_where_parser",
+                      "FileName":  "qwen_qwen3_6_35b_trial1_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  1505,
+                      "SHA256":  "54EC1AAA40F9ABD11A50580267FDEEDA8B498F2EF19A59D5272943A9BD96E162"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "sql_where_parser",
+                      "FileName":  "qwen_qwen3_6_35b_trial2_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  815,
+                      "SHA256":  "006A1ED9B59E80F64581CF6B4D8F072BD34B1A2C8280F1D96FA019B9B44C6DD0"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "sql_where_parser",
+                      "FileName":  "qwen_qwen3_6_35b_trial3_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  1400,
+                      "SHA256":  "1F2131C114BE98322BA6080BDA479C8450CCCFB3108DAEF06F23D91993E840FA"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "template_renderer",
+                      "FileName":  "qwen_qwen3_6_35b_trial1_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  1275,
+                      "SHA256":  "33228B53617C9DE78BB65A3916652638816E64A9C25328AF29E903462B6190AE"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "template_renderer",
+                      "FileName":  "qwen_qwen3_6_35b_trial2_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  817,
+                      "SHA256":  "74021C0009B30E1380201E8F4C8E2857A97856275AA547ED5C50962F2A570A4F"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "template_renderer",
+                      "FileName":  "qwen_qwen3_6_35b_trial3_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  983,
+                      "SHA256":  "A1CAABD81D93988930BD363267C0F1F12C84176893F0CE8F7E58C5DB7B62ACA3"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "url_parser",
+                      "FileName":  "qwen_qwen3_6_35b_trial1_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  1024,
+                      "SHA256":  "D8567975F9E34335457FFB44D98F603A0101DF37E5D9DDD5CAD6EECCE0DE18FC"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "url_parser",
+                      "FileName":  "qwen_qwen3_6_35b_trial2_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  1238,
+                      "SHA256":  "DBE8AA25ECA65DAD30253128CE7711E118F076F311B9F3C587F03D97C7354336"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "url_parser",
+                      "FileName":  "qwen_qwen3_6_35b_trial3_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  1025,
+                      "SHA256":  "00055B710ED785541F9B7EDF104ECDA972FEBE7318676AFA22D4A9E751FC5942"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "username_validator",
+                      "FileName":  "qwen_qwen3_6_35b_trial1_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  1033,
+                      "SHA256":  "188A89FD8755B0BCC20C3FE6BF953A7F3C614087A40F167670C5E4978491F6E2"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "username_validator",
+                      "FileName":  "qwen_qwen3_6_35b_trial2_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  1295,
+                      "SHA256":  "23AD927D1D212F5C7581CB78314784A74E5A17039DC75C2507F110F0AAE0C338"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "username_validator",
+                      "FileName":  "qwen_qwen3_6_35b_trial3_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  1458,
+                      "SHA256":  "DD688C493B81AC7D6B9696EB944F604D872813484098E70A49CE656157857750"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "xml_like_parser",
+                      "FileName":  "qwen_qwen3_6_35b_trial1_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  1026,
+                      "SHA256":  "3E2C68C37C26218C7EAEE0AC54C485A2CEC3BB887E0A28B1733E2F65AAD8AC43"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "xml_like_parser",
+                      "FileName":  "qwen_qwen3_6_35b_trial2_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  1336,
+                      "SHA256":  "25A3005F6C8B2737F019EB2640A703A0604FBDCE81024526716828172675A617"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "xml_like_parser",
+                      "FileName":  "qwen_qwen3_6_35b_trial3_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  2507,
+                      "SHA256":  "E8C4B17F6A42C2DEDC001096AE06426224DC774E9BC9F570FBAB8348304BB84F"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "zip_code_validator",
+                      "FileName":  "qwen_qwen3_6_35b_trial1_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  819,
+                      "SHA256":  "13994CB29FF3EFD01FCE3055FBB7CC4974303103AAE4E8557B49A7392606B94A"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "zip_code_validator",
+                      "FileName":  "qwen_qwen3_6_35b_trial2_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  1197,
+                      "SHA256":  "3EC7F1723BBFA0EE8B7E1D1E9C799DA31CDD8A7F6412DA34ADBC8B673F791142"
+                  },
+                  {
+                      "Type":  "metadata",
+                      "Target":  "zip_code_validator",
+                      "FileName":  "qwen_qwen3_6_35b_trial3_metadata.json",
+                      "Records":  null,
+                      "SizeBytes":  1195,
+                      "SHA256":  "59B8621A193CD37264703851D247A6E32AC9F48B2C9D98B295EC2422E8DCA5D3"
+                  }
+              ]
+}

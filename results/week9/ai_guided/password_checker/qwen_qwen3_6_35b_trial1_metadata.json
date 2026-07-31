@@ -1,0 +1,35 @@
+{
+  "status": "completed",
+  "started_at": "2026-07-29T16:21:06.319565+00:00",
+  "finished_at": "2026-07-29T16:22:15.009730+00:00",
+  "target_name": "password_checker",
+  "target_difficulty": "easy",
+  "target_category": "rule_validator",
+  "model_name": "qwen_qwen3_6_35b",
+  "model_id": "qwen/qwen3.6-35b",
+  "provider": "mindrouter",
+  "trial_number": 1,
+  "requested_input_count": 500,
+  "completed_input_count": 500,
+  "valid_input_count": 249,
+  "crash_error_input_count": 251,
+  "batch_size": 20,
+  "prompt_version": "week9_target_aware_v1",
+  "generation_time": 68.60326700000002,
+  "generation_rounds": 31,
+  "raw_response_count": 31,
+  "rejected_inputs": [],
+  "generation_errors": [
+    {
+      "round_number": 4,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Unterminated string starting at: line 21 column 5 (char 266)"
+    },
+    {
+      "round_number": 11,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Unterminated string starting at: line 1 column 13 (char 12)"
+    }
+  ],
+  "result_file": "results\\week9\\ai_guided\\password_checker\\qwen_qwen3_6_35b_trial1.jsonl"
+}

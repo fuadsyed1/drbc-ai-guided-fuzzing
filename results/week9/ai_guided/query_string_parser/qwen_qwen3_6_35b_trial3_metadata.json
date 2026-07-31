@@ -1,0 +1,55 @@
+{
+  "status": "completed",
+  "started_at": "2026-07-29T17:05:50.670462+00:00",
+  "finished_at": "2026-07-29T17:08:21.125889+00:00",
+  "target_name": "query_string_parser",
+  "target_difficulty": "moderate",
+  "target_category": "structured_parser",
+  "model_name": "qwen_qwen3_6_35b",
+  "model_id": "qwen/qwen3.6-35b",
+  "provider": "mindrouter",
+  "trial_number": 3,
+  "requested_input_count": 500,
+  "completed_input_count": 500,
+  "valid_input_count": 249,
+  "crash_error_input_count": 251,
+  "batch_size": 20,
+  "prompt_version": "week9_target_aware_v1",
+  "generation_time": 150.29760719999967,
+  "generation_rounds": 37,
+  "raw_response_count": 37,
+  "rejected_inputs": [],
+  "generation_errors": [
+    {
+      "round_number": 10,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Unterminated string starting at: line 21 column 5 (char 14160)"
+    },
+    {
+      "round_number": 11,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Unterminated string starting at: line 12 column 5 (char 13203)"
+    },
+    {
+      "round_number": 14,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Unterminated string starting at: line 21 column 5 (char 13864)"
+    },
+    {
+      "round_number": 15,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Unterminated string starting at: line 22 column 5 (char 14970)"
+    },
+    {
+      "round_number": 19,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Unterminated string starting at: line 17 column 5 (char 12712)"
+    },
+    {
+      "round_number": 26,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Unterminated string starting at: line 12 column 5 (char 15683)"
+    }
+  ],
+  "result_file": "results\\week9\\ai_guided\\query_string_parser\\qwen_qwen3_6_35b_trial3.jsonl"
+}

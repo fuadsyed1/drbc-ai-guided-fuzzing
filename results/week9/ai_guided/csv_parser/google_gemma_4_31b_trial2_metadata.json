@@ -1,0 +1,50 @@
+{
+  "status": "completed",
+  "started_at": "2026-07-29T19:07:06.121749+00:00",
+  "finished_at": "2026-07-29T19:12:07.873986+00:00",
+  "target_name": "csv_parser",
+  "target_difficulty": "moderate",
+  "target_category": "structured_parser",
+  "model_name": "google_gemma_4_31b",
+  "model_id": "google/gemma-4-31b",
+  "provider": "mindrouter",
+  "trial_number": 2,
+  "requested_input_count": 500,
+  "completed_input_count": 500,
+  "valid_input_count": 361,
+  "crash_error_input_count": 139,
+  "batch_size": 20,
+  "prompt_version": "week9_target_aware_v1",
+  "generation_time": 301.6719062000002,
+  "generation_rounds": 33,
+  "raw_response_count": 33,
+  "rejected_inputs": [],
+  "generation_errors": [
+    {
+      "round_number": 2,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Invalid \\escape: line 1 column 37 (char 36)"
+    },
+    {
+      "round_number": 5,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Invalid \\escape: line 19 column 36 (char 889)"
+    },
+    {
+      "round_number": 14,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Unterminated string starting at: line 23 column 3 (char 7624)"
+    },
+    {
+      "round_number": 15,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Unterminated string starting at: line 23 column 3 (char 12275)"
+    },
+    {
+      "round_number": 29,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Unterminated string starting at: line 15 column 3 (char 11163)"
+    }
+  ],
+  "result_file": "results\\week9\\ai_guided\\csv_parser\\google_gemma_4_31b_trial2.jsonl"
+}

@@ -1,0 +1,85 @@
+{
+  "status": "completed",
+  "started_at": "2026-07-29T20:49:27.996465+00:00",
+  "finished_at": "2026-07-29T20:51:06.187552+00:00",
+  "target_name": "mini_protocol_parser",
+  "target_difficulty": "hard",
+  "target_category": "protocol_parser",
+  "model_name": "google_gemma_4_31b",
+  "model_id": "google/gemma-4-31b",
+  "provider": "mindrouter",
+  "trial_number": 1,
+  "requested_input_count": 500,
+  "completed_input_count": 500,
+  "valid_input_count": 121,
+  "crash_error_input_count": 379,
+  "batch_size": 20,
+  "prompt_version": "week9_target_aware_v1",
+  "generation_time": 98.14236979999987,
+  "generation_rounds": 44,
+  "raw_response_count": 44,
+  "rejected_inputs": [],
+  "generation_errors": [
+    {
+      "round_number": 4,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Invalid \\escape: line 1 column 197 (char 196)"
+    },
+    {
+      "round_number": 11,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Expecting ',' delimiter: line 1 column 20 (char 19)"
+    },
+    {
+      "round_number": 12,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Invalid \\escape: line 1 column 87 (char 86)"
+    },
+    {
+      "round_number": 13,
+      "error_type": "ValueError",
+      "error_message": "AI response must contain an \"inputs\" list."
+    },
+    {
+      "round_number": 14,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Expecting ',' delimiter: line 1 column 412 (char 411)"
+    },
+    {
+      "round_number": 15,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)"
+    },
+    {
+      "round_number": 16,
+      "error_type": "ValueError",
+      "error_message": "AI response must contain an \"inputs\" list."
+    },
+    {
+      "round_number": 26,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Expecting ',' delimiter: line 2 column 10 (char 22)"
+    },
+    {
+      "round_number": 27,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Invalid \\escape: line 12 column 18 (char 342)"
+    },
+    {
+      "round_number": 30,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Invalid \\escape: line 9 column 14 (char 155)"
+    },
+    {
+      "round_number": 33,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Expecting ',' delimiter: line 16 column 10 (char 295)"
+    },
+    {
+      "round_number": 41,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Expecting ',' delimiter: line 2 column 10 (char 22)"
+    }
+  ],
+  "result_file": "results\\week9\\ai_guided\\mini_protocol_parser\\google_gemma_4_31b_trial1.jsonl"
+}

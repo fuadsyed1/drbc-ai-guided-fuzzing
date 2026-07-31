@@ -1,0 +1,110 @@
+{
+  "status": "completed",
+  "started_at": "2026-07-28T22:53:31.854202+00:00",
+  "finished_at": "2026-07-28T22:58:39.166011+00:00",
+  "target_name": "http_request_parser",
+  "target_difficulty": "hard",
+  "target_category": "protocol_parser",
+  "model_name": "qwen_qwen3_5_122b",
+  "model_id": "qwen/qwen3.5-122b",
+  "provider": "mindrouter",
+  "trial_number": 3,
+  "requested_input_count": 500,
+  "completed_input_count": 500,
+  "valid_input_count": 309,
+  "crash_error_input_count": 191,
+  "batch_size": 20,
+  "prompt_version": "week9_target_aware_v1",
+  "generation_time": 307.208458699999,
+  "generation_rounds": 46,
+  "raw_response_count": 46,
+  "rejected_inputs": [],
+  "generation_errors": [
+    {
+      "round_number": 1,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Expecting ',' delimiter: line 1 column 1135 (char 1134)"
+    },
+    {
+      "round_number": 3,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Unterminated string starting at: line 1 column 1048 (char 1047)"
+    },
+    {
+      "round_number": 9,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Expecting ',' delimiter: line 1 column 755 (char 754)"
+    },
+    {
+      "round_number": 11,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Unterminated string starting at: line 1 column 1640 (char 1639)"
+    },
+    {
+      "round_number": 13,
+      "error_type": "ValueError",
+      "error_message": "AI response must contain an \"inputs\" list."
+    },
+    {
+      "round_number": 14,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Unterminated string starting at: line 1 column 8827 (char 8826)"
+    },
+    {
+      "round_number": 15,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Invalid \\escape: line 1 column 74 (char 73)"
+    },
+    {
+      "round_number": 19,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Invalid \\escape: line 1 column 606 (char 605)"
+    },
+    {
+      "round_number": 25,
+      "error_type": "ValueError",
+      "error_message": "AI response must contain an \"inputs\" list."
+    },
+    {
+      "round_number": 26,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Unterminated string starting at: line 1 column 532 (char 531)"
+    },
+    {
+      "round_number": 27,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Unterminated string starting at: line 1 column 997 (char 996)"
+    },
+    {
+      "round_number": 30,
+      "error_type": "ValueError",
+      "error_message": "AI response must contain an \"inputs\" list."
+    },
+    {
+      "round_number": 36,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Expecting ',' delimiter: line 1 column 872 (char 871)"
+    },
+    {
+      "round_number": 39,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Unterminated string starting at: line 1 column 1347 (char 1346)"
+    },
+    {
+      "round_number": 40,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)"
+    },
+    {
+      "round_number": 41,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Unterminated string starting at: line 1 column 536 (char 535)"
+    },
+    {
+      "round_number": 45,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Expecting ',' delimiter: line 1 column 1104 (char 1103)"
+    }
+  ],
+  "result_file": "results\\week9\\ai_guided\\http_request_parser\\qwen_qwen3_5_122b_trial3.jsonl"
+}

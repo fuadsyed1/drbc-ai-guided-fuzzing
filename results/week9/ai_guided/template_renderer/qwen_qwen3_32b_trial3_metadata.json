@@ -1,0 +1,40 @@
+{
+  "status": "completed",
+  "started_at": "2026-07-29T12:59:22.346320+00:00",
+  "finished_at": "2026-07-29T13:03:57.496627+00:00",
+  "target_name": "template_renderer",
+  "target_difficulty": "hard",
+  "target_category": "template_parser",
+  "model_name": "qwen_qwen3_32b",
+  "model_id": "Qwen/Qwen3-32B",
+  "provider": "mindrouter",
+  "trial_number": 3,
+  "requested_input_count": 500,
+  "completed_input_count": 500,
+  "valid_input_count": 42,
+  "crash_error_input_count": 458,
+  "batch_size": 20,
+  "prompt_version": "week9_target_aware_v1",
+  "generation_time": 275.09346559999904,
+  "generation_rounds": 34,
+  "raw_response_count": 34,
+  "rejected_inputs": [],
+  "generation_errors": [
+    {
+      "round_number": 29,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)"
+    },
+    {
+      "round_number": 31,
+      "error_type": "ValueError",
+      "error_message": "AI response must contain an \"inputs\" list."
+    },
+    {
+      "round_number": 32,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Expecting ':' delimiter: line 1 column 6 (char 5)"
+    }
+  ],
+  "result_file": "results\\week9\\ai_guided\\template_renderer\\qwen_qwen3_32b_trial3.jsonl"
+}

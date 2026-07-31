@@ -1,0 +1,55 @@
+{
+  "status": "completed",
+  "started_at": "2026-07-28T20:11:52.282245+00:00",
+  "finished_at": "2026-07-28T20:14:17.161989+00:00",
+  "target_name": "password_checker",
+  "target_difficulty": "easy",
+  "target_category": "rule_validator",
+  "model_name": "qwen_qwen3_5_122b",
+  "model_id": "qwen/qwen3.5-122b",
+  "provider": "mindrouter",
+  "trial_number": 3,
+  "requested_input_count": 500,
+  "completed_input_count": 500,
+  "valid_input_count": 307,
+  "crash_error_input_count": 193,
+  "batch_size": 20,
+  "prompt_version": "week9_target_aware_v1",
+  "generation_time": 144.80833169999994,
+  "generation_rounds": 37,
+  "raw_response_count": 37,
+  "rejected_inputs": [],
+  "generation_errors": [
+    {
+      "round_number": 9,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Unterminated string starting at: line 1 column 231 (char 230)"
+    },
+    {
+      "round_number": 11,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Unterminated string starting at: line 1 column 517 (char 516)"
+    },
+    {
+      "round_number": 13,
+      "error_type": "ValueError",
+      "error_message": "AI response must contain an \"inputs\" list."
+    },
+    {
+      "round_number": 26,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Unterminated string starting at: line 1 column 885 (char 884)"
+    },
+    {
+      "round_number": 28,
+      "error_type": "ValueError",
+      "error_message": "AI response must contain an \"inputs\" list."
+    },
+    {
+      "round_number": 30,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Unterminated string starting at: line 1 column 13 (char 12)"
+    }
+  ],
+  "result_file": "results\\week9\\ai_guided\\password_checker\\qwen_qwen3_5_122b_trial3.jsonl"
+}

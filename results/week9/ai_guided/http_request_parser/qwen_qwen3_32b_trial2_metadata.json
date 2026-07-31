@@ -1,0 +1,45 @@
+{
+  "status": "completed",
+  "started_at": "2026-07-29T13:12:43.780166+00:00",
+  "finished_at": "2026-07-29T13:19:30.017385+00:00",
+  "target_name": "http_request_parser",
+  "target_difficulty": "hard",
+  "target_category": "protocol_parser",
+  "model_name": "qwen_qwen3_32b",
+  "model_id": "Qwen/Qwen3-32B",
+  "provider": "mindrouter",
+  "trial_number": 2,
+  "requested_input_count": 500,
+  "completed_input_count": 500,
+  "valid_input_count": 322,
+  "crash_error_input_count": 178,
+  "batch_size": 20,
+  "prompt_version": "week9_target_aware_v1",
+  "generation_time": 406.1631247999976,
+  "generation_rounds": 34,
+  "raw_response_count": 34,
+  "rejected_inputs": [],
+  "generation_errors": [
+    {
+      "round_number": 9,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Unterminated string starting at: line 6 column 5 (char 331)"
+    },
+    {
+      "round_number": 14,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Unterminated string starting at: line 1 column 871 (char 870)"
+    },
+    {
+      "round_number": 15,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Invalid \\escape: line 1 column 121 (char 120)"
+    },
+    {
+      "round_number": 28,
+      "error_type": "ValueError",
+      "error_message": "AI response must contain an \"inputs\" list."
+    }
+  ],
+  "result_file": "results\\week9\\ai_guided\\http_request_parser\\qwen_qwen3_32b_trial2.jsonl"
+}

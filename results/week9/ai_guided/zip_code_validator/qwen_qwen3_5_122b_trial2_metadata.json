@@ -1,0 +1,35 @@
+{
+  "status": "completed",
+  "started_at": "2026-07-28T20:32:31.620414+00:00",
+  "finished_at": "2026-07-28T20:33:58.357195+00:00",
+  "target_name": "zip_code_validator",
+  "target_difficulty": "easy",
+  "target_category": "format_validator",
+  "model_name": "qwen_qwen3_5_122b",
+  "model_id": "qwen/qwen3.5-122b",
+  "provider": "mindrouter",
+  "trial_number": 2,
+  "requested_input_count": 500,
+  "completed_input_count": 500,
+  "valid_input_count": 57,
+  "crash_error_input_count": 443,
+  "batch_size": 20,
+  "prompt_version": "week9_target_aware_v1",
+  "generation_time": 86.70131270000002,
+  "generation_rounds": 35,
+  "raw_response_count": 35,
+  "rejected_inputs": [],
+  "generation_errors": [
+    {
+      "round_number": 19,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Unterminated string starting at: line 1 column 102 (char 101)"
+    },
+    {
+      "round_number": 28,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)"
+    }
+  ],
+  "result_file": "results\\week9\\ai_guided\\zip_code_validator\\qwen_qwen3_5_122b_trial2.jsonl"
+}

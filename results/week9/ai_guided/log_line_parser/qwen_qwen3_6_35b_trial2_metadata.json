@@ -1,0 +1,35 @@
+{
+  "status": "completed",
+  "started_at": "2026-07-29T17:09:01.330561+00:00",
+  "finished_at": "2026-07-29T17:09:55.347117+00:00",
+  "target_name": "log_line_parser",
+  "target_difficulty": "moderate",
+  "target_category": "structured_parser",
+  "model_name": "qwen_qwen3_6_35b",
+  "model_id": "qwen/qwen3.6-35b",
+  "provider": "mindrouter",
+  "trial_number": 2,
+  "requested_input_count": 500,
+  "completed_input_count": 500,
+  "valid_input_count": 279,
+  "crash_error_input_count": 221,
+  "batch_size": 20,
+  "prompt_version": "week9_target_aware_v1",
+  "generation_time": 53.93897130000005,
+  "generation_rounds": 29,
+  "raw_response_count": 29,
+  "rejected_inputs": [],
+  "generation_errors": [
+    {
+      "round_number": 15,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Unterminated string starting at: line 6 column 5 (char 209)"
+    },
+    {
+      "round_number": 28,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Invalid \\escape: line 1 column 158 (char 157)"
+    }
+  ],
+  "result_file": "results\\week9\\ai_guided\\log_line_parser\\qwen_qwen3_6_35b_trial2.jsonl"
+}

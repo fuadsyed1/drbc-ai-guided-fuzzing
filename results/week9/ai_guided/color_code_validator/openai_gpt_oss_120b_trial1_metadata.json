@@ -1,0 +1,65 @@
+{
+  "status": "completed",
+  "started_at": "2026-07-29T02:23:50.161149+00:00",
+  "finished_at": "2026-07-29T02:29:54.162086+00:00",
+  "target_name": "color_code_validator",
+  "target_difficulty": "easy",
+  "target_category": "format_validator",
+  "model_name": "openai_gpt_oss_120b",
+  "model_id": "openai/gpt-oss-120b",
+  "provider": "mindrouter",
+  "trial_number": 1,
+  "requested_input_count": 500,
+  "completed_input_count": 500,
+  "valid_input_count": 66,
+  "crash_error_input_count": 434,
+  "batch_size": 20,
+  "prompt_version": "week9_target_aware_v1",
+  "generation_time": 363.9614137999997,
+  "generation_rounds": 50,
+  "raw_response_count": 50,
+  "rejected_inputs": [],
+  "generation_errors": [
+    {
+      "round_number": 11,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Unterminated string starting at: line 1 column 4071 (char 4070)"
+    },
+    {
+      "round_number": 26,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Unterminated string starting at: line 1 column 6129 (char 6128)"
+    },
+    {
+      "round_number": 41,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Unterminated string starting at: line 1 column 831 (char 830)"
+    },
+    {
+      "round_number": 44,
+      "error_type": "NoNewUniqueInputs",
+      "error_message": "The response produced no new accepted unique inputs."
+    },
+    {
+      "round_number": 45,
+      "error_type": "NoNewUniqueInputs",
+      "error_message": "The response produced no new accepted unique inputs."
+    },
+    {
+      "round_number": 46,
+      "error_type": "NoNewUniqueInputs",
+      "error_message": "The response produced no new accepted unique inputs."
+    },
+    {
+      "round_number": 47,
+      "error_type": "NoNewUniqueInputs",
+      "error_message": "The response produced no new accepted unique inputs."
+    },
+    {
+      "round_number": 48,
+      "error_type": "NoNewUniqueInputs",
+      "error_message": "The response produced no new accepted unique inputs."
+    }
+  ],
+  "result_file": "results\\week9\\ai_guided\\color_code_validator\\openai_gpt_oss_120b_trial1.jsonl"
+}

@@ -1,0 +1,30 @@
+{
+  "status": "completed",
+  "started_at": "2026-07-29T20:23:40.925986+00:00",
+  "finished_at": "2026-07-29T20:26:23.481413+00:00",
+  "target_name": "sql_where_parser",
+  "target_difficulty": "hard",
+  "target_category": "grammar_parser",
+  "model_name": "google_gemma_4_31b",
+  "model_id": "google/gemma-4-31b",
+  "provider": "mindrouter",
+  "trial_number": 3,
+  "requested_input_count": 500,
+  "completed_input_count": 500,
+  "valid_input_count": 126,
+  "crash_error_input_count": 374,
+  "batch_size": 20,
+  "prompt_version": "week9_target_aware_v1",
+  "generation_time": 162.4580748999997,
+  "generation_rounds": 28,
+  "raw_response_count": 28,
+  "rejected_inputs": [],
+  "generation_errors": [
+    {
+      "round_number": 13,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Invalid \\escape: line 19 column 34 (char 697)"
+    }
+  ],
+  "result_file": "results\\week9\\ai_guided\\sql_where_parser\\google_gemma_4_31b_trial3.jsonl"
+}

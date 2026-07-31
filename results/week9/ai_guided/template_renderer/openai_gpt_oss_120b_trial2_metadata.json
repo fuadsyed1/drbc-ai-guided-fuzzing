@@ -1,0 +1,35 @@
+{
+  "status": "completed",
+  "started_at": "2026-07-29T05:25:08.040503+00:00",
+  "finished_at": "2026-07-29T05:29:48.560596+00:00",
+  "target_name": "template_renderer",
+  "target_difficulty": "hard",
+  "target_category": "template_parser",
+  "model_name": "openai_gpt_oss_120b",
+  "model_id": "openai/gpt-oss-120b",
+  "provider": "mindrouter",
+  "trial_number": 2,
+  "requested_input_count": 500,
+  "completed_input_count": 500,
+  "valid_input_count": 45,
+  "crash_error_input_count": 455,
+  "batch_size": 20,
+  "prompt_version": "week9_target_aware_v1",
+  "generation_time": 280.45857700000124,
+  "generation_rounds": 29,
+  "raw_response_count": 29,
+  "rejected_inputs": [],
+  "generation_errors": [
+    {
+      "round_number": 7,
+      "error_type": "ValueError",
+      "error_message": "AI response must contain an \"inputs\" list."
+    },
+    {
+      "round_number": 26,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Expecting property name enclosed in double quotes: line 1 column 4 (char 3)"
+    }
+  ],
+  "result_file": "results\\week9\\ai_guided\\template_renderer\\openai_gpt_oss_120b_trial2.jsonl"
+}

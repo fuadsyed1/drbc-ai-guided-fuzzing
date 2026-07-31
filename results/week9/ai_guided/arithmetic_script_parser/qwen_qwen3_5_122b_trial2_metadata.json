@@ -1,0 +1,127 @@
+{
+  "status": "completed",
+  "started_at": "2026-07-28T23:07:29.386352+00:00",
+  "finished_at": "2026-07-28T23:11:31.532323+00:00",
+  "target_name": "arithmetic_script_parser",
+  "target_difficulty": "hard",
+  "target_category": "grammar_parser",
+  "model_name": "qwen_qwen3_5_122b",
+  "model_id": "qwen/qwen3.5-122b",
+  "provider": "mindrouter",
+  "trial_number": 2,
+  "requested_input_count": 500,
+  "completed_input_count": 500,
+  "valid_input_count": 141,
+  "crash_error_input_count": 359,
+  "batch_size": 20,
+  "prompt_version": "week9_target_aware_v1",
+  "generation_time": 242.02033979999942,
+  "generation_rounds": 46,
+  "raw_response_count": 46,
+  "rejected_inputs": [
+    {
+      "input": "LET long_var_name = 99999999999999999999999999999999999999999999999999; PRINT long_var_name",
+      "reason": "Input contains an excessively long numeric literal."
+    },
+    {
+      "input": "****",
+      "reason": "Exponentiation is blocked for safety."
+    },
+    {
+      "input": "LET x = 1000000000000000000000000000000; PRINT x",
+      "reason": "Input contains an excessively long numeric literal."
+    },
+    {
+      "input": "LET x = 1; PRINT x^^&&**",
+      "reason": "Exponentiation is blocked for safety."
+    }
+  ],
+  "generation_errors": [
+    {
+      "round_number": 3,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Expecting ',' delimiter: line 1 column 524 (char 523)"
+    },
+    {
+      "round_number": 5,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Expecting ',' delimiter: line 1 column 682 (char 681)"
+    },
+    {
+      "round_number": 7,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Expecting ',' delimiter: line 1 column 672 (char 671)"
+    },
+    {
+      "round_number": 9,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Expecting ',' delimiter: line 1 column 598 (char 597)"
+    },
+    {
+      "round_number": 10,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Expecting ',' delimiter: line 1 column 731 (char 730)"
+    },
+    {
+      "round_number": 12,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Unterminated string starting at: line 1 column 5804 (char 5803)"
+    },
+    {
+      "round_number": 14,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Expecting ',' delimiter: line 1 column 959 (char 958)"
+    },
+    {
+      "round_number": 16,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Expecting ',' delimiter: line 1 column 1635 (char 1634)"
+    },
+    {
+      "round_number": 20,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Expecting ',' delimiter: line 1 column 655 (char 654)"
+    },
+    {
+      "round_number": 22,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Unterminated string starting at: line 1 column 13 (char 12)"
+    },
+    {
+      "round_number": 23,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Unterminated string starting at: line 1 column 8594 (char 8593)"
+    },
+    {
+      "round_number": 25,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Expecting ',' delimiter: line 1 column 826 (char 825)"
+    },
+    {
+      "round_number": 26,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Expecting ',' delimiter: line 1 column 4934 (char 4933)"
+    },
+    {
+      "round_number": 30,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Expecting ',' delimiter: line 1 column 1346 (char 1345)"
+    },
+    {
+      "round_number": 35,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Unterminated string starting at: line 1 column 719 (char 718)"
+    },
+    {
+      "round_number": 39,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Expecting ',' delimiter: line 1 column 925 (char 924)"
+    },
+    {
+      "round_number": 44,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Unterminated string starting at: line 1 column 1701 (char 1700)"
+    }
+  ],
+  "result_file": "results\\week9\\ai_guided\\arithmetic_script_parser\\qwen_qwen3_5_122b_trial2.jsonl"
+}

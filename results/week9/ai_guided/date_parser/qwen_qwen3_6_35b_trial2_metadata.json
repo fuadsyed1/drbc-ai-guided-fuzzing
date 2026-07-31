@@ -1,0 +1,40 @@
+{
+  "status": "completed",
+  "started_at": "2026-07-29T16:26:25.988631+00:00",
+  "finished_at": "2026-07-29T16:27:26.554669+00:00",
+  "target_name": "date_parser",
+  "target_difficulty": "easy",
+  "target_category": "format_parser",
+  "model_name": "qwen_qwen3_6_35b",
+  "model_id": "qwen/qwen3.6-35b",
+  "provider": "mindrouter",
+  "trial_number": 2,
+  "requested_input_count": 500,
+  "completed_input_count": 500,
+  "valid_input_count": 133,
+  "crash_error_input_count": 367,
+  "batch_size": 20,
+  "prompt_version": "week9_target_aware_v1",
+  "generation_time": 60.20029920000002,
+  "generation_rounds": 52,
+  "raw_response_count": 52,
+  "rejected_inputs": [],
+  "generation_errors": [
+    {
+      "round_number": 10,
+      "error_type": "NoNewUniqueInputs",
+      "error_message": "The response produced no new accepted unique inputs."
+    },
+    {
+      "round_number": 21,
+      "error_type": "NoNewUniqueInputs",
+      "error_message": "The response produced no new accepted unique inputs."
+    },
+    {
+      "round_number": 41,
+      "error_type": "NoNewUniqueInputs",
+      "error_message": "The response produced no new accepted unique inputs."
+    }
+  ],
+  "result_file": "results\\week9\\ai_guided\\date_parser\\qwen_qwen3_6_35b_trial2.jsonl"
+}

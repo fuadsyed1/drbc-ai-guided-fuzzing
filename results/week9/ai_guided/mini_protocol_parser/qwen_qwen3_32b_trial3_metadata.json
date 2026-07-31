@@ -1,0 +1,30 @@
+{
+  "status": "completed",
+  "started_at": "2026-07-29T13:28:42.652635+00:00",
+  "finished_at": "2026-07-29T13:31:36.412129+00:00",
+  "target_name": "mini_protocol_parser",
+  "target_difficulty": "hard",
+  "target_category": "protocol_parser",
+  "model_name": "qwen_qwen3_32b",
+  "model_id": "Qwen/Qwen3-32B",
+  "provider": "mindrouter",
+  "trial_number": 3,
+  "requested_input_count": 500,
+  "completed_input_count": 500,
+  "valid_input_count": 114,
+  "crash_error_input_count": 386,
+  "batch_size": 20,
+  "prompt_version": "week9_target_aware_v1",
+  "generation_time": 173.69430839999768,
+  "generation_rounds": 28,
+  "raw_response_count": 28,
+  "rejected_inputs": [],
+  "generation_errors": [
+    {
+      "round_number": 26,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Unterminated string starting at: line 1 column 594 (char 593)"
+    }
+  ],
+  "result_file": "results\\week9\\ai_guided\\mini_protocol_parser\\qwen_qwen3_32b_trial3.jsonl"
+}

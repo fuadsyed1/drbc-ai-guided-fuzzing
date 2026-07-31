@@ -1,0 +1,50 @@
+{
+  "status": "completed",
+  "started_at": "2026-07-29T20:34:51.850660+00:00",
+  "finished_at": "2026-07-29T20:37:24.208925+00:00",
+  "target_name": "template_renderer",
+  "target_difficulty": "hard",
+  "target_category": "template_parser",
+  "model_name": "google_gemma_4_31b",
+  "model_id": "google/gemma-4-31b",
+  "provider": "mindrouter",
+  "trial_number": 2,
+  "requested_input_count": 500,
+  "completed_input_count": 500,
+  "valid_input_count": 189,
+  "crash_error_input_count": 311,
+  "batch_size": 20,
+  "prompt_version": "week9_target_aware_v1",
+  "generation_time": 152.30966819999958,
+  "generation_rounds": 39,
+  "raw_response_count": 39,
+  "rejected_inputs": [],
+  "generation_errors": [
+    {
+      "round_number": 11,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Expecting ':' delimiter: line 1 column 7 (char 6)"
+    },
+    {
+      "round_number": 13,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)"
+    },
+    {
+      "round_number": 15,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)"
+    },
+    {
+      "round_number": 26,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)"
+    },
+    {
+      "round_number": 30,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)"
+    }
+  ],
+  "result_file": "results\\week9\\ai_guided\\template_renderer\\google_gemma_4_31b_trial2.jsonl"
+}

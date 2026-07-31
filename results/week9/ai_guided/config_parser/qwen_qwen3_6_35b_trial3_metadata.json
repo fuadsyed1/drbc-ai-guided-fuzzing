@@ -1,0 +1,35 @@
+{
+  "status": "completed",
+  "started_at": "2026-07-29T17:02:08.024232+00:00",
+  "finished_at": "2026-07-29T17:03:03.495301+00:00",
+  "target_name": "config_parser",
+  "target_difficulty": "moderate",
+  "target_category": "key_value_parser",
+  "model_name": "qwen_qwen3_6_35b",
+  "model_id": "qwen/qwen3.6-35b",
+  "provider": "mindrouter",
+  "trial_number": 3,
+  "requested_input_count": 500,
+  "completed_input_count": 500,
+  "valid_input_count": 236,
+  "crash_error_input_count": 264,
+  "batch_size": 20,
+  "prompt_version": "week9_target_aware_v1",
+  "generation_time": 55.39428269999962,
+  "generation_rounds": 30,
+  "raw_response_count": 30,
+  "rejected_inputs": [],
+  "generation_errors": [
+    {
+      "round_number": 5,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Invalid control character at: line 4 column 11 (char 49)"
+    },
+    {
+      "round_number": 24,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Unterminated string starting at: line 22 column 5 (char 357)"
+    }
+  ],
+  "result_file": "results\\week9\\ai_guided\\config_parser\\qwen_qwen3_6_35b_trial3.jsonl"
+}

@@ -1,0 +1,45 @@
+{
+  "status": "completed",
+  "started_at": "2026-07-29T06:09:04.573517+00:00",
+  "finished_at": "2026-07-29T06:15:55.280563+00:00",
+  "target_name": "mini_protocol_parser",
+  "target_difficulty": "hard",
+  "target_category": "protocol_parser",
+  "model_name": "openai_gpt_oss_120b",
+  "model_id": "openai/gpt-oss-120b",
+  "provider": "mindrouter",
+  "trial_number": 3,
+  "requested_input_count": 500,
+  "completed_input_count": 500,
+  "valid_input_count": 121,
+  "crash_error_input_count": 379,
+  "batch_size": 20,
+  "prompt_version": "week9_target_aware_v1",
+  "generation_time": 410.6360515999986,
+  "generation_rounds": 35,
+  "raw_response_count": 35,
+  "rejected_inputs": [],
+  "generation_errors": [
+    {
+      "round_number": 3,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Unterminated string starting at: line 1 column 560 (char 559)"
+    },
+    {
+      "round_number": 11,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Unterminated string starting at: line 1 column 13 (char 12)"
+    },
+    {
+      "round_number": 26,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Unterminated string starting at: line 1 column 880 (char 879)"
+    },
+    {
+      "round_number": 33,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Unterminated string starting at: line 1 column 3779 (char 3778)"
+    }
+  ],
+  "result_file": "results\\week9\\ai_guided\\mini_protocol_parser\\openai_gpt_oss_120b_trial3.jsonl"
+}

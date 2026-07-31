@@ -1,0 +1,40 @@
+{
+  "status": "completed",
+  "started_at": "2026-07-28T21:23:58.909597+00:00",
+  "finished_at": "2026-07-28T21:25:45.873088+00:00",
+  "target_name": "url_parser",
+  "target_difficulty": "moderate",
+  "target_category": "structured_parser",
+  "model_name": "qwen_qwen3_5_122b",
+  "model_id": "qwen/qwen3.5-122b",
+  "provider": "mindrouter",
+  "trial_number": 3,
+  "requested_input_count": 500,
+  "completed_input_count": 500,
+  "valid_input_count": 454,
+  "crash_error_input_count": 46,
+  "batch_size": 20,
+  "prompt_version": "week9_target_aware_v1",
+  "generation_time": 106.8683460000002,
+  "generation_rounds": 31,
+  "raw_response_count": 31,
+  "rejected_inputs": [],
+  "generation_errors": [
+    {
+      "round_number": 10,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Unterminated string starting at: line 1 column 13 (char 12)"
+    },
+    {
+      "round_number": 26,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Unterminated string starting at: line 1 column 4816 (char 4815)"
+    },
+    {
+      "round_number": 30,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Expecting ',' delimiter: line 1 column 340 (char 339)"
+    }
+  ],
+  "result_file": "results\\week9\\ai_guided\\url_parser\\qwen_qwen3_5_122b_trial3.jsonl"
+}

@@ -1,0 +1,97 @@
+{
+  "status": "completed",
+  "started_at": "2026-07-29T00:34:05.356494+00:00",
+  "finished_at": "2026-07-29T00:39:27.697531+00:00",
+  "target_name": "calculator",
+  "target_difficulty": "easy",
+  "target_category": "arithmetic_expression",
+  "model_name": "openai_gpt_oss_120b",
+  "model_id": "openai/gpt-oss-120b",
+  "provider": "mindrouter",
+  "trial_number": 2,
+  "requested_input_count": 500,
+  "completed_input_count": 500,
+  "valid_input_count": 201,
+  "crash_error_input_count": 299,
+  "batch_size": 20,
+  "prompt_version": "week9_target_aware_v1",
+  "generation_time": 322.2685213,
+  "generation_rounds": 34,
+  "raw_response_count": 34,
+  "rejected_inputs": [
+    {
+      "input": "9999999999999999999999999999999999999",
+      "reason": "Input contains an excessively long numeric literal."
+    },
+    {
+      "input": "1***2",
+      "reason": "Exponentiation is blocked for safety."
+    },
+    {
+      "input": "1+2**3",
+      "reason": "Exponentiation is blocked for safety."
+    },
+    {
+      "input": "1+2**3",
+      "reason": "Exponentiation is blocked for safety."
+    },
+    {
+      "input": "999999999999999999999999999999999999+999999999999999999999999999999999999",
+      "reason": "Input contains an excessively long numeric literal."
+    },
+    {
+      "input": "((1+2))??!!@@##$$%%^^&&**",
+      "reason": "Exponentiation is blocked for safety."
+    },
+    {
+      "input": "(((1+1)))***(((1+1)))",
+      "reason": "Exponentiation is blocked for safety."
+    },
+    {
+      "input": "**",
+      "reason": "Exponentiation is blocked for safety."
+    },
+    {
+      "input": "(((1+2)))***((3-4))",
+      "reason": "Exponentiation is blocked for safety."
+    },
+    {
+      "input": "1**2",
+      "reason": "Exponentiation is blocked for safety."
+    },
+    {
+      "input": "1++2--3**4//5",
+      "reason": "Exponentiation is blocked for safety."
+    },
+    {
+      "input": "1+2**3",
+      "reason": "Exponentiation is blocked for safety."
+    },
+    {
+      "input": "999999***999999",
+      "reason": "Exponentiation is blocked for safety."
+    },
+    {
+      "input": "1++2--3**4//5",
+      "reason": "Exponentiation is blocked for safety."
+    }
+  ],
+  "generation_errors": [
+    {
+      "round_number": 26,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Unterminated string starting at: line 1 column 842 (char 841)"
+    },
+    {
+      "round_number": 32,
+      "error_type": "NoNewUniqueInputs",
+      "error_message": "The response produced no new accepted unique inputs."
+    },
+    {
+      "round_number": 33,
+      "error_type": "NoNewUniqueInputs",
+      "error_message": "The response produced no new accepted unique inputs."
+    }
+  ],
+  "result_file": "results\\week9\\ai_guided\\calculator\\openai_gpt_oss_120b_trial2.jsonl"
+}

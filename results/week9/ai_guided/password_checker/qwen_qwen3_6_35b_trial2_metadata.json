@@ -1,0 +1,55 @@
+{
+  "status": "completed",
+  "started_at": "2026-07-29T16:22:15.012240+00:00",
+  "finished_at": "2026-07-29T16:23:59.442866+00:00",
+  "target_name": "password_checker",
+  "target_difficulty": "easy",
+  "target_category": "rule_validator",
+  "model_name": "qwen_qwen3_6_35b",
+  "model_id": "qwen/qwen3.6-35b",
+  "provider": "mindrouter",
+  "trial_number": 2,
+  "requested_input_count": 500,
+  "completed_input_count": 500,
+  "valid_input_count": 275,
+  "crash_error_input_count": 225,
+  "batch_size": 20,
+  "prompt_version": "week9_target_aware_v1",
+  "generation_time": 104.331706,
+  "generation_rounds": 37,
+  "raw_response_count": 37,
+  "rejected_inputs": [],
+  "generation_errors": [
+    {
+      "round_number": 7,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Unterminated string starting at: line 3 column 5 (char 20)"
+    },
+    {
+      "round_number": 9,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Unterminated string starting at: line 8 column 5 (char 89)"
+    },
+    {
+      "round_number": 15,
+      "error_type": "NoNewUniqueInputs",
+      "error_message": "The response produced no new accepted unique inputs."
+    },
+    {
+      "round_number": 19,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Unterminated string starting at: line 16 column 5 (char 225)"
+    },
+    {
+      "round_number": 22,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Unterminated string starting at: line 3 column 5 (char 20)"
+    },
+    {
+      "round_number": 28,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Unterminated string starting at: line 13 column 5 (char 476)"
+    }
+  ],
+  "result_file": "results\\week9\\ai_guided\\password_checker\\qwen_qwen3_6_35b_trial2.jsonl"
+}

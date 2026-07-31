@@ -1,0 +1,30 @@
+{
+  "status": "completed",
+  "started_at": "2026-07-29T16:58:34.756712+00:00",
+  "finished_at": "2026-07-29T16:59:25.820821+00:00",
+  "target_name": "url_parser",
+  "target_difficulty": "moderate",
+  "target_category": "structured_parser",
+  "model_name": "qwen_qwen3_6_35b",
+  "model_id": "qwen/qwen3.6-35b",
+  "provider": "mindrouter",
+  "trial_number": 3,
+  "requested_input_count": 500,
+  "completed_input_count": 500,
+  "valid_input_count": 439,
+  "crash_error_input_count": 61,
+  "batch_size": 20,
+  "prompt_version": "week9_target_aware_v1",
+  "generation_time": 50.975485800000115,
+  "generation_rounds": 30,
+  "raw_response_count": 30,
+  "rejected_inputs": [],
+  "generation_errors": [
+    {
+      "round_number": 11,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Unterminated string starting at: line 6 column 5 (char 4553)"
+    }
+  ],
+  "result_file": "results\\week9\\ai_guided\\url_parser\\qwen_qwen3_6_35b_trial3.jsonl"
+}

@@ -1,0 +1,87 @@
+{
+  "status": "completed",
+  "started_at": "2026-07-29T16:17:47.813993+00:00",
+  "finished_at": "2026-07-29T16:19:05.158492+00:00",
+  "target_name": "calculator",
+  "target_difficulty": "easy",
+  "target_category": "arithmetic_expression",
+  "model_name": "qwen_qwen3_6_35b",
+  "model_id": "qwen/qwen3.6-35b",
+  "provider": "mindrouter",
+  "trial_number": 3,
+  "requested_input_count": 500,
+  "completed_input_count": 500,
+  "valid_input_count": 318,
+  "crash_error_input_count": 182,
+  "batch_size": 20,
+  "prompt_version": "week9_target_aware_v1",
+  "generation_time": 77.2487566,
+  "generation_rounds": 43,
+  "raw_response_count": 43,
+  "rejected_inputs": [
+    {
+      "input": "1**2",
+      "reason": "Exponentiation is blocked for safety."
+    },
+    {
+      "input": "2**2",
+      "reason": "Exponentiation is blocked for safety."
+    },
+    {
+      "input": "1/**2",
+      "reason": "Exponentiation is blocked for safety."
+    },
+    {
+      "input": "1**2",
+      "reason": "Exponentiation is blocked for safety."
+    },
+    {
+      "input": "999999**2",
+      "reason": "Exponentiation is blocked for safety."
+    },
+    {
+      "input": "1**2",
+      "reason": "Exponentiation is blocked for safety."
+    },
+    {
+      "input": "1**+2",
+      "reason": "Exponentiation is blocked for safety."
+    },
+    {
+      "input": "999999**999999",
+      "reason": "Exponentiation is blocked for safety."
+    },
+    {
+      "input": "1***2",
+      "reason": "Exponentiation is blocked for safety."
+    }
+  ],
+  "generation_errors": [
+    {
+      "round_number": 11,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Unterminated string starting at: line 14 column 5 (char 482)"
+    },
+    {
+      "round_number": 21,
+      "error_type": "NoNewUniqueInputs",
+      "error_message": "The response produced no new accepted unique inputs."
+    },
+    {
+      "round_number": 29,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Unterminated string starting at: line 9 column 5 (char 587)"
+    },
+    {
+      "round_number": 36,
+      "error_type": "NoNewUniqueInputs",
+      "error_message": "The response produced no new accepted unique inputs."
+    },
+    {
+      "round_number": 42,
+      "error_type": "NoNewUniqueInputs",
+      "error_message": "The response produced no new accepted unique inputs."
+    }
+  ],
+  "result_file": "results\\week9\\ai_guided\\calculator\\qwen_qwen3_6_35b_trial3.jsonl"
+}

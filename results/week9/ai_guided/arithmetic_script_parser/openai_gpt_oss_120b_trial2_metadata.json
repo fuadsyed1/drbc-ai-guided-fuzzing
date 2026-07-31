@@ -1,0 +1,61 @@
+{
+  "status": "completed",
+  "started_at": "2026-07-29T06:21:18.059858+00:00",
+  "finished_at": "2026-07-29T06:25:21.431941+00:00",
+  "target_name": "arithmetic_script_parser",
+  "target_difficulty": "hard",
+  "target_category": "grammar_parser",
+  "model_name": "openai_gpt_oss_120b",
+  "model_id": "openai/gpt-oss-120b",
+  "provider": "mindrouter",
+  "trial_number": 2,
+  "requested_input_count": 500,
+  "completed_input_count": 500,
+  "valid_input_count": 123,
+  "crash_error_input_count": 377,
+  "batch_size": 20,
+  "prompt_version": "week9_target_aware_v1",
+  "generation_time": 243.25330810000014,
+  "generation_rounds": 28,
+  "raw_response_count": 28,
+  "rejected_inputs": [
+    {
+      "input": "LET x = 1; PRINT x; LET y = x ** 2; PRINT y",
+      "reason": "Exponentiation is blocked for safety."
+    },
+    {
+      "input": "LET x = 1; PRINT x; LET y = 2 ** 3; PRINT y",
+      "reason": "Exponentiation is blocked for safety."
+    },
+    {
+      "input": "LET x = 5; PRINT x; LET y = x ** 2; PRINT y",
+      "reason": "Exponentiation is blocked for safety."
+    },
+    {
+      "input": "LET a = 2 ** 3; PRINT a",
+      "reason": "Exponentiation is blocked for safety."
+    },
+    {
+      "input": "LET x = 1; PRINT x; LET y = 2 ** 3; PRINT y",
+      "reason": "Exponentiation is blocked for safety."
+    },
+    {
+      "input": "LET long = 1234567890123456789012345678901234567890; PRINT long",
+      "reason": "Input contains an excessively long numeric literal."
+    },
+    {
+      "input": "LET big = 99999999999999999999999999999999999999; PRINT big",
+      "reason": "Input contains an excessively long numeric literal."
+    },
+    {
+      "input": "LET x = 0; LET y = 1; LET z = 2; LET result = x + y - z * (x + y) / (z - 1 + (2 * (3 - 4) + 5)) ; PRINT result ; LET overflow_test = 9999999999999999999999999999999999999 ; PRINT overflow_test",
+      "reason": "Input contains an excessively long numeric literal."
+    },
+    {
+      "input": "LET huge = 12345678901234567890123456789012345678901234567890123456789012345678901234567890 ; PRINT huge ; LET sumHuge = huge + huge ; PRINT sumHuge",
+      "reason": "Input contains an excessively long numeric literal."
+    }
+  ],
+  "generation_errors": [],
+  "result_file": "results\\week9\\ai_guided\\arithmetic_script_parser\\openai_gpt_oss_120b_trial2.jsonl"
+}

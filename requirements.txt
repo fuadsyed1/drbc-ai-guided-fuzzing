@@ -2,3 +2,5 @@ coverage
 pandas
 matplotlib
 python-dotenv
+python-dotenv==1.2.1
+pytest==8.4.2

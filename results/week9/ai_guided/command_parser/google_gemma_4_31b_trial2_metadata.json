@@ -1,0 +1,35 @@
+{
+  "status": "completed",
+  "started_at": "2026-07-29T20:28:16.693469+00:00",
+  "finished_at": "2026-07-29T20:29:24.666090+00:00",
+  "target_name": "command_parser",
+  "target_difficulty": "hard",
+  "target_category": "command_parser",
+  "model_name": "google_gemma_4_31b",
+  "model_id": "google/gemma-4-31b",
+  "provider": "mindrouter",
+  "trial_number": 2,
+  "requested_input_count": 500,
+  "completed_input_count": 500,
+  "valid_input_count": 115,
+  "crash_error_input_count": 385,
+  "batch_size": 20,
+  "prompt_version": "week9_target_aware_v1",
+  "generation_time": 67.5751650000002,
+  "generation_rounds": 30,
+  "raw_response_count": 30,
+  "rejected_inputs": [],
+  "generation_errors": [
+    {
+      "round_number": 11,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Expecting ',' delimiter: line 2 column 19 (char 31)"
+    },
+    {
+      "round_number": 26,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Expecting ',' delimiter: line 2 column 19 (char 31)"
+    }
+  ],
+  "result_file": "results\\week9\\ai_guided\\command_parser\\google_gemma_4_31b_trial2.jsonl"
+}

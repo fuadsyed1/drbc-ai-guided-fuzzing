@@ -1,0 +1,55 @@
+{
+  "status": "completed",
+  "started_at": "2026-07-28T20:41:26.676506+00:00",
+  "finished_at": "2026-07-28T20:44:31.410091+00:00",
+  "target_name": "color_code_validator",
+  "target_difficulty": "easy",
+  "target_category": "format_validator",
+  "model_name": "qwen_qwen3_5_122b",
+  "model_id": "qwen/qwen3.5-122b",
+  "provider": "mindrouter",
+  "trial_number": 3,
+  "requested_input_count": 500,
+  "completed_input_count": 500,
+  "valid_input_count": 124,
+  "crash_error_input_count": 376,
+  "batch_size": 20,
+  "prompt_version": "week9_target_aware_v1",
+  "generation_time": 184.6787288999999,
+  "generation_rounds": 38,
+  "raw_response_count": 38,
+  "rejected_inputs": [],
+  "generation_errors": [
+    {
+      "round_number": 4,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Unterminated string starting at: line 1 column 91 (char 90)"
+    },
+    {
+      "round_number": 11,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Unterminated string starting at: line 1 column 13 (char 12)"
+    },
+    {
+      "round_number": 17,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Invalid \\escape: line 1 column 106 (char 105)"
+    },
+    {
+      "round_number": 20,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Expecting ',' delimiter: line 1 column 304 (char 303)"
+    },
+    {
+      "round_number": 28,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Unterminated string starting at: line 1 column 13 (char 12)"
+    },
+    {
+      "round_number": 35,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Expecting ',' delimiter: line 1 column 275 (char 274)"
+    }
+  ],
+  "result_file": "results\\week9\\ai_guided\\color_code_validator\\qwen_qwen3_5_122b_trial3.jsonl"
+}

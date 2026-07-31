@@ -1,0 +1,56 @@
+{
+  "status": "completed",
+  "started_at": "2026-07-29T20:56:23.500245+00:00",
+  "finished_at": "2026-07-29T20:58:19.191023+00:00",
+  "target_name": "arithmetic_script_parser",
+  "target_difficulty": "hard",
+  "target_category": "grammar_parser",
+  "model_name": "google_gemma_4_31b",
+  "model_id": "google/gemma-4-31b",
+  "provider": "mindrouter",
+  "trial_number": 2,
+  "requested_input_count": 500,
+  "completed_input_count": 500,
+  "valid_input_count": 104,
+  "crash_error_input_count": 396,
+  "batch_size": 20,
+  "prompt_version": "week9_target_aware_v1",
+  "generation_time": 115.60401129999991,
+  "generation_rounds": 29,
+  "raw_response_count": 29,
+  "rejected_inputs": [
+    {
+      "input": "LET x = 1 **** 2; PRINT x",
+      "reason": "Exponentiation is blocked for safety."
+    },
+    {
+      "input": "LET x = 100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000; PRINT x;",
+      "reason": "Input contains an excessively long numeric literal."
+    },
+    {
+      "input": "LET x = 1; PRINT x; +++---***",
+      "reason": "Exponentiation is blocked for safety."
+    },
+    {
+      "input": "LET x = 1; PRINT x; *******",
+      "reason": "Exponentiation is blocked for safety."
+    },
+    {
+      "input": "LET x = 1 ** 2; PRINT x",
+      "reason": "Exponentiation is blocked for safety."
+    }
+  ],
+  "generation_errors": [
+    {
+      "round_number": 5,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Invalid \\escape: line 16 column 16 (char 433)"
+    },
+    {
+      "round_number": 26,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Expecting ',' delimiter: line 8 column 24 (char 1133)"
+    }
+  ],
+  "result_file": "results\\week9\\ai_guided\\arithmetic_script_parser\\google_gemma_4_31b_trial2.jsonl"
+}

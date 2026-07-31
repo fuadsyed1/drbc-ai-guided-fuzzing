@@ -1,0 +1,33 @@
+{
+  "status": "completed",
+  "started_at": "2026-07-29T20:54:37.603628+00:00",
+  "finished_at": "2026-07-29T20:56:23.496967+00:00",
+  "target_name": "arithmetic_script_parser",
+  "target_difficulty": "hard",
+  "target_category": "grammar_parser",
+  "model_name": "google_gemma_4_31b",
+  "model_id": "google/gemma-4-31b",
+  "provider": "mindrouter",
+  "trial_number": 1,
+  "requested_input_count": 500,
+  "completed_input_count": 500,
+  "valid_input_count": 97,
+  "crash_error_input_count": 403,
+  "batch_size": 20,
+  "prompt_version": "week9_target_aware_v1",
+  "generation_time": 105.80273589999888,
+  "generation_rounds": 28,
+  "raw_response_count": 28,
+  "rejected_inputs": [
+    {
+      "input": "LET x = 1 *** 2; PRINT x",
+      "reason": "Exponentiation is blocked for safety."
+    },
+    {
+      "input": "LET x = 1; PRINT x ***** 5",
+      "reason": "Exponentiation is blocked for safety."
+    }
+  ],
+  "generation_errors": [],
+  "result_file": "results\\week9\\ai_guided\\arithmetic_script_parser\\google_gemma_4_31b_trial1.jsonl"
+}

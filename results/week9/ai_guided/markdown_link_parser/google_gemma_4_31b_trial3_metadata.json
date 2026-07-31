@@ -1,0 +1,60 @@
+{
+  "status": "completed",
+  "started_at": "2026-07-29T20:11:21.042258+00:00",
+  "finished_at": "2026-07-29T20:12:53.410269+00:00",
+  "target_name": "markdown_link_parser",
+  "target_difficulty": "moderate",
+  "target_category": "structured_parser",
+  "model_name": "google_gemma_4_31b",
+  "model_id": "google/gemma-4-31b",
+  "provider": "mindrouter",
+  "trial_number": 3,
+  "requested_input_count": 500,
+  "completed_input_count": 500,
+  "valid_input_count": 199,
+  "crash_error_input_count": 301,
+  "batch_size": 20,
+  "prompt_version": "week9_target_aware_v1",
+  "generation_time": 92.30376369999976,
+  "generation_rounds": 36,
+  "raw_response_count": 36,
+  "rejected_inputs": [],
+  "generation_errors": [
+    {
+      "round_number": 2,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Expecting ',' delimiter: line 1 column 162 (char 161)"
+    },
+    {
+      "round_number": 4,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Invalid \\escape: line 1 column 503 (char 502)"
+    },
+    {
+      "round_number": 7,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Expecting ',' delimiter: line 1 column 711 (char 710)"
+    },
+    {
+      "round_number": 11,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Expecting ',' delimiter: line 1 column 53 (char 52)"
+    },
+    {
+      "round_number": 13,
+      "error_type": "ValueError",
+      "error_message": "AI response must contain an \"inputs\" list."
+    },
+    {
+      "round_number": 15,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Invalid \\escape: line 8 column 5 (char 251)"
+    },
+    {
+      "round_number": 18,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Invalid \\escape: line 1 column 346 (char 345)"
+    }
+  ],
+  "result_file": "results\\week9\\ai_guided\\markdown_link_parser\\google_gemma_4_31b_trial3.jsonl"
+}

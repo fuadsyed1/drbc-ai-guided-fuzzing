@@ -1,0 +1,600 @@
+{
+  "status": "completed",
+  "started_at": "2026-07-29T20:22:07.784210+00:00",
+  "finished_at": "2026-07-29T20:23:40.920926+00:00",
+  "target_name": "sql_where_parser",
+  "target_difficulty": "hard",
+  "target_category": "grammar_parser",
+  "model_name": "google_gemma_4_31b",
+  "model_id": "google/gemma-4-31b",
+  "provider": "mindrouter",
+  "trial_number": 2,
+  "requested_input_count": 500,
+  "completed_input_count": 500,
+  "valid_input_count": 127,
+  "crash_error_input_count": 373,
+  "batch_size": 20,
+  "prompt_version": "week9_target_aware_v1",
+  "generation_time": 93.04479470000024,
+  "generation_rounds": 143,
+  "raw_response_count": 29,
+  "rejected_inputs": [],
+  "generation_errors": [
+    {
+      "round_number": 1,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 2,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 3,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 4,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 5,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 6,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 7,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 8,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 9,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 10,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 11,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 12,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 13,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 14,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 15,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 16,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 17,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 18,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 19,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 20,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 21,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 22,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 23,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 24,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 25,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 26,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 27,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 28,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 29,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 30,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 31,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 32,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 33,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 34,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 35,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 36,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 37,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 38,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 39,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 40,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 41,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 42,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 43,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 44,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 45,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 46,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 47,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 48,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 49,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 50,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 51,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 52,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 53,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 54,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 55,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 56,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 57,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 58,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 59,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 60,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 61,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 62,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 63,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 64,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 65,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 66,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 67,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 68,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 69,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 70,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 71,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 72,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 73,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 74,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 75,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 76,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 77,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 78,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 79,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 80,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 81,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 82,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 83,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 84,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 85,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 86,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 87,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 88,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 89,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 90,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 91,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 92,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 93,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 94,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 95,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 96,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 97,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 98,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 99,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 100,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 101,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 102,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 103,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 104,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 105,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 106,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 107,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 108,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 109,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 110,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 111,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 112,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 113,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter connection error: <urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "round_number": 116,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Expecting ',' delimiter: line 1 column 3465 (char 3464)"
+    },
+    {
+      "round_number": 131,
+      "error_type": "ConnectionResetError",
+      "error_message": "[WinError 10054] An existing connection was forcibly closed by the remote host"
+    }
+  ],
+  "result_file": "results\\week9\\ai_guided\\sql_where_parser\\google_gemma_4_31b_trial2.jsonl"
+}

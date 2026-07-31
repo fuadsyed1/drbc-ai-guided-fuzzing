@@ -1,0 +1,30 @@
+{
+  "status": "completed",
+  "started_at": "2026-07-29T12:07:35.817362+00:00",
+  "finished_at": "2026-07-29T12:09:05.193119+00:00",
+  "target_name": "markdown_link_parser",
+  "target_difficulty": "moderate",
+  "target_category": "structured_parser",
+  "model_name": "qwen_qwen3_32b",
+  "model_id": "Qwen/Qwen3-32B",
+  "provider": "mindrouter",
+  "trial_number": 2,
+  "requested_input_count": 500,
+  "completed_input_count": 500,
+  "valid_input_count": 149,
+  "crash_error_input_count": 351,
+  "batch_size": 20,
+  "prompt_version": "week9_target_aware_v1",
+  "generation_time": 89.32721329999913,
+  "generation_rounds": 27,
+  "raw_response_count": 27,
+  "rejected_inputs": [],
+  "generation_errors": [
+    {
+      "round_number": 20,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Invalid \\escape: line 1 column 428 (char 427)"
+    }
+  ],
+  "result_file": "results\\week9\\ai_guided\\markdown_link_parser\\qwen_qwen3_32b_trial2.jsonl"
+}

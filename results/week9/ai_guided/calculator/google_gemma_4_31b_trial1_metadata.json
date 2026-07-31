@@ -1,0 +1,89 @@
+{
+  "status": "completed",
+  "started_at": "2026-07-29T18:19:36.838637+00:00",
+  "finished_at": "2026-07-29T18:21:13.031213+00:00",
+  "target_name": "calculator",
+  "target_difficulty": "easy",
+  "target_category": "arithmetic_expression",
+  "model_name": "google_gemma_4_31b",
+  "model_id": "google/gemma-4-31b",
+  "provider": "mindrouter",
+  "trial_number": 1,
+  "requested_input_count": 500,
+  "completed_input_count": 500,
+  "valid_input_count": 243,
+  "crash_error_input_count": 257,
+  "batch_size": 20,
+  "prompt_version": "week9_target_aware_v1",
+  "generation_time": 96.123111,
+  "generation_rounds": 35,
+  "raw_response_count": 35,
+  "rejected_inputs": [
+    {
+      "input": "**",
+      "reason": "Exponentiation is blocked for safety."
+    },
+    {
+      "input": "0**1",
+      "reason": "Exponentiation is blocked for safety."
+    },
+    {
+      "input": "1***1",
+      "reason": "Exponentiation is blocked for safety."
+    },
+    {
+      "input": "1****1",
+      "reason": "Exponentiation is blocked for safety."
+    },
+    {
+      "input": "(((1)))***(((1)))",
+      "reason": "Exponentiation is blocked for safety."
+    },
+    {
+      "input": "1///999999***0",
+      "reason": "Exponentiation is blocked for safety."
+    },
+    {
+      "input": "1++2--3**4//5",
+      "reason": "Exponentiation is blocked for safety."
+    },
+    {
+      "input": "999999**999999",
+      "reason": "Exponentiation is blocked for safety."
+    },
+    {
+      "input": "999999***0",
+      "reason": "Exponentiation is blocked for safety."
+    },
+    {
+      "input": "999999****999999",
+      "reason": "Exponentiation is blocked for safety."
+    },
+    {
+      "input": "999999*999999**0",
+      "reason": "Exponentiation is blocked for safety."
+    },
+    {
+      "input": "********",
+      "reason": "Exponentiation is blocked for safety."
+    }
+  ],
+  "generation_errors": [
+    {
+      "round_number": 10,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Expecting ',' delimiter: line 1 column 394 (char 393)"
+    },
+    {
+      "round_number": 11,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Unterminated string starting at: line 3 column 5 (char 20)"
+    },
+    {
+      "round_number": 20,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Expecting ',' delimiter: line 1 column 322 (char 321)"
+    }
+  ],
+  "result_file": "results\\week9\\ai_guided\\calculator\\google_gemma_4_31b_trial1.jsonl"
+}

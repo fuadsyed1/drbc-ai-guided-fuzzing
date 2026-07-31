@@ -1,0 +1,78 @@
+{
+  "status": "completed",
+  "started_at": "2026-07-29T07:11:27.058911+00:00",
+  "finished_at": "2026-07-29T07:20:13.938938+00:00",
+  "target_name": "calculator",
+  "target_difficulty": "easy",
+  "target_category": "arithmetic_expression",
+  "model_name": "qwen_qwen3_32b",
+  "model_id": "Qwen/Qwen3-32B",
+  "provider": "mindrouter",
+  "trial_number": 1,
+  "requested_input_count": 500,
+  "completed_input_count": 500,
+  "valid_input_count": 184,
+  "crash_error_input_count": 316,
+  "batch_size": 20,
+  "prompt_version": "week9_target_aware_v1",
+  "generation_time": 526.7741776,
+  "generation_rounds": 35,
+  "raw_response_count": 35,
+  "rejected_inputs": [
+    {
+      "input": "1**1",
+      "reason": "Exponentiation is blocked for safety."
+    },
+    {
+      "input": "1**2",
+      "reason": "Exponentiation is blocked for safety."
+    },
+    {
+      "input": "1++2--3**4//5",
+      "reason": "Exponentiation is blocked for safety."
+    }
+  ],
+  "generation_errors": [
+    {
+      "round_number": 15,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Unterminated string starting at: line 1 column 2071 (char 2070)"
+    },
+    {
+      "round_number": 17,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Unterminated string starting at: line 1 column 6635 (char 6634)"
+    },
+    {
+      "round_number": 23,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Expecting ',' delimiter: line 1 column 491 (char 490)"
+    },
+    {
+      "round_number": 28,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Unterminated string starting at: line 1 column 2107 (char 2106)"
+    },
+    {
+      "round_number": 29,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Unterminated string starting at: line 1 column 1080 (char 1079)"
+    },
+    {
+      "round_number": 32,
+      "error_type": "NoNewUniqueInputs",
+      "error_message": "The response produced no new accepted unique inputs."
+    },
+    {
+      "round_number": 33,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Unterminated string starting at: line 1 column 10771 (char 10770)"
+    },
+    {
+      "round_number": 34,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Expecting ',' delimiter: line 1 column 404 (char 403)"
+    }
+  ],
+  "result_file": "results\\week9\\ai_guided\\calculator\\qwen_qwen3_32b_trial1.jsonl"
+}

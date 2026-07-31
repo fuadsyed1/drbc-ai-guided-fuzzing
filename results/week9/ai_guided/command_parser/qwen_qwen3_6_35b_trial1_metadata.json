@@ -1,0 +1,520 @@
+{
+  "status": "completed",
+  "started_at": "2026-07-29T17:18:33.643516+00:00",
+  "finished_at": "2026-07-29T17:19:40.956917+00:00",
+  "target_name": "command_parser",
+  "target_difficulty": "hard",
+  "target_category": "command_parser",
+  "model_name": "qwen_qwen3_6_35b",
+  "model_id": "qwen/qwen3.6-35b",
+  "provider": "mindrouter",
+  "trial_number": 1,
+  "requested_input_count": 500,
+  "completed_input_count": 500,
+  "valid_input_count": 134,
+  "crash_error_input_count": 366,
+  "batch_size": 20,
+  "prompt_version": "week9_target_aware_v1",
+  "generation_time": 66.84991799999989,
+  "generation_rounds": 130,
+  "raw_response_count": 33,
+  "rejected_inputs": [],
+  "generation_errors": [
+    {
+      "round_number": 1,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter HTTP error 502: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.14.1</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+      "round_number": 2,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter HTTP error 502: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.14.1</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+      "round_number": 3,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter HTTP error 502: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.14.1</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+      "round_number": 4,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter HTTP error 502: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.14.1</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+      "round_number": 5,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter HTTP error 502: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.14.1</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+      "round_number": 6,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter HTTP error 502: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.14.1</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+      "round_number": 7,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter HTTP error 502: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.14.1</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+      "round_number": 8,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter HTTP error 502: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.14.1</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+      "round_number": 9,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter HTTP error 502: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.14.1</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+      "round_number": 10,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter HTTP error 502: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.14.1</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+      "round_number": 11,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter HTTP error 502: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.14.1</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+      "round_number": 12,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter HTTP error 502: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.14.1</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+      "round_number": 13,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter HTTP error 502: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.14.1</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+      "round_number": 14,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter HTTP error 502: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.14.1</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+      "round_number": 15,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter HTTP error 502: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.14.1</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+      "round_number": 16,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter HTTP error 502: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.14.1</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+      "round_number": 17,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter HTTP error 502: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.14.1</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+      "round_number": 18,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter HTTP error 502: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.14.1</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+      "round_number": 19,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter HTTP error 502: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.14.1</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+      "round_number": 20,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter HTTP error 502: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.14.1</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+      "round_number": 21,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter HTTP error 502: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.14.1</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+      "round_number": 22,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter HTTP error 502: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.14.1</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+      "round_number": 23,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter HTTP error 502: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.14.1</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+      "round_number": 24,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter HTTP error 502: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.14.1</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+      "round_number": 25,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter HTTP error 502: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.14.1</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+      "round_number": 26,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter HTTP error 502: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.14.1</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+      "round_number": 27,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter HTTP error 502: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.14.1</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+      "round_number": 28,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter HTTP error 502: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.14.1</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+      "round_number": 29,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter HTTP error 502: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.14.1</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+      "round_number": 30,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter HTTP error 502: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.14.1</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+      "round_number": 31,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter HTTP error 502: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.14.1</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+      "round_number": 32,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter HTTP error 502: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.14.1</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+      "round_number": 33,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter HTTP error 502: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.14.1</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+      "round_number": 34,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter HTTP error 502: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.14.1</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+      "round_number": 35,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter HTTP error 502: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.14.1</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+      "round_number": 36,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter HTTP error 502: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.14.1</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+      "round_number": 37,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter HTTP error 502: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.14.1</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+      "round_number": 38,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter HTTP error 502: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.14.1</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+      "round_number": 39,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter HTTP error 502: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.14.1</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+      "round_number": 40,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter HTTP error 502: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.14.1</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+      "round_number": 41,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter HTTP error 502: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.14.1</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+      "round_number": 42,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter HTTP error 502: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.14.1</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+      "round_number": 43,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter HTTP error 502: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.14.1</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+      "round_number": 44,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter HTTP error 502: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.14.1</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+      "round_number": 45,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter HTTP error 502: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.14.1</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+      "round_number": 46,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter HTTP error 502: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.14.1</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+      "round_number": 47,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter HTTP error 502: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.14.1</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+      "round_number": 48,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter HTTP error 502: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.14.1</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+      "round_number": 49,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter HTTP error 502: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.14.1</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+      "round_number": 50,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter HTTP error 502: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.14.1</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+      "round_number": 51,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter HTTP error 502: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.14.1</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+      "round_number": 52,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter HTTP error 502: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.14.1</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+      "round_number": 53,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter HTTP error 502: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.14.1</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+      "round_number": 54,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter HTTP error 502: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.14.1</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+      "round_number": 55,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter HTTP error 502: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.14.1</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+      "round_number": 56,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter HTTP error 502: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.14.1</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+      "round_number": 57,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter HTTP error 502: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.14.1</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+      "round_number": 58,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter HTTP error 502: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.14.1</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+      "round_number": 59,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter HTTP error 502: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.14.1</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+      "round_number": 60,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter HTTP error 502: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.14.1</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+      "round_number": 61,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter HTTP error 502: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.14.1</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+      "round_number": 62,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter HTTP error 502: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.14.1</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+      "round_number": 63,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter HTTP error 502: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.14.1</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+      "round_number": 64,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter HTTP error 502: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.14.1</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+      "round_number": 65,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter HTTP error 502: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.14.1</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+      "round_number": 66,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter HTTP error 502: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.14.1</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+      "round_number": 67,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter HTTP error 502: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.14.1</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+      "round_number": 68,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter HTTP error 502: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.14.1</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+      "round_number": 69,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter HTTP error 502: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.14.1</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+      "round_number": 70,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter HTTP error 502: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.14.1</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+      "round_number": 71,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter HTTP error 502: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.14.1</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+      "round_number": 72,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter HTTP error 502: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.14.1</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+      "round_number": 73,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter HTTP error 502: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.14.1</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+      "round_number": 74,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter HTTP error 502: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.14.1</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+      "round_number": 75,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter HTTP error 502: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.14.1</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+      "round_number": 76,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter HTTP error 502: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.14.1</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+      "round_number": 77,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter HTTP error 502: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.14.1</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+      "round_number": 78,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter HTTP error 502: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.14.1</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+      "round_number": 79,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter HTTP error 502: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.14.1</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+      "round_number": 80,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter HTTP error 502: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.14.1</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+      "round_number": 81,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter HTTP error 502: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.14.1</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+      "round_number": 82,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter HTTP error 502: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.14.1</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+      "round_number": 83,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter HTTP error 502: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.14.1</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+      "round_number": 84,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter HTTP error 502: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.14.1</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+      "round_number": 85,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter HTTP error 502: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.14.1</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+      "round_number": 86,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter HTTP error 502: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.14.1</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+      "round_number": 87,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter HTTP error 502: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.14.1</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+      "round_number": 88,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter HTTP error 502: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.14.1</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+      "round_number": 89,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter HTTP error 502: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.14.1</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+      "round_number": 90,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter HTTP error 502: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.14.1</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+      "round_number": 91,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter HTTP error 502: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.14.1</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+      "round_number": 92,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter HTTP error 502: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.14.1</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+      "round_number": 93,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter HTTP error 502: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.14.1</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+      "round_number": 94,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter HTTP error 502: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.14.1</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+      "round_number": 95,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter HTTP error 502: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.14.1</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+      "round_number": 96,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter HTTP error 502: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.14.1</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+      "round_number": 97,
+      "error_type": "RuntimeError",
+      "error_message": "MindRouter HTTP error 502: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.14.1</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+      "round_number": 99,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Unterminated string starting at: line 14 column 5 (char 312)"
+    },
+    {
+      "round_number": 120,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Unterminated string starting at: line 8 column 5 (char 1713)"
+    }
+  ],
+  "result_file": "results\\week9\\ai_guided\\command_parser\\qwen_qwen3_6_35b_trial1.jsonl"
+}

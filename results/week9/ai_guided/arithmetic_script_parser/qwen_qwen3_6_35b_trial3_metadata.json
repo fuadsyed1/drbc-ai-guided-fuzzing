@@ -1,0 +1,58 @@
+{
+  "status": "completed",
+  "started_at": "2026-07-29T17:34:20.715437+00:00",
+  "finished_at": "2026-07-29T17:36:07.632667+00:00",
+  "target_name": "arithmetic_script_parser",
+  "target_difficulty": "hard",
+  "target_category": "grammar_parser",
+  "model_name": "qwen_qwen3_6_35b",
+  "model_id": "qwen/qwen3.6-35b",
+  "provider": "mindrouter",
+  "trial_number": 3,
+  "requested_input_count": 500,
+  "completed_input_count": 500,
+  "valid_input_count": 127,
+  "crash_error_input_count": 373,
+  "batch_size": 20,
+  "prompt_version": "week9_target_aware_v1",
+  "generation_time": 106.79188969999996,
+  "generation_rounds": 33,
+  "raw_response_count": 33,
+  "rejected_inputs": [
+    {
+      "input": "LET x = 1 ** 2; PRINT x",
+      "reason": "Exponentiation is blocked for safety."
+    },
+    {
+      "input": "LET x = 1; PRINT x***???",
+      "reason": "Exponentiation is blocked for safety."
+    },
+    {
+      "input": "LET x = 1; LET y = 2; LET z = 3; LET w = 4; LET v = 5; LET u = 6; LET t = 7; LET s = 8; LET r = 9; LET q = 10; LET p = 11; LET o = 12; LET n = 13; LET m = 14; LET l = 15; LET k = 16; LET j = 17; LET i = 18; LET h = 19; LET g = 20; LET f = 21; LET e = 22; LET d = 23; LET c = 24; LET b = 25; LET a = 26; PRINT a ** b;",
+      "reason": "Exponentiation is blocked for safety."
+    }
+  ],
+  "generation_errors": [
+    {
+      "round_number": 7,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Unterminated string starting at: line 20 column 5 (char 9168)"
+    },
+    {
+      "round_number": 22,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Unterminated string starting at: line 13 column 5 (char 409)"
+    },
+    {
+      "round_number": 26,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Unterminated string starting at: line 9 column 5 (char 9555)"
+    },
+    {
+      "round_number": 29,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Unterminated string starting at: line 12 column 5 (char 9295)"
+    }
+  ],
+  "result_file": "results\\week9\\ai_guided\\arithmetic_script_parser\\qwen_qwen3_6_35b_trial3.jsonl"
+}

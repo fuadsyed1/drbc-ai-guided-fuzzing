@@ -1,0 +1,98 @@
+{
+  "status": "completed",
+  "started_at": "2026-07-28T20:02:28.856074+00:00",
+  "finished_at": "2026-07-28T20:04:06.951953+00:00",
+  "target_name": "calculator",
+  "target_difficulty": "easy",
+  "target_category": "arithmetic_expression",
+  "model_name": "qwen_qwen3_5_122b",
+  "model_id": "qwen/qwen3.5-122b",
+  "provider": "mindrouter",
+  "trial_number": 3,
+  "requested_input_count": 500,
+  "completed_input_count": 500,
+  "valid_input_count": 317,
+  "crash_error_input_count": 183,
+  "batch_size": 20,
+  "prompt_version": "week9_target_aware_v1",
+  "generation_time": 98.0210367,
+  "generation_rounds": 34,
+  "raw_response_count": 34,
+  "rejected_inputs": [
+    {
+      "input": "**",
+      "reason": "Exponentiation is blocked for safety."
+    },
+    {
+      "input": "999999**999999",
+      "reason": "Exponentiation is blocked for safety."
+    },
+    {
+      "input": "****",
+      "reason": "Exponentiation is blocked for safety."
+    },
+    {
+      "input": "3**4",
+      "reason": "Exponentiation is blocked for safety."
+    },
+    {
+      "input": "999999/**/1",
+      "reason": "Exponentiation is blocked for safety."
+    },
+    {
+      "input": "999999/**999999",
+      "reason": "Exponentiation is blocked for safety."
+    },
+    {
+      "input": "1**2",
+      "reason": "Exponentiation is blocked for safety."
+    },
+    {
+      "input": "5**6",
+      "reason": "Exponentiation is blocked for safety."
+    },
+    {
+      "input": "*****",
+      "reason": "Exponentiation is blocked for safety."
+    },
+    {
+      "input": "1*****2",
+      "reason": "Exponentiation is blocked for safety."
+    },
+    {
+      "input": "999999*****999999",
+      "reason": "Exponentiation is blocked for safety."
+    },
+    {
+      "input": "1+2*3*4*5*6*7*8*9*10*11*12*13*14*15*16*17*18*19*20*21**",
+      "reason": "Exponentiation is blocked for safety."
+    },
+    {
+      "input": "**",
+      "reason": "Exponentiation is blocked for safety."
+    }
+  ],
+  "generation_errors": [
+    {
+      "round_number": 11,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Unterminated string starting at: line 1 column 320 (char 319)"
+    },
+    {
+      "round_number": 15,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Unterminated string starting at: line 1 column 13 (char 12)"
+    },
+    {
+      "round_number": 18,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Expecting ',' delimiter: line 1 column 331 (char 330)"
+    },
+    {
+      "round_number": 32,
+      "error_type": "NoNewUniqueInputs",
+      "error_message": "The response produced no new accepted unique inputs."
+    }
+  ],
+  "result_file": "results\\week9\\ai_guided\\calculator\\qwen_qwen3_5_122b_trial3.jsonl"
+}

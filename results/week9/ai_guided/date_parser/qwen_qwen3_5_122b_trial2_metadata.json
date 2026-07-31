@@ -1,0 +1,65 @@
+{
+  "status": "completed",
+  "started_at": "2026-07-28T20:16:12.546851+00:00",
+  "finished_at": "2026-07-28T20:18:43.270623+00:00",
+  "target_name": "date_parser",
+  "target_difficulty": "easy",
+  "target_category": "format_parser",
+  "model_name": "qwen_qwen3_5_122b",
+  "model_id": "qwen/qwen3.5-122b",
+  "provider": "mindrouter",
+  "trial_number": 2,
+  "requested_input_count": 500,
+  "completed_input_count": 500,
+  "valid_input_count": 41,
+  "crash_error_input_count": 459,
+  "batch_size": 20,
+  "prompt_version": "week9_target_aware_v1",
+  "generation_time": 150.50384970000005,
+  "generation_rounds": 45,
+  "raw_response_count": 45,
+  "rejected_inputs": [],
+  "generation_errors": [
+    {
+      "round_number": 6,
+      "error_type": "NoNewUniqueInputs",
+      "error_message": "The response produced no new accepted unique inputs."
+    },
+    {
+      "round_number": 11,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Unterminated string starting at: line 1 column 13 (char 12)"
+    },
+    {
+      "round_number": 20,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Expecting ',' delimiter: line 1 column 452 (char 451)"
+    },
+    {
+      "round_number": 21,
+      "error_type": "NoNewUniqueInputs",
+      "error_message": "The response produced no new accepted unique inputs."
+    },
+    {
+      "round_number": 26,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Unterminated string starting at: line 1 column 5445 (char 5444)"
+    },
+    {
+      "round_number": 35,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Invalid control character at: line 1 column 68 (char 67)"
+    },
+    {
+      "round_number": 36,
+      "error_type": "NoNewUniqueInputs",
+      "error_message": "The response produced no new accepted unique inputs."
+    },
+    {
+      "round_number": 41,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Unterminated string starting at: line 1 column 6001 (char 6000)"
+    }
+  ],
+  "result_file": "results\\week9\\ai_guided\\date_parser\\qwen_qwen3_5_122b_trial2.jsonl"
+}

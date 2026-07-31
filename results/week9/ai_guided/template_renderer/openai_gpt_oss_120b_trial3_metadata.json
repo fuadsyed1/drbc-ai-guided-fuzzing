@@ -1,0 +1,30 @@
+{
+  "status": "completed",
+  "started_at": "2026-07-29T05:29:48.563115+00:00",
+  "finished_at": "2026-07-29T05:34:32.302232+00:00",
+  "target_name": "template_renderer",
+  "target_difficulty": "hard",
+  "target_category": "template_parser",
+  "model_name": "openai_gpt_oss_120b",
+  "model_id": "openai/gpt-oss-120b",
+  "provider": "mindrouter",
+  "trial_number": 3,
+  "requested_input_count": 500,
+  "completed_input_count": 500,
+  "valid_input_count": 51,
+  "crash_error_input_count": 449,
+  "batch_size": 20,
+  "prompt_version": "week9_target_aware_v1",
+  "generation_time": 283.6686735000003,
+  "generation_rounds": 27,
+  "raw_response_count": 27,
+  "rejected_inputs": [],
+  "generation_errors": [
+    {
+      "round_number": 18,
+      "error_type": "ValueError",
+      "error_message": "AI response must contain an \"inputs\" list."
+    }
+  ],
+  "result_file": "results\\week9\\ai_guided\\template_renderer\\openai_gpt_oss_120b_trial3.jsonl"
+}

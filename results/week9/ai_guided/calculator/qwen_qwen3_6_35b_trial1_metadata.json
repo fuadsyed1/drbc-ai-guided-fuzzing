@@ -1,0 +1,52 @@
+{
+  "status": "completed",
+  "started_at": "2026-07-29T16:14:11.464667+00:00",
+  "finished_at": "2026-07-29T16:15:06.170908+00:00",
+  "target_name": "calculator",
+  "target_difficulty": "easy",
+  "target_category": "arithmetic_expression",
+  "model_name": "qwen_qwen3_6_35b",
+  "model_id": "qwen/qwen3.6-35b",
+  "provider": "mindrouter",
+  "trial_number": 1,
+  "requested_input_count": 500,
+  "completed_input_count": 500,
+  "valid_input_count": 283,
+  "crash_error_input_count": 217,
+  "batch_size": 20,
+  "prompt_version": "week9_target_aware_v1",
+  "generation_time": 54.6114893,
+  "generation_rounds": 35,
+  "raw_response_count": 35,
+  "rejected_inputs": [
+    {
+      "input": "999999**2",
+      "reason": "Exponentiation is blocked for safety."
+    },
+    {
+      "input": "1**2",
+      "reason": "Exponentiation is blocked for safety."
+    },
+    {
+      "input": "999999**2",
+      "reason": "Exponentiation is blocked for safety."
+    },
+    {
+      "input": "999999**999999",
+      "reason": "Exponentiation is blocked for safety."
+    }
+  ],
+  "generation_errors": [
+    {
+      "round_number": 22,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Unterminated string starting at: line 3 column 5 (char 20)"
+    },
+    {
+      "round_number": 32,
+      "error_type": "NoNewUniqueInputs",
+      "error_message": "The response produced no new accepted unique inputs."
+    }
+  ],
+  "result_file": "results\\week9\\ai_guided\\calculator\\qwen_qwen3_6_35b_trial1.jsonl"
+}

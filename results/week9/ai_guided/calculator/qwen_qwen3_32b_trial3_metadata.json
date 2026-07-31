@@ -1,0 +1,77 @@
+{
+  "status": "completed",
+  "started_at": "2026-07-29T07:28:59.356012+00:00",
+  "finished_at": "2026-07-29T07:39:09.240005+00:00",
+  "target_name": "calculator",
+  "target_difficulty": "easy",
+  "target_category": "arithmetic_expression",
+  "model_name": "qwen_qwen3_32b",
+  "model_id": "Qwen/Qwen3-32B",
+  "provider": "mindrouter",
+  "trial_number": 3,
+  "requested_input_count": 500,
+  "completed_input_count": 500,
+  "valid_input_count": 165,
+  "crash_error_input_count": 335,
+  "batch_size": 20,
+  "prompt_version": "week9_target_aware_v1",
+  "generation_time": 609.7892905000001,
+  "generation_rounds": 31,
+  "raw_response_count": 31,
+  "rejected_inputs": [
+    {
+      "input": "1+2**3",
+      "reason": "Exponentiation is blocked for safety."
+    },
+    {
+      "input": "1234567890123456789012345678901234567890",
+      "reason": "Input contains an excessively long numeric literal."
+    },
+    {
+      "input": "0000000000000000000000000000000000000001",
+      "reason": "Input contains an excessively long numeric literal."
+    },
+    {
+      "input": "1.000000000000000000000000000000000000001",
+      "reason": "Input contains an excessively long numeric literal."
+    },
+    {
+      "input": "12345678901234567890123456789012345678901234567890",
+      "reason": "Input contains an excessively long numeric literal."
+    },
+    {
+      "input": "1234567890123456789012345678901234567890123456789012345678901234567890",
+      "reason": "Input contains an excessively long numeric literal."
+    },
+    {
+      "input": "000000.0000001*9999999999999999999999999999999999999999",
+      "reason": "Input contains an excessively long numeric literal."
+    },
+    {
+      "input": "9999999999999999999999999999999999999999/999999.999999",
+      "reason": "Input contains an excessively long numeric literal."
+    },
+    {
+      "input": "1234567890123456789012345678901234567890123456789012345678901234567890/1234567890123456789012345678901234567890123456789012345678901234567890",
+      "reason": "Input contains an excessively long numeric literal."
+    }
+  ],
+  "generation_errors": [
+    {
+      "round_number": 10,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Unterminated string starting at: line 1 column 6817 (char 6816)"
+    },
+    {
+      "round_number": 11,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Unterminated string starting at: line 1 column 5607 (char 5606)"
+    },
+    {
+      "round_number": 16,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Unterminated string starting at: line 1 column 13 (char 12)"
+    }
+  ],
+  "result_file": "results\\week9\\ai_guided\\calculator\\qwen_qwen3_32b_trial3.jsonl"
+}

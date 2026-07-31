@@ -1,0 +1,76 @@
+{
+  "status": "completed",
+  "started_at": "2026-07-29T18:21:40.916712+00:00",
+  "finished_at": "2026-07-29T18:22:46.374119+00:00",
+  "target_name": "calculator",
+  "target_difficulty": "easy",
+  "target_category": "arithmetic_expression",
+  "model_name": "google_gemma_4_31b",
+  "model_id": "google/gemma-4-31b",
+  "provider": "mindrouter",
+  "trial_number": 2,
+  "requested_input_count": 500,
+  "completed_input_count": 500,
+  "valid_input_count": 266,
+  "crash_error_input_count": 234,
+  "batch_size": 20,
+  "prompt_version": "week9_target_aware_v1",
+  "generation_time": 65.3766099,
+  "generation_rounds": 34,
+  "raw_response_count": 34,
+  "rejected_inputs": [
+    {
+      "input": "1**1",
+      "reason": "Exponentiation is blocked for safety."
+    },
+    {
+      "input": "1***1",
+      "reason": "Exponentiation is blocked for safety."
+    },
+    {
+      "input": "0****0",
+      "reason": "Exponentiation is blocked for safety."
+    },
+    {
+      "input": "1** /1",
+      "reason": "Exponentiation is blocked for safety."
+    },
+    {
+      "input": "1//**1",
+      "reason": "Exponentiation is blocked for safety."
+    },
+    {
+      "input": "999999**999999",
+      "reason": "Exponentiation is blocked for safety."
+    },
+    {
+      "input": "1**",
+      "reason": "Exponentiation is blocked for safety."
+    },
+    {
+      "input": "1***1",
+      "reason": "Exponentiation is blocked for safety."
+    },
+    {
+      "input": "0***0",
+      "reason": "Exponentiation is blocked for safety."
+    },
+    {
+      "input": "999999***1",
+      "reason": "Exponentiation is blocked for safety."
+    }
+  ],
+  "generation_errors": [
+    {
+      "round_number": 20,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Expecting ',' delimiter: line 1 column 334 (char 333)"
+    },
+    {
+      "round_number": 32,
+      "error_type": "NoNewUniqueInputs",
+      "error_message": "The response produced no new accepted unique inputs."
+    }
+  ],
+  "result_file": "results\\week9\\ai_guided\\calculator\\google_gemma_4_31b_trial2.jsonl"
+}

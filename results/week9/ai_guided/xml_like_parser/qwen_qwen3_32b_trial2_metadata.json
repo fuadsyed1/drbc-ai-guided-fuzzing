@@ -1,0 +1,30 @@
+{
+  "status": "completed",
+  "started_at": "2026-07-29T13:57:42.280234+00:00",
+  "finished_at": "2026-07-29T14:00:40.352646+00:00",
+  "target_name": "xml_like_parser",
+  "target_difficulty": "hard",
+  "target_category": "markup_parser",
+  "model_name": "qwen_qwen3_32b",
+  "model_id": "Qwen/Qwen3-32B",
+  "provider": "mindrouter",
+  "trial_number": 2,
+  "requested_input_count": 500,
+  "completed_input_count": 500,
+  "valid_input_count": 171,
+  "crash_error_input_count": 329,
+  "batch_size": 20,
+  "prompt_version": "week9_target_aware_v1",
+  "generation_time": 178.00405930000124,
+  "generation_rounds": 27,
+  "raw_response_count": 27,
+  "rejected_inputs": [],
+  "generation_errors": [
+    {
+      "round_number": 18,
+      "error_type": "ValueError",
+      "error_message": "AI response did not contain a valid JSON object: Expecting ',' delimiter: line 1 column 532 (char 531)"
+    }
+  ],
+  "result_file": "results\\week9\\ai_guided\\xml_like_parser\\qwen_qwen3_32b_trial2.jsonl"
+}
