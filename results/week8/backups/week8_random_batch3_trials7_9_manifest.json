@@ -1,0 +1,1455 @@
+{
+  "dataset": "Week 8 random baseline batch 3",
+  "trials": [
+    7,
+    8,
+    9
+  ],
+  "targets": 24,
+  "strategies": 5,
+  "inputs_per_group": 100,
+  "experiment_groups": 360,
+  "total_records": 36000,
+  "files": [
+    {
+      "path": "results/week8/random_baseline/arithmetic_script_parser/basic_character_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/arithmetic_script_parser/basic_character_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/arithmetic_script_parser/basic_character_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/arithmetic_script_parser/coverage_guided_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/arithmetic_script_parser/coverage_guided_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/arithmetic_script_parser/coverage_guided_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/arithmetic_script_parser/edge_case_seed_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/arithmetic_script_parser/edge_case_seed_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/arithmetic_script_parser/edge_case_seed_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/arithmetic_script_parser/mutation_based_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/arithmetic_script_parser/mutation_based_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/arithmetic_script_parser/mutation_based_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/arithmetic_script_parser/token_aware_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/arithmetic_script_parser/token_aware_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/arithmetic_script_parser/token_aware_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/boolean_expression_parser/basic_character_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/boolean_expression_parser/basic_character_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/boolean_expression_parser/basic_character_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/boolean_expression_parser/coverage_guided_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/boolean_expression_parser/coverage_guided_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/boolean_expression_parser/coverage_guided_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/boolean_expression_parser/edge_case_seed_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/boolean_expression_parser/edge_case_seed_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/boolean_expression_parser/edge_case_seed_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/boolean_expression_parser/mutation_based_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/boolean_expression_parser/mutation_based_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/boolean_expression_parser/mutation_based_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/boolean_expression_parser/token_aware_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/boolean_expression_parser/token_aware_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/boolean_expression_parser/token_aware_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/calculator/basic_character_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/calculator/basic_character_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/calculator/basic_character_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/calculator/coverage_guided_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/calculator/coverage_guided_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/calculator/coverage_guided_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/calculator/edge_case_seed_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/calculator/edge_case_seed_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/calculator/edge_case_seed_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/calculator/mutation_based_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/calculator/mutation_based_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/calculator/mutation_based_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/calculator/token_aware_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/calculator/token_aware_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/calculator/token_aware_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/color_code_validator/basic_character_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/color_code_validator/basic_character_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/color_code_validator/basic_character_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/color_code_validator/coverage_guided_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/color_code_validator/coverage_guided_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/color_code_validator/coverage_guided_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/color_code_validator/edge_case_seed_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/color_code_validator/edge_case_seed_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/color_code_validator/edge_case_seed_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/color_code_validator/mutation_based_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/color_code_validator/mutation_based_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/color_code_validator/mutation_based_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/color_code_validator/token_aware_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/color_code_validator/token_aware_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/color_code_validator/token_aware_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/command_parser/basic_character_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/command_parser/basic_character_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/command_parser/basic_character_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/command_parser/coverage_guided_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/command_parser/coverage_guided_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/command_parser/coverage_guided_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/command_parser/edge_case_seed_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/command_parser/edge_case_seed_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/command_parser/edge_case_seed_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/command_parser/mutation_based_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/command_parser/mutation_based_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/command_parser/mutation_based_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/command_parser/token_aware_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/command_parser/token_aware_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/command_parser/token_aware_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/config_parser/basic_character_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/config_parser/basic_character_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/config_parser/basic_character_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/config_parser/coverage_guided_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/config_parser/coverage_guided_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/config_parser/coverage_guided_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/config_parser/edge_case_seed_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/config_parser/edge_case_seed_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/config_parser/edge_case_seed_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/config_parser/mutation_based_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/config_parser/mutation_based_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/config_parser/mutation_based_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/config_parser/token_aware_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/config_parser/token_aware_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/config_parser/token_aware_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/csv_parser/basic_character_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/csv_parser/basic_character_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/csv_parser/basic_character_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/csv_parser/coverage_guided_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/csv_parser/coverage_guided_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/csv_parser/coverage_guided_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/csv_parser/edge_case_seed_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/csv_parser/edge_case_seed_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/csv_parser/edge_case_seed_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/csv_parser/mutation_based_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/csv_parser/mutation_based_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/csv_parser/mutation_based_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/csv_parser/token_aware_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/csv_parser/token_aware_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/csv_parser/token_aware_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/date_parser/basic_character_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/date_parser/basic_character_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/date_parser/basic_character_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/date_parser/coverage_guided_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/date_parser/coverage_guided_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/date_parser/coverage_guided_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/date_parser/edge_case_seed_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/date_parser/edge_case_seed_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/date_parser/edge_case_seed_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/date_parser/mutation_based_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/date_parser/mutation_based_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/date_parser/mutation_based_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/date_parser/token_aware_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/date_parser/token_aware_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/date_parser/token_aware_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/email_validator/basic_character_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/email_validator/basic_character_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/email_validator/basic_character_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/email_validator/coverage_guided_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/email_validator/coverage_guided_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/email_validator/coverage_guided_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/email_validator/edge_case_seed_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/email_validator/edge_case_seed_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/email_validator/edge_case_seed_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/email_validator/mutation_based_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/email_validator/mutation_based_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/email_validator/mutation_based_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/email_validator/token_aware_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/email_validator/token_aware_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/email_validator/token_aware_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/file_path_parser/basic_character_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/file_path_parser/basic_character_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/file_path_parser/basic_character_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/file_path_parser/coverage_guided_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/file_path_parser/coverage_guided_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/file_path_parser/coverage_guided_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/file_path_parser/edge_case_seed_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/file_path_parser/edge_case_seed_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/file_path_parser/edge_case_seed_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/file_path_parser/mutation_based_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/file_path_parser/mutation_based_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/file_path_parser/mutation_based_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/file_path_parser/token_aware_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/file_path_parser/token_aware_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/file_path_parser/token_aware_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/http_request_parser/basic_character_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/http_request_parser/basic_character_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/http_request_parser/basic_character_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/http_request_parser/coverage_guided_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/http_request_parser/coverage_guided_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/http_request_parser/coverage_guided_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/http_request_parser/edge_case_seed_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/http_request_parser/edge_case_seed_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/http_request_parser/edge_case_seed_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/http_request_parser/mutation_based_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/http_request_parser/mutation_based_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/http_request_parser/mutation_based_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/http_request_parser/token_aware_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/http_request_parser/token_aware_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/http_request_parser/token_aware_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/json_parser/basic_character_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/json_parser/basic_character_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/json_parser/basic_character_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/json_parser/coverage_guided_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/json_parser/coverage_guided_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/json_parser/coverage_guided_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/json_parser/edge_case_seed_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/json_parser/edge_case_seed_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/json_parser/edge_case_seed_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/json_parser/mutation_based_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/json_parser/mutation_based_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/json_parser/mutation_based_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/json_parser/token_aware_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/json_parser/token_aware_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/json_parser/token_aware_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/log_line_parser/basic_character_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/log_line_parser/basic_character_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/log_line_parser/basic_character_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/log_line_parser/coverage_guided_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/log_line_parser/coverage_guided_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/log_line_parser/coverage_guided_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/log_line_parser/edge_case_seed_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/log_line_parser/edge_case_seed_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/log_line_parser/edge_case_seed_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/log_line_parser/mutation_based_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/log_line_parser/mutation_based_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/log_line_parser/mutation_based_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/log_line_parser/token_aware_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/log_line_parser/token_aware_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/log_line_parser/token_aware_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/markdown_link_parser/basic_character_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/markdown_link_parser/basic_character_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/markdown_link_parser/basic_character_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/markdown_link_parser/coverage_guided_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/markdown_link_parser/coverage_guided_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/markdown_link_parser/coverage_guided_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/markdown_link_parser/edge_case_seed_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/markdown_link_parser/edge_case_seed_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/markdown_link_parser/edge_case_seed_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/markdown_link_parser/mutation_based_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/markdown_link_parser/mutation_based_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/markdown_link_parser/mutation_based_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/markdown_link_parser/token_aware_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/markdown_link_parser/token_aware_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/markdown_link_parser/token_aware_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/mini_protocol_parser/basic_character_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/mini_protocol_parser/basic_character_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/mini_protocol_parser/basic_character_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/mini_protocol_parser/coverage_guided_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/mini_protocol_parser/coverage_guided_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/mini_protocol_parser/coverage_guided_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/mini_protocol_parser/edge_case_seed_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/mini_protocol_parser/edge_case_seed_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/mini_protocol_parser/edge_case_seed_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/mini_protocol_parser/mutation_based_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/mini_protocol_parser/mutation_based_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/mini_protocol_parser/mutation_based_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/mini_protocol_parser/token_aware_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/mini_protocol_parser/token_aware_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/mini_protocol_parser/token_aware_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/password_checker/basic_character_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/password_checker/basic_character_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/password_checker/basic_character_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/password_checker/coverage_guided_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/password_checker/coverage_guided_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/password_checker/coverage_guided_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/password_checker/edge_case_seed_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/password_checker/edge_case_seed_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/password_checker/edge_case_seed_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/password_checker/mutation_based_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/password_checker/mutation_based_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/password_checker/mutation_based_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/password_checker/token_aware_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/password_checker/token_aware_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/password_checker/token_aware_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/phone_validator/basic_character_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/phone_validator/basic_character_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/phone_validator/basic_character_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/phone_validator/coverage_guided_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/phone_validator/coverage_guided_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/phone_validator/coverage_guided_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/phone_validator/edge_case_seed_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/phone_validator/edge_case_seed_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/phone_validator/edge_case_seed_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/phone_validator/mutation_based_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/phone_validator/mutation_based_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/phone_validator/mutation_based_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/phone_validator/token_aware_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/phone_validator/token_aware_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/phone_validator/token_aware_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/query_string_parser/basic_character_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/query_string_parser/basic_character_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/query_string_parser/basic_character_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/query_string_parser/coverage_guided_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/query_string_parser/coverage_guided_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/query_string_parser/coverage_guided_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/query_string_parser/edge_case_seed_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/query_string_parser/edge_case_seed_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/query_string_parser/edge_case_seed_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/query_string_parser/mutation_based_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/query_string_parser/mutation_based_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/query_string_parser/mutation_based_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/query_string_parser/token_aware_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/query_string_parser/token_aware_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/query_string_parser/token_aware_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/sql_where_parser/basic_character_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/sql_where_parser/basic_character_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/sql_where_parser/basic_character_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/sql_where_parser/coverage_guided_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/sql_where_parser/coverage_guided_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/sql_where_parser/coverage_guided_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/sql_where_parser/edge_case_seed_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/sql_where_parser/edge_case_seed_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/sql_where_parser/edge_case_seed_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/sql_where_parser/mutation_based_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/sql_where_parser/mutation_based_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/sql_where_parser/mutation_based_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/sql_where_parser/token_aware_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/sql_where_parser/token_aware_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/sql_where_parser/token_aware_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/template_renderer/basic_character_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/template_renderer/basic_character_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/template_renderer/basic_character_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/template_renderer/coverage_guided_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/template_renderer/coverage_guided_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/template_renderer/coverage_guided_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/template_renderer/edge_case_seed_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/template_renderer/edge_case_seed_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/template_renderer/edge_case_seed_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/template_renderer/mutation_based_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/template_renderer/mutation_based_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/template_renderer/mutation_based_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/template_renderer/token_aware_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/template_renderer/token_aware_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/template_renderer/token_aware_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/url_parser/basic_character_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/url_parser/basic_character_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/url_parser/basic_character_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/url_parser/coverage_guided_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/url_parser/coverage_guided_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/url_parser/coverage_guided_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/url_parser/edge_case_seed_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/url_parser/edge_case_seed_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/url_parser/edge_case_seed_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/url_parser/mutation_based_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/url_parser/mutation_based_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/url_parser/mutation_based_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/url_parser/token_aware_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/url_parser/token_aware_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/url_parser/token_aware_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/username_validator/basic_character_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/username_validator/basic_character_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/username_validator/basic_character_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/username_validator/coverage_guided_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/username_validator/coverage_guided_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/username_validator/coverage_guided_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/username_validator/edge_case_seed_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/username_validator/edge_case_seed_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/username_validator/edge_case_seed_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/username_validator/mutation_based_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/username_validator/mutation_based_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/username_validator/mutation_based_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/username_validator/token_aware_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/username_validator/token_aware_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/username_validator/token_aware_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/xml_like_parser/basic_character_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/xml_like_parser/basic_character_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/xml_like_parser/basic_character_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/xml_like_parser/coverage_guided_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/xml_like_parser/coverage_guided_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/xml_like_parser/coverage_guided_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/xml_like_parser/edge_case_seed_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/xml_like_parser/edge_case_seed_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/xml_like_parser/edge_case_seed_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/xml_like_parser/mutation_based_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/xml_like_parser/mutation_based_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/xml_like_parser/mutation_based_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/xml_like_parser/token_aware_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/xml_like_parser/token_aware_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/xml_like_parser/token_aware_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/zip_code_validator/basic_character_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/zip_code_validator/basic_character_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/zip_code_validator/basic_character_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/zip_code_validator/coverage_guided_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/zip_code_validator/coverage_guided_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/zip_code_validator/coverage_guided_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/zip_code_validator/edge_case_seed_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/zip_code_validator/edge_case_seed_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/zip_code_validator/edge_case_seed_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/zip_code_validator/mutation_based_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/zip_code_validator/mutation_based_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/zip_code_validator/mutation_based_random_trial9.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/zip_code_validator/token_aware_random_trial7.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/zip_code_validator/token_aware_random_trial8.jsonl",
+      "records": 100
+    },
+    {
+      "path": "results/week8/random_baseline/zip_code_validator/token_aware_random_trial9.jsonl",
+      "records": 100
+    }
+  ]
+}
